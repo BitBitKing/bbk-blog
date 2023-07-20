@@ -132,6 +132,71 @@
                 href="https://www.bitbitking.com/en/tags/withdraw/"
                 />
   </url><url>
+    <loc>https://www.bitbitking.com/en/tags/airdrop/</loc>
+    <lastmod>2022-11-02T05:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/airdrop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/airdrop/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/tags/crypto/</loc>
+    <lastmod>2022-11-02T05:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/crypto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/crypto/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/tags/freemint/</loc>
+    <lastmod>2022-11-02T05:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/freemint/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/freemint/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/posts/airdrop-tutorial-2023/</loc>
+    <lastmod>2022-11-02T05:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/posts/airdrop-tutorial-2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/posts/airdrop-tutorial-2023/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/tags/web3/</loc>
+    <lastmod>2022-11-02T05:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/web3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/web3/"
+                />
+  </url><url>
     <loc>https://www.bitbitking.com/en/posts/pi-network-2023/</loc>
     <lastmod>2022-08-31T03:15:03+08:00</lastmod>
   </url><url>
@@ -172,19 +237,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.bitbitking.com/en/tags/mev/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/en/tags/web3/</loc>
-    <lastmod>2022-08-05T03:15:03+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/web3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/web3/"
                 />
   </url><url>
     <loc>https://www.bitbitking.com/en/posts/whatismev/</loc>
