@@ -188,6 +188,61 @@
     <loc>https://www.bitbitking.com/zh-cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6/</loc>
     <lastmod>2023-04-05T05:00:00+08:00</lastmod>
   </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/crypto/</loc>
+    <lastmod>2023-02-25T05:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/crypto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/crypto/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/en/posts/web3-security/</loc>
+    <lastmod>2023-02-25T05:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/security/</loc>
+    <lastmod>2023-02-25T05:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/security/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/security/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/tutorial/</loc>
+    <lastmod>2023-02-25T05:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/tutorial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/tutorial/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/web3/</loc>
+    <lastmod>2023-02-25T05:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/web3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/web3/"
+                />
+  </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/airdrop/</loc>
     <lastmod>2022-11-02T05:00:00+08:00</lastmod>
     <xhtml:link
@@ -199,19 +254,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://www.bitbitking.com/zh-cn/tags/airdrop/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/tags/crypto/</loc>
-    <lastmod>2022-11-02T05:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/crypto/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/crypto/"
                 />
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/freemint/</loc>
@@ -229,32 +271,6 @@
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/en/posts/airdrop-tutorial-2023/</loc>
     <lastmod>2022-11-02T05:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/tags/tutorial/</loc>
-    <lastmod>2022-11-02T05:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/tutorial/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/tutorial/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/tags/web3/</loc>
-    <lastmod>2022-11-02T05:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/web3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/web3/"
-                />
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/posts/airdrop-tutorial-2023/</loc>
     <lastmod>2022-11-02T05:00:00+08:00</lastmod>
