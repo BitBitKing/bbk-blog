@@ -1,4 +1,4 @@
-baseurl      = "http://www.bitbitking.com"
+baseurl      = "https://www.bitbitking.com"
 title        = "BBK"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
