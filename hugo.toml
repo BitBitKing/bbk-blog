@@ -1,4 +1,4 @@
-baseurl      = "localhost"
+baseurl      = "bitbitking.github.io"
 title        = "BBK"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
