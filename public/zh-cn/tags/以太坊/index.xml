@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>以太坊 on Welcome to the World of Web3</title>
+    <link>localhost/zh-cn/tags/%E4%BB%A5%E5%A4%AA%E5%9D%8A/</link>
+    <description>Recent content in 以太坊 on Welcome to the World of Web3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 03 Sep 2022 03:15:03 +0800</lastBuildDate><atom:link href="localhost/zh-cn/tags/%E4%BB%A5%E5%A4%AA%E5%9D%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什么是 Layer 2</title>
+      <link>localhost/zh-cn/posts/whatislayer2/</link>
+      <pubDate>Sat, 03 Sep 2022 03:15:03 +0800</pubDate>
+      
+      <guid>localhost/zh-cn/posts/whatislayer2/</guid>
+      <description>什么是 Layer 2？/ what is Layer 2 crypto? Layer2(L2) 是描述一组特定以太坊扩展解决方案的统称。 Layer 2 是扩展以太坊并继承以太坊安全保证的独立区块链。 现在让我们深入研究一下，</description>
+    </item>
+    
+  </channel>
+</rss>

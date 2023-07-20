@@ -1,0 +1,124 @@
+baseurl      = "localhost"
+title        = "BBK"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+paginate     = 10
+defaultContentLanguage = 'zh-cn'
+defaultContentLanguageInSubdir = true
+googleAnalytics = 'G-2G8PSM72ZC'
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+
+  # Subtitle for home
+  homeSubtitle = "All about Cryptos and Web3"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = true
+
+  # Metadata mostly used in document's head
+  description = "BitBitKing's blog"
+  keywords = "BitBitKing, BBK, blog, web3, crypto, blockchain"
+  images = [""]
+
+[taxonomies]
+    category = "categories"
+    tag      = "tags"
+    series   = "series"
+
+
+
+  [languages]
+  [languages.zh-cn]
+    title = "Welcome to the World of Web3"
+    subtitle = "All about Cryptos and Web3"
+    keywords = "BitBitKing"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "阅读更多"
+    contentDir = 'content/'
+    hasCJKLanguage = true
+    languageName = '中文'
+
+
+
+   [[languages.zh-cn.menu.main]]
+     name = "文章"
+     url = "posts"
+     weight = 1
+   [[languages.zh-cn.menu.main]]
+     name = "关于"
+     url = "about"
+     weight = 2
+   [[languages.zh-cn.menu.main]]
+     name = "联系"
+     url = "contact"
+     weight = 3
+
+   [languages.zh-cn.params.logo]
+      logoText = "BBK"
+      logoHomeLink = "/"
+
+  [languages.en]
+    title = "Welcome to the World of Web3"
+    subtitle = "All about Cryptos and Web3"
+    keywords = "BitBitKing英文博客"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+    contentDir = 'content/en/'
+    languageName = 'English'
+
+
+   [[languages.en.menu.main]]
+     name = "Blog"
+     url = "en/posts"
+     weight = 1
+   [[languages.en.menu.main]]
+     name = "About"
+     url = "en/about"
+     weight = 2
+   [[languages.en.menu.main]]
+     name = "Contact"
+     url = "en/contact"
+     weight = 3
+
+    [languages.en.params.logo]
+      logoText = "BBK"
+      logoHomeLink = "/en"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+
+
+    [languages.de]
+    contentDir = 'content/de/'
+    disabled = false
+    languageCode = 'de-DE'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    title = 'Welcome to the World of Web3'
+    weight = 1
+    [[languages.de.menu.main]]
+     name = "Blog"
+     url = "de/posts"
+     weight = 1
+
+  # And you can even create generic menu
+ [[menu.main]]
+ #   identifier = "blog"
+  #  name       = "Blog"
+   # url        = "/posts"
+
+
+

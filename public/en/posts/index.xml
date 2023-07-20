@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Welcome to the World of Web3</title>
+        <link>localhost/en/posts/</link>
+        <description>Recent content in Posts on Welcome to the World of Web3</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Thu, 20 Jul 2023 09:02:49 +0800</lastBuildDate>
+        <atom:link href="localhost/en/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>New33333</title>
+            <link>localhost/en/posts/new3/</link>
+            <pubDate>Thu, 20 Jul 2023 09:02:49 +0800</pubDate>
+            
+            <guid>localhost/en/posts/new3/</guid>
+            <description>111</description>
+            <content type="html"><![CDATA[<p>111</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>English111111</title>
+            <link>localhost/en/posts/new1/</link>
+            <pubDate>Thu, 20 Jul 2023 03:15:03 +0800</pubDate>
+            
+            <guid>localhost/en/posts/new1/</guid>
+            <description>这里是英文的文章</description>
+            <content type="html"><![CDATA[<p>这里是英文的文章</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>New222222</title>
+            <link>localhost/en/posts/new2/</link>
+            <pubDate>Thu, 20 Jul 2023 03:15:03 +0800</pubDate>
+            
+            <guid>localhost/en/posts/new2/</guid>
+            <description>great job done！！！！！！！</description>
+            <content type="html"><![CDATA[<p>great job done！！！！！！！</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

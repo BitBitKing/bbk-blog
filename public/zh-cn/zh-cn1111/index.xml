@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zh-cn1111s on BitBitKing中文</title>
+    <link>localhost/zh-cn/zh-cn1111/</link>
+    <description>Recent content in Zh-cn1111s on BitBitKing中文</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 20 Jul 2023 03:53:36 +0800</lastBuildDate><atom:link href="localhost/zh-cn/zh-cn1111/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>标题2</title>
+      <link>localhost/zh-cn/zh-cn1111/posts/2/</link>
+      <pubDate>Thu, 20 Jul 2023 03:53:36 +0800</pubDate>
+      
+      <guid>localhost/zh-cn/zh-cn1111/posts/2/</guid>
+      <description>挺风和日丽的~~~</description>
+    </item>
+    
+    <item>
+      <title>标题1</title>
+      <link>localhost/zh-cn/zh-cn1111/posts/1/</link>
+      <pubDate>Thu, 20 Jul 2023 03:52:04 +0800</pubDate>
+      
+      <guid>localhost/zh-cn/zh-cn1111/posts/1/</guid>
+      <description>今天天气不错~</description>
+    </item>
+    
+  </channel>
+</rss>
