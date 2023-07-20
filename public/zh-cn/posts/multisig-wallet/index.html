@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="什么是多重签名钱包（Multisig Wallet）？ Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两" />
+<meta name="keywords" content="BitBitKing, web3, 多重签名, 钱包, wallet" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://www.bitbitking.com/zh-cn/posts/multisig-wallet/" />
+
+
+    <title>
+        
+            什么是多重签名钱包？ :: Welcome to the World of Web3  — All about Cryptos and Web3
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="/main.b78c3be9451dc4ca61ca377f3dc2cf2e6345a44c2bae46216a322ef366daa399.css" integrity="sha256-t4w76UUdxMphyjd/PcLPLmNFpEwrrkYhajIu82bao5k=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="什么是多重签名钱包？">
+<meta itemprop="description" content="什么是多重签名钱包（Multisig Wallet）？ Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两"><meta itemprop="datePublished" content="2022-10-24T05:00:00+08:00" />
+<meta itemprop="dateModified" content="2022-10-24T05:00:00+08:00" />
+<meta itemprop="wordCount" content="2304"><meta itemprop="image" content="https://www.bitbitking.com"/>
+<meta itemprop="keywords" content="web3,多重签名,钱包,wallet," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.bitbitking.com"/>
+
+<meta name="twitter:title" content="什么是多重签名钱包？"/>
+<meta name="twitter:description" content="什么是多重签名钱包（Multisig Wallet）？ Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两"/>
+
+
+
+    <meta property="og:title" content="什么是多重签名钱包？" />
+<meta property="og:description" content="什么是多重签名钱包（Multisig Wallet）？ Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.bitbitking.com/zh-cn/posts/multisig-wallet/" /><meta property="og:image" content="https://www.bitbitking.com"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-10-24T05:00:00+08:00" />
+<meta property="article:modified_time" content="2022-10-24T05:00:00+08:00" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2022-10-24 05:00:00 &#43;0800 CST" />
+
+
+
+
+
+
+
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2G8PSM72ZC"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-2G8PSM72ZC', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                BBK</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/zh-cn/posts">文章</a></li><li><a href="/zh-cn/about">关于</a></li><li><a href="/zh-cn/contact">联系</a></li>
+        <div class="submenu">
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">zh-cn</a>
+                <div class="dropdown-content">
+                    
+                        
+                    
+                </div>
+            </li>
+        </div>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        5分钟
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://www.bitbitking.com/zh-cn/posts/multisig-wallet/">什么是多重签名钱包？</a>
+      </h1>
+
+      
+
+      
+
+      
+
+      <div class="post-content">
+        <h2 id="什么是多重签名钱包multisig-wallet">什么是多重签名钱包（Multisig Wallet）？</h2>
+<p>Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两个以上用户作为一组来签署文档。因此，多重签名则通过多个单一签名的组合来产生。现在多重签名技术已经应用于加密货币世界，而其实这一原理其实早在比特币诞生之前就存在了。</p>
+<p>加密货币背景下的多重签名技术，在2012年第一次被用于比特币地址，而一年之后此次应用则催生出了多重签名钱包。多重签名地址可以在不同环境中使用，但大多情况都是用于与安全问题有关的领域。而本文我们将讨论该技术在加密货币钱包中的使用。</p>
+<h2 id="如何运行">如何运行？</h2>
+<p>做一个简单的类比，设想一个拥有两把锁和两把钥匙的保险箱。一把钥匙是由Alice持有，另一把则由Bob掌管。而打开此保险箱的唯一办法则是这两个人同时提供钥匙，而当只有其中一把钥匙时，该保险箱则是打不开的。</p>
+<p>而这也就是说，存储资金的多重签名地址也只能通过使用2个或更多重签名才能访问。因此，多重签名钱包的使用就可以为用户的资金创建额外的安全层。但在进一步研究之前，我们首先对标准比特币地址进行了解，因为它是依赖于单一密钥，而并非多重签名的。</p>
+<h2 id="单密钥vs-多重签名">单密钥vs 多重签名</h2>
+<p>通常，比特币都被存储在标准的单密钥地址中，这就意味着任何人只要持有了对应的私钥就可以访问该笔资金。而这同时也意味着，只需一个密钥就可以签署交易，且任何人只要拥有私钥就可以在不得到任何授权的情况下转移地址中的代币。</p>
+<p>的确，单密钥地址与多重签名地址相比更便于管理，但其中也呈现出一系列问题，尤其是在安全方面。由于只有单个密钥，所以资金是由单点故障来保护的，而这导致了网络犯罪分子不断开发新的钓鱼技术来窃取加密货币用户的资金。</p>
+<p>另外，对于涉及加密货币的企业来说，单密钥地址并不是最好的选择。试想一下，一家大公司将资金存储在一个标准地址中，且该地址只有唯一对应私钥。这就意味着，该私钥要么只交付给一个人掌管，要么同时委托给多个人掌管，但这两种方式显然都并不是最安全且最佳的方式。</p>
+<p>而此时，多重签名钱包就为以上的问题提供了解决方案。多重签名完全不同于单密钥，即当资金被存储在多重签名地址时，只有提供了多个签名（通过不同的私钥生成）时才允许转移资该资金。</p>
+<p>多重签名地址可设定其所需的密钥组合：最常见的就是三分之二（2/3），此类地址表示只需提供2个起签名就可以访问3签名地址中的资金。其实，还存在许多其他类型，如2/2（二分之二）、3/3（三分之三）、3/4（四分之三）等等。</p>
+<p>这项技术具有很多潜在应用。以下则是多重签名加密钱包的一些常见用例。</p>
+<h2 id="增加安全性">增加安全性</h2>
+<p>通过使用多重签名钱包，用户就能够避免由于私钥丢失或被盗所引起的安全性问题。因此，即使其中之一的密钥被盗，资金也将是安全的。</p>
+<p>假设Alice创建了一个2/3的多重签名钱包，之后将每个私钥存储在不同的地方或设备中（如移动电话、笔记本电脑或平板电脑）。则结果是，即使她的移动设备被盗，窃贼也不可能使用仅有的1个密钥来盗取Alice的资金。同样，钓鱼攻击和恶意软件感染也不太可能成功，因为黑客仅有可能黑入单一设备或盗取单一密钥。</p>
+<p>尚不考虑恶意攻击，倘若Alice丢失了一个私钥，则她仍可以使用其他两个密钥来访问她的资金。</p>
+<h2 id="双因素认证">双因素认证</h2>
+<p>通过创建一个双密钥的多重签名钱包，Alice就可以为她的资金建立一个双因素认证机制。例如，Alice可以将她的一个私钥存储在笔记本电脑，而另一个存储在她的移动设备上（甚至一张纸上）。这就可以确保，只有当某人可以同时访问这两个密钥时才可以进行资金交易。</p>
+<p>然而，请切记，使用多重签名技术来作为双因素认证时也可能存在风险的（特别是2/2多重签名地址）。因为，如果当其中一个密钥丢失时，你将丢失资金的访问权。因此，使用2/3的设置，或使用带有备份代码的第三方2FA（双因素认证）服务会更安全些。对于交易所交易账户，强烈推荐使用Google Authenticator（谷歌身份验证器）。</p>
+<h2 id="第三方托管交易">第三方托管交易</h2>
+<p>创建一个2/3的多重签名钱包则可以允许双方（Alice和Bob）之间进行第三方托管交易，双方之间还存在一个第三方（Charlie）来作为相互信任的仲裁者，以防出现信任危机。</p>
+<p>此情况下，Alice首先需要在钱包中存入资金，之后该资金将被锁定且任何用户都不能单独访问该笔资金。随后，如果Bob按照约定提供了相应的产品或服务，则他们俩就可以使用他们的密钥来签署并完成此次交易。</p>
+<p>只有出现分歧时，作为仲裁者的Charlie才需介入。在那时，Charlie将使用他的密钥来创建一份签名，并根据他的裁决来将此签名提供给正确的一方（Alice或Bob）。</p>
+<h2 id="决策制定">决策制定</h2>
+<p>公司董事会可以使用多重签名钱包来控制公司的资金。例如，董事会设置一个4/6多重签名钱包，之后每个董事会成员将拥有持有一个密钥。则最后任何单独的董事会成员都不能滥用这笔资金，因为只有大多数董事会成员同意之后，才能执行对资金的访问。</p>
+<h2 id="劣势">劣势</h2>
+<p>尽管多重签名钱包可以为一些列问题提供解决方案，但其中还是涉及了一些风险和限制。因为在创建多重签名钱包时需要有必要的技术基础，尤其是当你不想依赖于第三方供应商时尤为明显。</p>
+<p>此外，由于区块链和多重签名地址都是相对较新的技术，所以如果出现问题可能很难找到适用的法律来解决。在共享钱包中（具有多个密钥持有）存入的资金很难找到合法托管人。</p>
+<h2 id="总结">总结</h2>
+<p>尽管多重签名其拿包含些许不足之处，但其还是有众多令人满意的实际应用，它使得比特币和其他加密货币在商业中更具实用性。其由于要求多个签名来完成资金转移，使得多重签名钱包提供了更高的安全性，并允许了互不信任方的第三方托管交易，诸如此类的优势或将使得该技术在未来得到更广泛的应用。</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://www.bitbitking.com/zh-cn/tags/web3/">web3</a></span>
+        <span class="tag"><a href="https://www.bitbitking.com/zh-cn/tags/%E5%A4%9A%E9%87%8D%E7%AD%BE%E5%90%8D/">多重签名</a></span>
+        <span class="tag"><a href="https://www.bitbitking.com/zh-cn/tags/%E9%92%B1%E5%8C%85/">钱包</a></span>
+        <span class="tag"><a href="https://www.bitbitking.com/zh-cn/tags/wallet/">wallet</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        2304字
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2022-10-24 05:00
+        
+
+         
+          
+        
+      </p>
+    </div>
+      <hr />
+      <div class="sharing-buttons">
+        
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+      <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=%e4%bb%80%e4%b9%88%e6%98%af%e5%a4%9a%e9%87%8d%e7%ad%be%e5%90%8d%e9%92%b1%e5%8c%85%ef%bc%9f&amp;caption=%e4%bb%80%e4%b9%88%e6%98%af%e5%a4%9a%e9%87%8d%e7%ad%be%e5%90%8d%e9%92%b1%e5%8c%85%ef%bc%9f&amp;canonicalUrl=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+  <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=%e4%bb%80%e4%b9%88%e6%98%af%e5%a4%9a%e9%87%8d%e7%ad%be%e5%90%8d%e9%92%b1%e5%8c%85%ef%bc%9f&amp;body=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f&amp;media=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f;description=%e4%bb%80%e4%b9%88%e6%98%af%e5%a4%9a%e9%87%8d%e7%ad%be%e5%90%8d%e9%92%b1%e5%8c%85%ef%bc%9f" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+  <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f&amp;title=%e4%bb%80%e4%b9%88%e6%98%af%e5%a4%9a%e9%87%8d%e7%ad%be%e5%90%8d%e9%92%b1%e5%8c%85%ef%bc%9f&amp;summary=%e4%bb%80%e4%b9%88%e6%98%af%e5%a4%9a%e9%87%8d%e7%ad%be%e5%90%8d%e9%92%b1%e5%8c%85%ef%bc%9f&amp;source=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+  <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f&amp;resubmit=true&amp;title=%e4%bb%80%e4%b9%88%e6%98%af%e5%a4%9a%e9%87%8d%e7%ad%be%e5%90%8d%e9%92%b1%e5%8c%85%ef%bc%9f" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f;title=%e4%bb%80%e4%b9%88%e6%98%af%e5%a4%9a%e9%87%8d%e7%ad%be%e5%90%8d%e9%92%b1%e5%8c%85%ef%bc%9f" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+  <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="whatsapp://send?text=%e4%bb%80%e4%b9%88%e6%98%af%e5%a4%9a%e9%87%8d%e7%ad%be%e5%90%8d%e9%92%b1%e5%8c%85%ef%bc%9f%20https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f&amp;t=%e4%bb%80%e4%b9%88%e6%98%af%e5%a4%9a%e9%87%8d%e7%ad%be%e5%90%8d%e9%92%b1%e5%8c%85%ef%bc%9f" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=%e4%bb%80%e4%b9%88%e6%98%af%e5%a4%9a%e9%87%8d%e7%ad%be%e5%90%8d%e9%92%b1%e5%8c%85%ef%bc%9f&amp;url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fmultisig-wallet%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </div>
+  </div>
+</a>
+
+      </div>
+
+    
+    <div class="pagination">
+        
+        <div class="pagination__title">
+            <span class="pagination__title-h">阅读更多</span>
+            <hr />
+        </div>
+        
+
+        <div class="pagination__buttons">
+            
+            <span class="button previous">
+                <a href="https://www.bitbitking.com/zh-cn/posts/airdrop-tutorial-2023/">
+                    <span class="button__icon">←</span>
+                    <span class="button__text">币圈新人如何撸毛？2023撸空投指南</span>
+                </a>
+            </span>
+            
+
+            
+            <span class="button next">
+                <a href="https://www.bitbitking.com/zh-cn/posts/web328/">
+                    <span class="button__text">致Web3创始人-想要取得成功，这28条原则应谨记</span>
+                    <span class="button__icon">→</span>
+                </a>
+            </span>
+            
+        </div>
+    </div>
+
+
+    
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.205d491810c28f95aa953fae884e1c27abe13fdf93ec63b882d0036b248d4a6282eb2d134e4e7225c6ad6e86db87b08488a361ca4a7383d01fcff43f3d57b9c3.js" integrity="sha512-IF1JGBDCj5WqlT&#43;uiE4cJ6vhP9&#43;T7GO4gtADaySNSmKC6y0TTk5yJcatbobbh7CEiKNhykpzg9Afz/Q/PVe5ww=="></script>
+
+
+
+    </body>
+</html>

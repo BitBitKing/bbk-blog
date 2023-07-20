@@ -100,25 +100,11 @@ googleAnalytics = 'G-2G8PSM72ZC'
     # alt = "Your example logo alt text"
 
 
-
-    [languages.de]
-    contentDir = 'content/de/'
-    disabled = false
-    languageCode = 'de-DE'
-    languageDirection = 'ltr'
-    languageName = 'Deutsch'
-    title = 'Welcome to the World of Web3'
-    weight = 1
-    [[languages.de.menu.main]]
-     name = "Blog"
-     url = "de/posts"
-     weight = 1
-
   # And you can even create generic menu
  [[menu.main]]
  #   identifier = "blog"
-  #  name       = "Blog"
-   # url        = "/posts"
+ #   name       = "Blog"
+ #   url        = "/posts"
 
 
 

@@ -2,28 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>web3 on Welcome to the World of Web3</title>
-    <link>localhost/en/tags/web3/</link>
+    <link>https://www.bitbitking.com/en/tags/web3/</link>
     <description>Recent content in web3 on Welcome to the World of Web3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 20 Jul 2023 03:15:03 +0800</lastBuildDate><atom:link href="localhost/en/tags/web3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Aug 2022 03:15:03 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/en/tags/web3/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>English111111</title>
-      <link>localhost/en/posts/new1/</link>
-      <pubDate>Thu, 20 Jul 2023 03:15:03 +0800</pubDate>
+      <title>What is MEV</title>
+      <link>https://www.bitbitking.com/en/posts/whatismev/</link>
+      <pubDate>Fri, 05 Aug 2022 03:15:03 +0800</pubDate>
       
-      <guid>localhost/en/posts/new1/</guid>
-      <description>这里是英文的文章</description>
-    </item>
-    
-    <item>
-      <title>New222222</title>
-      <link>localhost/en/posts/new2/</link>
-      <pubDate>Thu, 20 Jul 2023 03:15:03 +0800</pubDate>
-      
-      <guid>localhost/en/posts/new2/</guid>
-      <description>great job done！！！！！！！</description>
+      <guid>https://www.bitbitking.com/en/posts/whatismev/</guid>
+      <description>Today we will talk about what is MEV, which stands for Maximal Extractable Value, also known as maximizing profits on the Ethereum blockchain.
+With the popularity of cryptocurrencies, Ethereum has become one of the most popular blockchains. MEV refers to the maximum value obtained through transactions on the Ethereum network. This value comes from operations such as flash loans, arbitrage, and price manipulation.
+In Ethereum transactions, miners can obtain MEV profits by reordering and packaging transactions.</description>
     </item>
     
   </channel>
