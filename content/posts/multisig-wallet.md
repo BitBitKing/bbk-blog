@@ -1,5 +1,5 @@
 ---
-title: "什么是多重签名钱包？"
+title: "什么是多重签名钱包"
 date: 2022-10-24T05:00:00+08:00
 draft: false
 toc: false
