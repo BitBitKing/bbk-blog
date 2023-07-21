@@ -1,5 +1,5 @@
 ---
-title: "什么是 MEV ？"
+title: "什么是 MEV"
 date: 2023-04-05T05:00:00+08:00
 draft: false
 toc: false

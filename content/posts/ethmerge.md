@@ -1,5 +1,5 @@
 ---
-title: "以太坊合并将会有哪些影响？"
+title: "以太坊合并将会有哪些影响"
 date: 2022-09-05T03:15:03+08:00
 draft: false
 toc: false
