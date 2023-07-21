@@ -188,8 +188,11 @@
     <loc>https://www.bitbitking.com/zh-cn/tags/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6/</loc>
     <lastmod>2023-04-05T05:00:00+08:00</lastmod>
   </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/posts/crypto-tutorial-2023/</loc>
+    <lastmod>2023-03-02T01:37:33+08:00</lastmod>
+  </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/crypto/</loc>
-    <lastmod>2023-02-25T05:00:00+08:00</lastmod>
+    <lastmod>2023-03-02T01:37:33+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -200,6 +203,25 @@
                 hreflang="zh-cn"
                 href="https://www.bitbitking.com/zh-cn/tags/crypto/"
                 />
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/tutorial/</loc>
+    <lastmod>2023-03-02T01:37:33+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/tutorial/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/tutorial/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/%E5%B8%81%E5%9C%88/</loc>
+    <lastmod>2023-03-02T01:37:33+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2023-03-02T01:37:33+08:00</lastmod>
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/en/posts/web3-security/</loc>
     <lastmod>2023-02-25T05:00:00+08:00</lastmod>
@@ -215,19 +237,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://www.bitbitking.com/zh-cn/tags/security/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/tags/tutorial/</loc>
-    <lastmod>2023-02-25T05:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/tutorial/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/tutorial/"
                 />
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/web3/</loc>
@@ -315,12 +324,6 @@
     <loc>https://www.bitbitking.com/zh-cn/posts/whatispop/</loc>
     <lastmod>2022-10-11T03:00:00+08:00</lastmod>
   </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/posts/1_%E5%89%AF%E6%9C%AC4/</loc>
-    <lastmod>2022-10-10T05:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/posts/1_%E5%89%AF%E6%9C%AC5/</loc>
-    <lastmod>2022-10-10T05:00:00+08:00</lastmod>
-  </url><url>
     <loc>https://www.bitbitking.com/zh-cn/posts/web3development/</loc>
     <lastmod>2022-10-10T05:00:00+08:00</lastmod>
   </url><url>
@@ -334,7 +337,16 @@
     <lastmod>2022-10-10T03:00:00+08:00</lastmod>
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/binance/</loc>
-    <lastmod>2022-10-02T03:15:03+08:00</lastmod>
+    <lastmod>2022-10-07T05:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/bsc/</loc>
+    <lastmod>2022-10-07T05:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/%E5%B8%81%E5%AE%89/</loc>
+    <lastmod>2022-10-07T05:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/posts/binance-bsc-attack/</loc>
+    <lastmod>2022-10-07T05:00:00+08:00</lastmod>
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/ieo/</loc>
     <lastmod>2022-10-02T03:15:03+08:00</lastmod>
@@ -343,9 +355,6 @@
     <lastmod>2022-10-02T03:15:03+08:00</lastmod>
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/launchpool/</loc>
-    <lastmod>2022-10-02T03:15:03+08:00</lastmod>
-  </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/tags/%E5%B8%81%E5%AE%89/</loc>
     <lastmod>2022-10-02T03:15:03+08:00</lastmod>
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/posts/binance-launchpad-launchpool/</loc>

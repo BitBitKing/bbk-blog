@@ -120,3 +120,36 @@ googleAnalytics = 'G-2G8PSM72ZC'
     logoCursorColor    = '#f09e38'
  #   logoCursorAnimate  = '1s'
  #   logoCursorPathname = true
+
+
+  [[params.social]]
+  name = 'youtube'
+  url = 'https://www.youtube.com/c/BitBitKing/?sub_confirmation=1'
+
+  [[params.social]]
+  name = 'twitter'
+  url = 'https://twitter.com/BitBitKing2022'
+
+  [[params.social]]
+  name = 'instagram'
+  url = 'https://instagram.com/bitbitking'
+
+  [[params.social]]
+  name = 'facebook'
+  url = 'https://www.facebook.com/BitBitKing2000'
+
+  [[params.social]]
+  name = 'github'
+  url = 'https://github.com/BitBitKing'
+
+  [[params.social]]
+  name = 'email'
+  url = 'mailto:bitbitking2020@gmail.com'
+
+  [[params.social]]
+  name = 'medium'
+  url = 'https://medium.com/@bitbitking'
+
+  [[params.social]]
+  name = 'csgo'
+  url = 'https://bitbitking.notion.site/bitbitking/World-of-Web3-563fc1050fcc4de19dc9926399dcbc45'
