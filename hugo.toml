@@ -69,8 +69,7 @@ googleAnalytics = 'G-2G8PSM72ZC'
 
    [languages.zh-cn.params.logo]
       logoText = 'BBK'
-      logoHomeLink = '/'
-      logoCursorColor    = '#f09e38'
+      logoCursorColor = '#f09e38'
 
   [languages.en]
     title = 'Welcome to the World of Web3'
@@ -103,8 +102,8 @@ googleAnalytics = 'G-2G8PSM72ZC'
 
     [languages.en.params.logo]
       logoHomeLink = '/en'
-      logoText = 'BBK English'
-      logoCursorColor    = '#f09e38'
+      logoText = 'BBK'
+      logoCursorColor = '#f09e38'
    # or
    #
    # path = '/img/your-example-logo.svg'
