@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DYOR on Welcome to the World of Web3</title><link>https://www.bitbitking.com/zh-cn/tags/dyor/</link><description>Recent content in DYOR on Welcome to the World of Web3</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 02 Sep 2022 03:15:03 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/zh-cn/tags/dyor/index.xml" rel="self" type="application/rss+xml"/><item><title>什么是DYOR</title><link>https://www.bitbitking.com/zh-cn/posts/whatisdyor/</link><pubDate>Fri, 02 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatisdyor/</guid><description>DYOR 是Do Your Own Research 的缩写，也就是做你自己的研究，这是币圈基本生存法则。 我们鼓励所有新进入币圈的朋友，在投资之前研究和了解加密货币，以便能够准确地</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DYOR on Welcome to the World of Web3</title>
+    <link>https://www.bitbitking.com/zh-cn/tags/dyor/</link>
+    <description>Recent content in DYOR on Welcome to the World of Web3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 02 Sep 2022 03:15:03 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/zh-cn/tags/dyor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什么是DYOR</title>
+      <link>https://www.bitbitking.com/zh-cn/posts/whatisdyor/</link>
+      <pubDate>Fri, 02 Sep 2022 03:15:03 +0800</pubDate>
+      
+      <guid>https://www.bitbitking.com/zh-cn/posts/whatisdyor/</guid>
+      <description>DYOR 是Do Your Own Research 的缩写，也就是做你自己的研究，这是币圈基本生存法则。 我们鼓励所有新进入币圈的朋友，在投资之前研究和了解加密货币，以便能够准确地</description>
+    </item>
+    
+  </channel>
+</rss>
