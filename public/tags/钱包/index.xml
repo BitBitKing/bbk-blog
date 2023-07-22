@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>钱包 on Welcome to the World of Web3</title>
+    <link>https://www.bitbitking.com/tags/%E9%92%B1%E5%8C%85/</link>
+    <description>Recent content in 钱包 on Welcome to the World of Web3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 24 Oct 2022 05:00:00 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/tags/%E9%92%B1%E5%8C%85/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什么是多重签名钱包</title>
+      <link>https://www.bitbitking.com/posts/multisig-wallet/</link>
+      <pubDate>Mon, 24 Oct 2022 05:00:00 +0800</pubDate>
+      
+      <guid>https://www.bitbitking.com/posts/multisig-wallet/</guid>
+      <description>什么是多重签名钱包（Multisig Wallet）？ Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两</description>
+    </item>
+    
+  </channel>
+</rss>

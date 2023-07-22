@@ -4,7 +4,7 @@ languageCode = 'en-us'
 theme        = 'hello-friend-ng'
 paginate     = 10
 defaultContentLanguage = 'zh-cn'
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 googleAnalytics = 'G-2G8PSM72ZC'
 
 [params]
