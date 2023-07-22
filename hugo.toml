@@ -4,7 +4,9 @@ languageCode = 'en-us'
 theme        = 'hello-friend-ng'
 paginate     = 10
 defaultContentLanguage = 'zh-cn'
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
+
+
 googleAnalytics = 'G-2G8PSM72ZC'
 
 [params]
@@ -67,9 +69,9 @@ googleAnalytics = 'G-2G8PSM72ZC'
    description = 'BitBitKing - All about Cryptos, Blockchains and Web3'
    readOtherPosts = '阅读更多'
 
-   [languages.zh-cn.params.logo]
-      logoText = 'BBK'
-      logoCursorColor = '#f09e38'
+   #[languages.zh-cn.params.logo]
+   #   logoText = 'BBK'
+   #   logoCursorColor = '#f09e38'
 
   [languages.en]
     title = 'Welcome to the World of Web3'
@@ -100,10 +102,10 @@ googleAnalytics = 'G-2G8PSM72ZC'
     description = 'BitBitKing - All about Cryptos, Blockchains and Web3'
     readOtherPosts = 'Read other posts'
 
-    [languages.en.params.logo]
-      logoHomeLink = '/en'
-      logoText = 'BBK'
-      logoCursorColor = '#f09e38'
+   # [languages.en.params.logo]
+   #   logoHomeLink = '/en'
+   #   logoText = 'BBK'
+   #   logoCursorColor = '#f09e38'
    # or
    #
    # path = '/img/your-example-logo.svg'
@@ -116,10 +118,10 @@ googleAnalytics = 'G-2G8PSM72ZC'
 	 #   name       = 'Blog'
 	 #   url        = '/posts'
 
-  #[params.logo]
+  [params.logo]
   #  logoMark     = '>'
-  #  logoText     = 'BBK '
-  #  logoCursorColor    = '#f09e38'
+    logoText     = 'BBK '
+    logoCursorColor    = '#f09e38'
  #   logoCursorAnimate  = '1s'
  #   logoCursorPathname = true
 

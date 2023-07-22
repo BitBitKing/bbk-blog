@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="参与证明（PoP）是一种相当未知的共识算法。尽管如此，已经有几个区块链使用了这种算法。要了解此类区块链的工作原理，首先要了解区块链共识算法的" />
+<meta name="keywords" content="BitBitKing, BBK, blog, web3, crypto, blockchain, nft, dao, exchange, cryptocurrency, cryptocurrencies, gamefi, defi, web3, pop, 参与证明" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://www.bitbitking.com/zh-cn/posts/whatispop/" />
+
+
+    <title>
+        
+            什么是PoP :: Welcome to the World of Web3  — All about Cryptos and Web3
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="/main.b78c3be9451dc4ca61ca377f3dc2cf2e6345a44c2bae46216a322ef366daa399.css" integrity="sha256-t4w76UUdxMphyjd/PcLPLmNFpEwrrkYhajIu82bao5k=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="什么是PoP">
+<meta itemprop="description" content="参与证明（PoP）是一种相当未知的共识算法。尽管如此，已经有几个区块链使用了这种算法。要了解此类区块链的工作原理，首先要了解区块链共识算法的"><meta itemprop="datePublished" content="2022-10-11T03:00:00+08:00" />
+<meta itemprop="dateModified" content="2022-10-11T03:00:00+08:00" />
+<meta itemprop="wordCount" content="1827"><meta itemprop="image" content="https://www.bitbitking.com"/>
+<meta itemprop="keywords" content="web3,pop,参与证明," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.bitbitking.com"/>
+
+<meta name="twitter:title" content="什么是PoP"/>
+<meta name="twitter:description" content="参与证明（PoP）是一种相当未知的共识算法。尽管如此，已经有几个区块链使用了这种算法。要了解此类区块链的工作原理，首先要了解区块链共识算法的"/>
+
+
+
+    <meta property="og:title" content="什么是PoP" />
+<meta property="og:description" content="参与证明（PoP）是一种相当未知的共识算法。尽管如此，已经有几个区块链使用了这种算法。要了解此类区块链的工作原理，首先要了解区块链共识算法的" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.bitbitking.com/zh-cn/posts/whatispop/" /><meta property="og:image" content="https://www.bitbitking.com"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-10-11T03:00:00+08:00" />
+<meta property="article:modified_time" content="2022-10-11T03:00:00+08:00" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2022-10-11 03:00:00 &#43;0800 CST" />
+
+
+
+
+
+
+
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2G8PSM72ZC"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-2G8PSM72ZC', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/zh-cn" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                BBK </span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#f09e38;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://bitbitking.notion.site/World-of-Web3-563fc1050fcc4de19dc9926399dcbc45">工具</a></li><li><a href="/zh-cn/posts">文章</a></li><li><a href="/zh-cn/about">关于</a></li><li><a href="/zh-cn/contact">联系</a></li>
+        <div class="submenu">
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">zh-cn</a>
+                <div class="dropdown-content">
+                    
+                        
+                    
+                </div>
+            </li>
+        </div>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+  <main class="post">
+
+    <div class="post-info">
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 6 12 12 16 14"></polyline>
+        </svg>
+        4分钟
+
+        
+      </p>
+    </div>
+
+    <article>
+      <h1 class="post-title">
+        <a href="https://www.bitbitking.com/zh-cn/posts/whatispop/">什么是PoP</a>
+      </h1>
+
+      
+
+      
+
+      
+
+      <div class="post-content">
+        <p>参与证明（PoP）是一种相当未知的共识算法。尽管如此，已经有几个区块链使用了这种算法。要了解此类区块链的工作原理，首先要了解区块链共识算法的工作原理。我们将向您解释什么是参与证明以及这种共识算法是如何工作的。</p>
+<p>开发参与证明的原因
+大多数区块链使用工作证明（PoW）共识算法。该算法允许网络中的所有参与者一起工作以使区块链运行。PoW 算法涉及矿工以最快的速度验证所有交易，以便他可以将新块添加到区块链。为此，矿工获得奖励。</p>
+<p>另一种著名的算法是权益证明 (PoS)，其中选择了一个验证者来验证交易并将区块添加到区块链中。选择是根据他投入的金额来完成的。这称为赌注，类似于存款。赌注越高，验证者被选中的机会就越大。</p>
+<p>这些算法的缺点是矿工验证者是根据他们有多少钱来选择的。PoW 算法是关于某人可以提供的计算能力，这意味着必须有人能够购买昂贵的硬件。如果这没有发生，矿工将不会是第一个准备好新区块的人。PoS 算法是关于有人可以投入的钱。</p>
+<p>根据一群区块链开发人员的说法，这既不公平也不安全。事实上，根据他们的说法，它应该基于某人提供的工作质量。不是有人可以在挖矿或验证上花多少钱。这促使开发了一种称为参与证明的新算法。</p>
+<p>什么是参与证明？
+参与证明是一种共识算法，当他们验证交易向区块链添加新块时，它会根据他们提供的工作质量来选择节点。</p>
+<p>该算法查看每个节点的得分，当得分足够高时，节点将被允许更频繁地向区块链添加块。一旦节点很好地参与网络，该特定节点的分数就会增加。</p>
+<p>也可能出现相反的情况。即，当一个节点不能很好地参与网络时，它的分数可能会降低。当节点错误地批准交易或经常离线时，可能会发生这种情况。将来，由于节点得分低，该节点将被允许验证矿物交易。</p>
+<p>谁是参与证明的创建者？
+Roberto Capodieci（意大利）和 Barton Johnston（美国）是 Proof of Participation 的创建者。与 Stefano Griggio（意大利）一起，他们也是 Blockchain Zoo 公司的创始人和所有者，该公司开发了第一个使用 PoP 算法的区块链。</p>
+<p>参与证明如何运作？
+节点的得分称为参与得分。分数以门票计算。当一个节点验证了交易并向区块链添加了一个新块时，该节点会收到来自所有其他节点的票。每张票都有不同的价值。</p>
+<p>该值基于节点的工作。例如，它查看节点在线的频率（以及离线的频率），节点是否没有错误地拒绝或批准交易，以及它的工作速度。</p>
+<p>节点做得越好，票的价值就越高。票被添加到每个新块中。这使得节点以后无法更改票证的价值。</p>
+<p>一个节点不可能模拟另一个节点。要发送有效票证，需要私钥。私钥仅由相关节点拥有。</p>
+<p>然后该算法将查看每张票的价值。计算总值，然后计算每个节点的分数。分数可以下降，但也可以根据所有票数上升。有了这个分数，就可以选择允许验证新交易的节点。</p>
+<p>参与证明由谁使用？
+参与证明是一种共识算法，它是非常未知的，并且被少数区块链使用。尽管如此，越来越多的区块链项目决定使用这种算法。这是因为它解决了其他算法存在的许多问题。</p>
+<p>目前，ZooBC 和 DecBC 正在使用参与证明。这些是由印度尼西亚公司 Blockchain Zoo 开发的区块链。正如我们前面提到的，这家公司也是参与证明算法的创造者。</p>
+<p>参与证明的好处
+Proof of Participation 的最大优势是任何人都可以参与验证交易，并且您不需要大量资金即可有资格添加新区块。你是根据你的工作质量来评判的。</p>
+<p>这也使算法更加安全。当一个节点试图操纵区块链时，该节点将获得低分，这会自动阻止该节点被选择添加块。当一个节点达到一定的分数时，该节点将自动从网络中移除。</p>
+<p>因此，试图操纵网络的节点只会让自己陷入困境。这可以保持网络清洁，并且只有工作质量好的节点才被允许创建区块并将其添加到区块链中。</p>
+<p>另一个优点是区块链变得非常高效。所有节点都会尽力做最好的工作，因为他们自然希望获得高分。这鼓励节点快速处理交易，并注意不要犯错误。</p>
+<p>参与证明与股权证明
+参与证明算法在某些方面与权益证明算法非常相似。这是因为在这两种算法中，参与者都是根据一定的分数和他们提供的工作来判断的。</p>
+<p>在股权证明中，参与者将根据他们投入的股权进行选择。参与证明网络中的参与者也会受到评判，而不是根据他们下注的金额。相反，他们是根据他们提供的工作质量来评判的。</p>
+<p>另一个区别是权益证明网络中的参与者在工作不佳时会赔钱。起初，他们会被罚款，但如果重复某些错误，网络可能会选择拿走所有的钱并将其从网络中删除。</p>
+<p>参与证明网络不会对错误处以罚款，但会降低参与者的分数。当分数达到一定水平时，参与者将被从网络中移除。这最终不会花费任何金钱。但是，参与者在未来将永远无法参与区块链网络。</p>
+
+      </div>
+    </article>
+
+    <hr />
+
+    <div class="post-info">
+      
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://www.bitbitking.com/zh-cn/tags/web3/">web3</a></span>
+        <span class="tag"><a href="https://www.bitbitking.com/zh-cn/tags/pop/">pop</a></span>
+        <span class="tag"><a href="https://www.bitbitking.com/zh-cn/tags/%E5%8F%82%E4%B8%8E%E8%AF%81%E6%98%8E/">参与证明</a></span>
+        
+    </p>
+
+      
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+          <polyline points="14 2 14 8 20 8"></polyline>
+          <line x1="16" y1="13" x2="8" y2="13"></line>
+          <line x1="16" y1="17" x2="8" y2="17"></line>
+          <polyline points="10 9 9 9 8 9"></polyline>
+        </svg>
+        1827字
+      </p>
+
+      <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar">
+          <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="16" y1="2" x2="16" y2="6"></line>
+          <line x1="8" y1="2" x2="8" y2="6"></line>
+          <line x1="3" y1="10" x2="21" y2="10"></line>
+        </svg>
+        
+          2022-10-11 03:00
+        
+
+         
+          
+        
+      </p>
+    </div>
+      <hr />
+      <div class="sharing-buttons">
+        
+<a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f" target="_blank" rel="noopener" aria-label="" title="Share on facebook">
+  <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f" target="_blank" rel="noopener" aria-label="" title="Share on twitter">
+  <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small">
+      <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=%e4%bb%80%e4%b9%88%e6%98%afPoP&amp;caption=%e4%bb%80%e4%b9%88%e6%98%afPoP&amp;canonicalUrl=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f" target="_blank" rel="noopener" aria-label="" title="Share on tumblr">
+  <div class="resp-sharing-button resp-sharing-button--tumblr resp-sharing-button--small">
+    <div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.563 24c-5.093 0-7.031-3.756-7.031-6.411V9.747H5.116V6.648c3.63-1.313 4.512-4.596 4.71-6.469C9.84.051 9.941 0 9.999 0h3.517v6.114h4.801v3.633h-4.82v7.47c.016 1.001.375 2.371 2.207 2.371h.09c.631-.02 1.486-.205 1.936-.419l1.156 3.425c-.436.636-2.4 1.374-4.156 1.404h-.178l.011.002z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="mailto:?subject=%e4%bb%80%e4%b9%88%e6%98%afPoP&amp;body=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f" target="_self" rel="noopener" aria-label="" title="Share via email">
+  <div class="resp-sharing-button resp-sharing-button--email resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f&amp;media=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f;description=%e4%bb%80%e4%b9%88%e6%98%afPoP" target="_blank" rel="noopener" aria-label="" title="Share on pinterest">
+  <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.354-.629-2.758-1.379l-.749 2.848c-.269 1.045-1.004 2.352-1.498 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.39 18.592.026 11.985.026L12.017 0z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f&amp;title=%e4%bb%80%e4%b9%88%e6%98%afPoP&amp;summary=%e4%bb%80%e4%b9%88%e6%98%afPoP&amp;source=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f" target="_blank" rel="noopener" aria-label="" title="Share on linkedin">
+  <div class="resp-sharing-button resp-sharing-button--linkedin resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://reddit.com/submit/?url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f&amp;resubmit=true&amp;title=%e4%bb%80%e4%b9%88%e6%98%afPoP" target="_blank" rel="noopener" aria-label="" title="Share on reddit">
+  <div class="resp-sharing-button resp-sharing-button--reddit resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.056 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://www.xing.com/app/user?op=share;url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f;title=%e4%bb%80%e4%b9%88%e6%98%afPoP" target="_blank" rel="noopener" aria-label="" title="Share on xing">
+  <div class="resp-sharing-button resp-sharing-button--xing resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022L22.139.756c.095-.191.097-.387.006-.535C22.056.078 21.894 0 21.686 0h-3.498zM3.648 4.74c-.211 0-.385.074-.473.216-.09.149-.078.339.02.531l2.34 4.05c.004.01.004.016 0 .021L1.86 16.051c-.099.188-.093.381 0 .529.085.142.239.234.45.234h3.461c.518 0 .766-.348.945-.667l3.734-6.609-2.378-4.155c-.172-.315-.434-.659-.962-.659H3.648v.016z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="whatsapp://send?text=%e4%bb%80%e4%b9%88%e6%98%afPoP%20https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f" target="_blank" rel="noopener" aria-label="" title="Share on whatsapp">
+  <div class="resp-sharing-button resp-sharing-button--whatsapp resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://news.ycombinator.com/submitlink?u=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f&amp;t=%e4%bb%80%e4%b9%88%e6%98%afPoP" target="_blank" rel="noopener" aria-label="" title="Share on hacker news">
+  <div class="resp-sharing-button resp-sharing-button--hackernews resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M0 24V0h24v24H0zM6.951 5.896l4.112 7.708v5.064h1.583v-4.972l4.148-7.799h-1.749l-2.457 4.875c-.372.745-.688 1.434-.688 1.434s-.297-.708-.651-1.434L8.831 5.896h-1.88z"/></svg>
+    </div>
+  </div>
+</a>
+
+
+<a class="resp-sharing-button__link" href="https://telegram.me/share/url?text=%e4%bb%80%e4%b9%88%e6%98%afPoP&amp;url=https%3a%2f%2fwww.bitbitking.com%2fzh-cn%2fposts%2fwhatispop%2f" target="_blank" rel="noopener" aria-label="" title="Share on telegram">
+  <div class="resp-sharing-button resp-sharing-button--telegram resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+    </div>
+  </div>
+</a>
+
+      </div>
+
+    
+    <div class="pagination">
+        
+        <div class="pagination__title">
+            <span class="pagination__title-h">阅读更多</span>
+            <hr />
+        </div>
+        
+
+        <div class="pagination__buttons">
+            
+            <span class="button previous">
+                <a href="https://www.bitbitking.com/zh-cn/posts/web328/">
+                    <span class="button__icon">←</span>
+                    <span class="button__text">致Web3创始人-想要取得成功，这28条原则应谨记</span>
+                </a>
+            </span>
+            
+
+            
+            <span class="button next">
+                <a href="https://www.bitbitking.com/zh-cn/posts/web3development/">
+                    <span class="button__text">Web 3.0 和区块链开发者路线图 — 循序渐进</span>
+                    <span class="button__icon">→</span>
+                </a>
+            </span>
+            
+        </div>
+    </div>
+
+
+    
+
+    
+
+  </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.205d491810c28f95aa953fae884e1c27abe13fdf93ec63b882d0036b248d4a6282eb2d134e4e7225c6ad6e86db87b08488a361ca4a7383d01fcff43f3d57b9c3.js" integrity="sha512-IF1JGBDCj5WqlT&#43;uiE4cJ6vhP9&#43;T7GO4gtADaySNSmKC6y0TTk5yJcatbobbh7CEiKNhykpzg9Afz/Q/PVe5ww=="></script>
+
+
+
+    </body>
+</html>
