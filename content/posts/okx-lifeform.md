@@ -2,6 +2,7 @@
 title: "OKX lifeform 空投教程"
 date: 2023-08-07T09:48:27+08:00
 draft: false
+tags: ['okx','airdrop','空投','lifeform']
 ---
 
 Lifeform空投和OKX欧易合作了，直接上干货：

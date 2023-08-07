@@ -2,6 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/airdrop/</loc>
+    <lastmod>2023-08-07T09:48:27+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/airdrop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/airdrop/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/lifeform/</loc>
+    <lastmod>2023-08-07T09:48:27+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/okx/</loc>
+    <lastmod>2023-08-07T09:48:27+08:00</lastmod>
+  </url><url>
     <loc>https://www.bitbitking.com/zh-cn/posts/okx-lifeform/</loc>
     <lastmod>2023-08-07T09:48:27+08:00</lastmod>
   </url><url>
@@ -18,6 +37,19 @@
                 href="https://www.bitbitking.com/zh-cn/posts/"
                 />
   </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/</loc>
+    <lastmod>2023-08-07T09:48:27+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/"
+                />
+  </url><url>
     <loc>https://www.bitbitking.com/zh-cn/</loc>
     <lastmod>2023-08-07T09:48:27+08:00</lastmod>
     <xhtml:link
@@ -31,27 +63,14 @@
                 href="https://www.bitbitking.com/zh-cn/"
                 />
   </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/posts/google-account-has-been-disabled/</loc>
-    <lastmod>2023-07-27T02:46:55+08:00</lastmod>
+    <loc>https://www.bitbitking.com/zh-cn/tags/%E7%A9%BA%E6%8A%95/</loc>
+    <lastmod>2023-08-07T09:48:27+08:00</lastmod>
   </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/tags/okx/</loc>
+    <loc>https://www.bitbitking.com/zh-cn/posts/google-account-has-been-disabled/</loc>
     <lastmod>2023-07-27T02:46:55+08:00</lastmod>
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/tag/</loc>
     <lastmod>2023-07-27T02:46:55+08:00</lastmod>
-  </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/tags/</loc>
-    <lastmod>2023-07-27T02:46:55+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/"
-                />
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/xrp/</loc>
     <lastmod>2023-07-27T02:46:55+08:00</lastmod>
@@ -277,19 +296,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://www.bitbitking.com/zh-cn/tags/web3/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/tags/airdrop/</loc>
-    <lastmod>2022-11-02T05:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/airdrop/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/airdrop/"
                 />
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/freemint/</loc>
