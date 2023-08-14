@@ -2,6 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
-tags: ['','','','']
+tags:
+  - Web3
+  - Crypto
 ---
 

@@ -2,6 +2,84 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.bitbitking.com/en/posts/what-is-ubi/</loc>
+    <lastmod>2023-08-14T17:19:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/posts/what-is-ubi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/posts/what-is-ubi/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/posts/</loc>
+    <lastmod>2023-08-14T17:19:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/posts/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/tags/</loc>
+    <lastmod>2023-08-14T17:19:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/tags/ubi/</loc>
+    <lastmod>2023-08-14T17:19:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/ubi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/ubi/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/tags/web3/</loc>
+    <lastmod>2023-08-14T17:19:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/web3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/web3/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/</loc>
+    <lastmod>2023-08-14T17:19:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/"
+                />
+  </url><url>
     <loc>https://www.bitbitking.com/en/contact/</loc>
     <lastmod>2023-07-20T10:58:21+08:00</lastmod>
     <xhtml:link
@@ -80,45 +158,6 @@
                 href="https://www.bitbitking.com/en/tags/otc/"
                 />
   </url><url>
-    <loc>https://www.bitbitking.com/en/posts/</loc>
-    <lastmod>2023-04-22T05:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/posts/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/en/tags/</loc>
-    <lastmod>2023-04-22T05:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/en/</loc>
-    <lastmod>2023-04-22T05:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/"
-                />
-  </url><url>
     <loc>https://www.bitbitking.com/en/tags/withdraw/</loc>
     <lastmod>2023-04-22T05:00:00+08:00</lastmod>
     <xhtml:link
@@ -172,19 +211,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.bitbitking.com/en/tags/tutorial/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/en/tags/web3/</loc>
-    <lastmod>2023-02-25T05:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/web3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/web3/"
                 />
   </url><url>
     <loc>https://www.bitbitking.com/en/tags/airdrop/</loc>
