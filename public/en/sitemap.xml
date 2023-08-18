@@ -2,6 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.bitbitking.com/en/tags/btc/</loc>
+    <lastmod>2023-08-18T22:05:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/btc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/btc/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/tags/crypto/</loc>
+    <lastmod>2023-08-18T22:05:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/crypto/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/crypto/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/posts/</loc>
+    <lastmod>2023-08-18T22:05:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/posts/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/tags/</loc>
+    <lastmod>2023-08-18T22:05:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/tags/web3/</loc>
+    <lastmod>2023-08-18T22:05:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/web3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/web3/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/</loc>
+    <lastmod>2023-08-18T22:05:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/en/posts/asset-allocation/</loc>
+    <lastmod>2023-08-18T22:05:10+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/posts/asset-allocation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/posts/asset-allocation/"
+                />
+  </url><url>
     <loc>https://www.bitbitking.com/en/posts/what-is-ubi/</loc>
     <lastmod>2023-08-14T17:19:15+08:00</lastmod>
     <xhtml:link
@@ -15,32 +106,6 @@
                 href="https://www.bitbitking.com/en/posts/what-is-ubi/"
                 />
   </url><url>
-    <loc>https://www.bitbitking.com/en/posts/</loc>
-    <lastmod>2023-08-14T17:19:15+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/posts/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/en/tags/</loc>
-    <lastmod>2023-08-14T17:19:15+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/"
-                />
-  </url><url>
     <loc>https://www.bitbitking.com/en/tags/ubi/</loc>
     <lastmod>2023-08-14T17:19:15+08:00</lastmod>
     <xhtml:link
@@ -52,32 +117,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.bitbitking.com/en/tags/ubi/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/en/tags/web3/</loc>
-    <lastmod>2023-08-14T17:19:15+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/web3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/web3/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/en/</loc>
-    <lastmod>2023-08-14T17:19:15+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/"
                 />
   </url><url>
     <loc>https://www.bitbitking.com/en/contact/</loc>
@@ -169,19 +208,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.bitbitking.com/en/tags/withdraw/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/en/tags/crypto/</loc>
-    <lastmod>2023-02-25T05:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/crypto/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/crypto/"
                 />
   </url><url>
     <loc>https://www.bitbitking.com/en/posts/web3-security/</loc>
