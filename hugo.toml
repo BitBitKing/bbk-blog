@@ -83,7 +83,7 @@ googleAnalytics = 'G-2G8PSM72ZC'
      url = 'https://bitbitking.notion.site/World-of-Web3-563fc1050fcc4de19dc9926399dcbc45'
      weight = 10
    [[languages.en.menu.main]]
-     name = 'Blog'
+     name = 'Posts'
      url = 'en/posts'
      weight = 20
    [[languages.en.menu.main]]
