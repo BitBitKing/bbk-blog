@@ -49,12 +49,13 @@ Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞�
 - Deploy
 - Deployed Contracts 中 mint处添加自己钱包地址和数额
 - 区块链浏览器中复制合约代码，去官方添加流动性
+- 0x07Cd84B334FC945CEd9B279269Bee82d02A6ac1C 刚部署的合约地址，懒得部署的可以直接swap交互着玩
 
 ### 部署节点
 - 注意安全，建议新建钱包，充值少量余额，涉及到私钥保存
 - 开通服务器 http://bit.ly/vps-100
 - 安装docker
-- `yum 
+- `yum update`
 - `yum install -y yum-utils`
 - `yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin`
 - 过程中两次 y 同意

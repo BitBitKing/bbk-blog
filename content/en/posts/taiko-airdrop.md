@@ -49,11 +49,13 @@ Let's start with the basics.
 - Deploy.
 - In the Deployed Contracts section, add your wallet address and amount for minting.
 - Copy the contract code from the blockchain explorer and add liquidity on the official website.
+- 0x07Cd84B334FC945CEd9B279269Bee82d02A6ac1C  if you don't wanna deploy contract, just swap it
 
 ### Deploy a Node
 - Pay attention to security. It's recommended to create a new wallet with a small balance for this purpose and store the private key securely.
 - Set up a server at http://bit.ly/vps-100.
 - Install Docker.
+- `yum update`
 - `yum install -y yum-utils`
 - `yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin`
 - Accept with 'y' twice during the process.
