@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Taiko is a Layer 2 solution based on Ethereum&amp;rsquo;s ZK-Rollup (Type 1 ZK-EVM). It can be considered a competitor to ZKSync. After successful testing in the first two phases, Taiko has now reached the Alpha3 phase, and it&amp;rsquo;s confirmed that tokens will be released in the future. This means that early participants might receive good rewards. In this guide, we will outline the specific steps for interaction, including basic interactions, contract deployment, and setting up nodes." />
+<meta name="keywords" content="BitBitKing, BBK, blog, web3, crypto, blockchain, nft, dao, exchange, cryptocurrency, cryptocurrencies, gamefi, defi, Web3, Crypto, taiko, airdrop" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="https://www.bitbitking.com/zh-cn/en/posts/taiko-airdrop/" />
+
+
+    <title>
+        
+            Taiko Airdrop Tutorial :: Welcome to the World of Web3  — All about Cryptos and Web3
+        
+    </title>
+
+
+
+
+
+<link rel="stylesheet" href="/main.b78c3be9451dc4ca61ca377f3dc2cf2e6345a44c2bae46216a322ef366daa399.css" integrity="sha256-t4w76UUdxMphyjd/PcLPLmNFpEwrrkYhajIu82bao5k=">
+
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="msapplication-TileColor" content="">
+
+
+<meta itemprop="name" content="Taiko Airdrop Tutorial">
+<meta itemprop="description" content="Taiko is a Layer 2 solution based on Ethereum&rsquo;s ZK-Rollup (Type 1 ZK-EVM). It can be considered a competitor to ZKSync. After successful testing in the first two phases, Taiko has now reached the Alpha3 phase, and it&rsquo;s confirmed that tokens will be released in the future. This means that early participants might receive good rewards. In this guide, we will outline the specific steps for interaction, including basic interactions, contract deployment, and setting up nodes."><meta itemprop="datePublished" content="2023-09-12T06:40:57+08:00" />
+<meta itemprop="dateModified" content="2023-09-12T06:40:57+08:00" />
+<meta itemprop="wordCount" content="418"><meta itemprop="image" content="https://www.bitbitking.com"/>
+<meta itemprop="keywords" content="Web3,Crypto,taiko,airdrop," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://www.bitbitking.com"/>
+
+<meta name="twitter:title" content="Taiko Airdrop Tutorial"/>
+<meta name="twitter:description" content="Taiko is a Layer 2 solution based on Ethereum&rsquo;s ZK-Rollup (Type 1 ZK-EVM). It can be considered a competitor to ZKSync. After successful testing in the first two phases, Taiko has now reached the Alpha3 phase, and it&rsquo;s confirmed that tokens will be released in the future. This means that early participants might receive good rewards. In this guide, we will outline the specific steps for interaction, including basic interactions, contract deployment, and setting up nodes."/>
+
+
+
+    <meta property="og:title" content="Taiko Airdrop Tutorial" />
+<meta property="og:description" content="Taiko is a Layer 2 solution based on Ethereum&rsquo;s ZK-Rollup (Type 1 ZK-EVM). It can be considered a competitor to ZKSync. After successful testing in the first two phases, Taiko has now reached the Alpha3 phase, and it&rsquo;s confirmed that tokens will be released in the future. This means that early participants might receive good rewards. In this guide, we will outline the specific steps for interaction, including basic interactions, contract deployment, and setting up nodes." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.bitbitking.com/zh-cn/en/posts/taiko-airdrop/" /><meta property="og:image" content="https://www.bitbitking.com"/><meta property="article:section" content="en" />
+<meta property="article:published_time" content="2023-09-12T06:40:57+08:00" />
+<meta property="article:modified_time" content="2023-09-12T06:40:57+08:00" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2023-09-12 06:40:57 &#43;0800 CST" />
+
+
+
+
+
+
+
+
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2G8PSM72ZC"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-2G8PSM72ZC', { 'anonymize_ip': false });
+}
+</script>
+
+
+
+    </head>
+
+    
+        <body>
+    
+    
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/zh-cn" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text ">
+                BBK </span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#f09e38;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="https://bitbitking.notion.site/World-of-Web3-563fc1050fcc4de19dc9926399dcbc45">工具</a></li><li><a href="/zh-cn/posts">文章</a></li><li><a href="/zh-cn/about">关于</a></li><li><a href="/zh-cn/contact">联系</a></li>
+        <div class="submenu">
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">zh-cn</a>
+                <div class="dropdown-content">
+                    
+                        
+                    
+                </div>
+            </li>
+        </div>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="https://www.bitbitking.com/zh-cn/en/posts/taiko-airdrop/">Taiko Airdrop Tutorial</a></h2>
+
+            
+            
+            
+
+            <div class="post-content">
+                <p>Taiko is a Layer 2 solution based on Ethereum&rsquo;s ZK-Rollup (Type 1 ZK-EVM). It can be considered a competitor to ZKSync. After successful testing in the first two phases, Taiko has now reached the Alpha3 phase, and it&rsquo;s confirmed that tokens will be released in the future. This means that early participants might receive good rewards. In this guide, we will outline the specific steps for interaction, including basic interactions, contract deployment, and setting up nodes. By following this tutorial, you should be well-prepared for similar airdrop campaigns in the future.</p>
+<h1 id="taiko-tko-airdrop-specific-steps">Taiko ($TKO) Airdrop Specific Steps:</h1>
+<p>Let&rsquo;s start with the basics.</p>
+<h3 id="setting-up-your-wallet">Setting Up Your Wallet</h3>
+<ol>
+<li>Install Metamask and add the three chains to your wallet.</li>
+<li>Add the corresponding tokens to your wallet.</li>
+</ol>
+<h3 id="obtain-test-eth">Obtain Test ETH</h3>
+<ul>
+<li>sepolia-faucet.pk910.de</li>
+<li>faucet-sepolia.rockx.com</li>
+<li>sepoliafaucet.com</li>
+<li>infura.io/faucet/sepolia</li>
+<li>faucet.quicknode.com/ethereum/sepolia</li>
+</ul>
+<h3 id="get-test-tokens-horsebll">Get Test Tokens: Horse/BLL</h3>
+<ul>
+<li><a href="https://bridge.test.taiko.xyz/">https://bridge.test.taiko.xyz/</a></li>
+<li>Click &ldquo;Faucet,&rdquo; select Horse Token, and Mint.</li>
+<li>Select BLL Token and Mint.</li>
+</ul>
+<h3 id="use-the-cross-chain-bridge">Use the Cross-Chain Bridge</h3>
+<ul>
+<li><a href="https://bridge.l3test.taiko.xyz/">https://bridge.test.taiko.xyz/</a></li>
+<li><a href="https://bridge.l3test.taiko.xyz/">https://bridge.l3test.taiko.xyz/</a></li>
+</ul>
+<h3 id="token-swapping">Token Swapping</h3>
+<ul>
+<li><a href="https://swap.test.taiko.xyz">https://swap.test.taiko.xyz</a></li>
+<li><a href="https://swap.l3test.taiko.xyz">https://swap.l3test.taiko.xyz</a></li>
+<li>Add liquidity.</li>
+</ul>
+<h3 id="deploy-a-smart-contract">Deploy a Smart Contract</h3>
+<ul>
+<li><a href="https://docs.openzeppelin.com/contracts/4.x/wizard">https://docs.openzeppelin.com/contracts/4.x/wizard</a></li>
+<li>Open in Remix.</li>
+<li>Compilation (ctrl + s).</li>
+<li>Deploy &amp; Run.</li>
+<li>Set the Environment to &ldquo;Injected Provider - Metamask.&rdquo;</li>
+<li>Confirm that Metamask is set to Taiko L2.</li>
+<li>Deploy.</li>
+<li>In the Deployed Contracts section, add your wallet address and amount for minting.</li>
+<li>Copy the contract code from the blockchain explorer and add liquidity on the official website.</li>
+</ul>
+<h3 id="deploy-a-node">Deploy a Node</h3>
+<ul>
+<li>Pay attention to security. It&rsquo;s recommended to create a new wallet with a small balance for this purpose and store the private key securely.</li>
+<li>Set up a server at <a href="http://bit.ly/vps-100">http://bit.ly/vps-100</a>.</li>
+<li>Install Docker.</li>
+<li><code>yum install -y yum-utils</code></li>
+<li><code>yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin</code></li>
+<li>Accept with &lsquo;y&rsquo; twice during the process.</li>
+<li><code>docker -v</code></li>
+<li><code>systemctl start docker</code></li>
+<li><code>systemctl enable docker</code>	//Enable auto-start</li>
+<li><code>docker run hello-world</code>	//Test if installation is successful</li>
+<li><code>yum install git</code></li>
+<li><code>git clone https://github.com/taikoxyz/simple-taiko-node.git</code></li>
+<li><code>cd simple-taiko-node</code></li>
+<li><code>cp .env.sample .env &amp;&amp; cp .env.sample.l3 .env.l3</code></li>
+<li>Edit .env or .env.13 and set enable_prover=true and your L1 private key.</li>
+<li>Register at <a href="https://www.infura.io/zh">https://www.infura.io/zh</a> and obtain an API key.</li>
+<li>L1_ENDPOINT_HTTP: Endpoints - Sepolia - Copy</li>
+<li>L1_ENDPOINT_WS: WebSockets - Sepolia - Copy</li>
+<li><code>docker compose up</code> or <code>docker compose up -d</code></li>
+<li>Determine whether you want to become a Proposer or Prover by checking prerequisites and configuration requirements.</li>
+<li>View the dashboard at http://localhost:3001/d/L2ExecutionEngine/l2-execution-engine-overview</li>
+<li>For more details, refer to the official documentation: <a href="https://taiko.xyz/docs/guides/run-a-node/run-a-taiko-node">https://taiko.xyz/docs/guides/run-a-node/run-a-taiko-node</a></li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>These are all the interaction steps. Depending on your situation, you can choose to complete only the basic part or do everything. The more you do, the higher your chances of receiving airdrop rewards will be.</p>
+<ul>
+<li>Latest airdrop list: <a href="https://bit.ly/BBK-AirDrop">https://bit.ly/BBK-AirDrop</a></li>
+<li>Cryptocurrency toolkit: <a href="https://bit.ly/BitBitKing">https://bit.ly/BitBitKing</a></li>
+</ul>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+            
+    <p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
+
+        <span class="tag"><a href="https://www.bitbitking.com/zh-cn/tags/web3/">Web3</a></span>
+        <span class="tag"><a href="https://www.bitbitking.com/zh-cn/tags/crypto/">Crypto</a></span>
+        <span class="tag"><a href="https://www.bitbitking.com/zh-cn/tags/taiko/">taiko</a></span>
+        <span class="tag"><a href="https://www.bitbitking.com/zh-cn/tags/airdrop/">airdrop</a></span>
+        
+    </p>
+
+            
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    
+    
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+<script type="text/javascript" src="/bundle.min.205d491810c28f95aa953fae884e1c27abe13fdf93ec63b882d0036b248d4a6282eb2d134e4e7225c6ad6e86db87b08488a361ca4a7383d01fcff43f3d57b9c3.js" integrity="sha512-IF1JGBDCj5WqlT&#43;uiE4cJ6vhP9&#43;T7GO4gtADaySNSmKC6y0TTk5yJcatbobbh7CEiKNhykpzg9Afz/Q/PVe5ww=="></script>
+
+
+
+    </body>
+</html>

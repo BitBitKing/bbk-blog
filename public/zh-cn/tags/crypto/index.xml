@@ -8,6 +8,15 @@
     <language>zh-cn</language>
     <lastBuildDate>Tue, 12 Sep 2023 06:40:57 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/zh-cn/tags/crypto/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Taiko Airdrop Tutorial</title>
+      <link>https://www.bitbitking.com/zh-cn/en/posts/taiko-airdrop/</link>
+      <pubDate>Tue, 12 Sep 2023 06:40:57 +0800</pubDate>
+      
+      <guid>https://www.bitbitking.com/zh-cn/en/posts/taiko-airdrop/</guid>
+      <description>Taiko is a Layer 2 solution based on Ethereum&amp;rsquo;s ZK-Rollup (Type 1 ZK-EVM). It can be considered a competitor to ZKSync. After successful testing in the first two phases, Taiko has now reached the Alpha3 phase, and it&amp;rsquo;s confirmed that tokens will be released in the future. This means that early participants might receive good rewards. In this guide, we will outline the specific steps for interaction, including basic interactions, contract deployment, and setting up nodes.</description>
+    </item>
+    
+    <item>
       <title>Taiko 公链交互完全教程[明牌空投]</title>
       <link>https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/</link>
       <pubDate>Tue, 12 Sep 2023 06:40:57 +0800</pubDate>
