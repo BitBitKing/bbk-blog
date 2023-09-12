@@ -1,4 +1,80 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Welcome to the World of Web3</title><link>https://www.bitbitking.com/en/posts/</link><description>Recent content in Posts on Welcome to the World of Web3</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 18 Aug 2023 22:05:10 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/en/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Why and How to Diversify Global Asset Allocation</title><link>https://www.bitbitking.com/en/posts/asset-allocation/</link><pubDate>Fri, 18 Aug 2023 22:05:10 +0800</pubDate><guid>https://www.bitbitking.com/en/posts/asset-allocation/</guid><description>Today, I got together with friends and had some insights to share, so let&amp;rsquo;s talk about the topic of global asset allocation. In the past, I simply outlined the concept to my friends, and within a little over a year, without really doing much, our assets appreciated by around 50%. Considering the current overall economic situation, that&amp;rsquo;s quite a decent achievement.
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Welcome to the World of Web3</title><link>https://www.bitbitking.com/en/posts/</link><description>Recent content in Posts on Welcome to the World of Web3</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 12 Sep 2023 06:40:57 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/en/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Taiko Airdrop Tutorial</title><link>https://www.bitbitking.com/en/posts/taiko-airdrop/</link><pubDate>Tue, 12 Sep 2023 06:40:57 +0800</pubDate><guid>https://www.bitbitking.com/en/posts/taiko-airdrop/</guid><description>Taiko is a Layer 2 solution based on Ethereum&amp;rsquo;s ZK-Rollup (Type 1 ZK-EVM). It can be considered a competitor to ZKSync. After successful testing in the first two phases, Taiko has now reached the Alpha3 phase, and it&amp;rsquo;s confirmed that tokens will be released in the future. This means that early participants might receive good rewards. In this guide, we will outline the specific steps for interaction, including basic interactions, contract deployment, and setting up nodes.</description><content type="html"><![CDATA[<p>Taiko is a Layer 2 solution based on Ethereum&rsquo;s ZK-Rollup (Type 1 ZK-EVM). It can be considered a competitor to ZKSync. After successful testing in the first two phases, Taiko has now reached the Alpha3 phase, and it&rsquo;s confirmed that tokens will be released in the future. This means that early participants might receive good rewards. In this guide, we will outline the specific steps for interaction, including basic interactions, contract deployment, and setting up nodes. By following this tutorial, you should be well-prepared for similar airdrop campaigns in the future.</p>
+<h1 id="taiko-tko-airdrop-specific-steps">Taiko ($TKO) Airdrop Specific Steps:</h1>
+<p>Let&rsquo;s start with the basics.</p>
+<h3 id="setting-up-your-wallet">Setting Up Your Wallet</h3>
+<ol>
+<li>Install Metamask and add the three chains to your wallet.</li>
+<li>Add the corresponding tokens to your wallet.</li>
+</ol>
+<h3 id="obtain-test-eth">Obtain Test ETH</h3>
+<ul>
+<li>sepolia-faucet.pk910.de</li>
+<li>faucet-sepolia.rockx.com</li>
+<li>sepoliafaucet.com</li>
+<li>infura.io/faucet/sepolia</li>
+<li>faucet.quicknode.com/ethereum/sepolia</li>
+</ul>
+<h3 id="get-test-tokens-horsebll">Get Test Tokens: Horse/BLL</h3>
+<ul>
+<li><a href="https://bridge.test.taiko.xyz/">https://bridge.test.taiko.xyz/</a></li>
+<li>Click &ldquo;Faucet,&rdquo; select Horse Token, and Mint.</li>
+<li>Select BLL Token and Mint.</li>
+</ul>
+<h3 id="use-the-cross-chain-bridge">Use the Cross-Chain Bridge</h3>
+<ul>
+<li><a href="https://bridge.l3test.taiko.xyz/">https://bridge.test.taiko.xyz/</a></li>
+<li><a href="https://bridge.l3test.taiko.xyz/">https://bridge.l3test.taiko.xyz/</a></li>
+</ul>
+<h3 id="token-swapping">Token Swapping</h3>
+<ul>
+<li><a href="https://swap.test.taiko.xyz">https://swap.test.taiko.xyz</a></li>
+<li><a href="https://swap.l3test.taiko.xyz">https://swap.l3test.taiko.xyz</a></li>
+<li>Add liquidity.</li>
+</ul>
+<h3 id="deploy-a-smart-contract">Deploy a Smart Contract</h3>
+<ul>
+<li><a href="https://docs.openzeppelin.com/contracts/4.x/wizard">https://docs.openzeppelin.com/contracts/4.x/wizard</a></li>
+<li>Open in Remix.</li>
+<li>Compilation (ctrl + s).</li>
+<li>Deploy &amp; Run.</li>
+<li>Set the Environment to &ldquo;Injected Provider - Metamask.&rdquo;</li>
+<li>Confirm that Metamask is set to Taiko L2.</li>
+<li>Deploy.</li>
+<li>In the Deployed Contracts section, add your wallet address and amount for minting.</li>
+<li>Copy the contract code from the blockchain explorer and add liquidity on the official website.</li>
+</ul>
+<h3 id="deploy-a-node">Deploy a Node</h3>
+<ul>
+<li>Pay attention to security. It&rsquo;s recommended to create a new wallet with a small balance for this purpose and store the private key securely.</li>
+<li>Set up a server at <a href="http://bit.ly/vps-100">http://bit.ly/vps-100</a>.</li>
+<li>Install Docker.</li>
+<li><code>yum install -y yum-utils</code></li>
+<li><code>yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin</code></li>
+<li>Accept with &lsquo;y&rsquo; twice during the process.</li>
+<li><code>docker -v</code></li>
+<li><code>systemctl start docker</code></li>
+<li><code>systemctl enable docker</code>	//Enable auto-start</li>
+<li><code>docker run hello-world</code>	//Test if installation is successful</li>
+<li><code>yum install git</code></li>
+<li><code>git clone https://github.com/taikoxyz/simple-taiko-node.git</code></li>
+<li><code>cd simple-taiko-node</code></li>
+<li><code>cp .env.sample .env &amp;&amp; cp .env.sample.l3 .env.l3</code></li>
+<li>Edit .env or .env.13 and set enable_prover=true and your L1 private key.</li>
+<li>Register at <a href="https://www.infura.io/zh">https://www.infura.io/zh</a> and obtain an API key.</li>
+<li>L1_ENDPOINT_HTTP: Endpoints - Sepolia - Copy</li>
+<li>L1_ENDPOINT_WS: WebSockets - Sepolia - Copy</li>
+<li><code>docker compose up</code> or <code>docker compose up -d</code></li>
+<li>Determine whether you want to become a Proposer or Prover by checking prerequisites and configuration requirements.</li>
+<li>View the dashboard at http://localhost:3001/d/L2ExecutionEngine/l2-execution-engine-overview</li>
+<li>For more details, refer to the official documentation: <a href="https://taiko.xyz/docs/guides/run-a-node/run-a-taiko-node">https://taiko.xyz/docs/guides/run-a-node/run-a-taiko-node</a></li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>These are all the interaction steps. Depending on your situation, you can choose to complete only the basic part or do everything. The more you do, the higher your chances of receiving airdrop rewards will be.</p>
+<ul>
+<li>Latest airdrop list: <a href="https://bit.ly/BBK-AirDrop">https://bit.ly/BBK-AirDrop</a></li>
+<li>Cryptocurrency toolkit: <a href="https://bit.ly/BitBitKing">https://bit.ly/BitBitKing</a></li>
+</ul>
+]]></content></item><item><title>Why and How to Diversify Global Asset Allocation</title><link>https://www.bitbitking.com/en/posts/asset-allocation/</link><pubDate>Fri, 18 Aug 2023 22:05:10 +0800</pubDate><guid>https://www.bitbitking.com/en/posts/asset-allocation/</guid><description>Today, I got together with friends and had some insights to share, so let&amp;rsquo;s talk about the topic of global asset allocation. In the past, I simply outlined the concept to my friends, and within a little over a year, without really doing much, our assets appreciated by around 50%. Considering the current overall economic situation, that&amp;rsquo;s quite a decent achievement.
 In today&amp;rsquo;s ever-changing economic landscape, why do we need to engage in global asset allocation?</description><content type="html"><![CDATA[<p>Today, I got together with friends and had some insights to share, so let&rsquo;s talk about the topic of global asset allocation. In the past, I simply outlined the concept to my friends, and within a little over a year, without really doing much, our assets appreciated by around 50%. Considering the current overall economic situation, that&rsquo;s quite a decent achievement.</p>
 <p>In today&rsquo;s ever-changing economic landscape, why do we need to engage in global asset allocation? And how can we effectively allocate our assets to achieve appreciation and preservation in value?</p>
 <p><strong>Why Global Asset Allocation?</strong></p>
