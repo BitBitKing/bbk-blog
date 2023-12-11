@@ -30,7 +30,7 @@ googleAnalytics = 'G-2G8PSM72ZC'
 
   # Metadata mostly used in document's head
   # description = 'BitBitKing's blog'
-  keywords = 'BitBitKing, BBK, blog, web3, crypto, blockchain, nft, dao, exchange, cryptocurrency, cryptocurrencies, gamefi, defi,AI'
+  keywords = 'BitBitKing, BBK, web3, AI, crypto, blockchain, nft, dao, exchange, cryptocurrency, cryptocurrencies, gamefi, defi, blog'
   images = ['']
 
 [taxonomies]
