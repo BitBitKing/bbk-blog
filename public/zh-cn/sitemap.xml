@@ -2,6 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/ai/</loc>
+    <lastmod>2023-12-20T21:57:19+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/chatgpt/</loc>
+    <lastmod>2023-12-20T21:57:19+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/gemini/</loc>
+    <lastmod>2023-12-20T21:57:19+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/google/</loc>
+    <lastmod>2023-12-20T21:57:19+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/gpt4/</loc>
+    <lastmod>2023-12-20T21:57:19+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/posts/</loc>
+    <lastmod>2023-12-20T21:57:19+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/posts/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/</loc>
+    <lastmod>2023-12-20T21:57:19+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/web3/</loc>
+    <lastmod>2023-12-20T21:57:19+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/tags/web3/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/tags/web3/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/</loc>
+    <lastmod>2023-12-20T21:57:19+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.bitbitking.com/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://www.bitbitking.com/zh-cn/"
+                />
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/posts/gpt-4-gemini-pro/</loc>
+    <lastmod>2023-12-20T21:57:19+08:00</lastmod>
+  </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/airdrop/</loc>
     <lastmod>2023-09-12T06:40:57+08:00</lastmod>
     <xhtml:link
@@ -31,32 +101,6 @@
     <loc>https://www.bitbitking.com/zh-cn/en/</loc>
     <lastmod>2023-09-12T06:40:57+08:00</lastmod>
   </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/posts/</loc>
-    <lastmod>2023-09-12T06:40:57+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/posts/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/tags/</loc>
-    <lastmod>2023-09-12T06:40:57+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/"
-                />
-  </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/taiko/</loc>
     <lastmod>2023-09-12T06:40:57+08:00</lastmod>
     <xhtml:link
@@ -84,32 +128,6 @@
                 rel="alternate"
                 hreflang="zh-cn"
                 href="https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/tags/web3/</loc>
-    <lastmod>2023-09-12T06:40:57+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/tags/web3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/tags/web3/"
-                />
-  </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/</loc>
-    <lastmod>2023-09-12T06:40:57+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.bitbitking.com/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://www.bitbitking.com/zh-cn/"
                 />
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/btc/</loc>
