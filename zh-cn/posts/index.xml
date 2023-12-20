@@ -1,4 +1,19 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Welcome to the World of Web3</title><link>https://www.bitbitking.com/zh-cn/posts/</link><description>Recent content in Posts on Welcome to the World of Web3</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 12 Sep 2023 06:40:57 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/zh-cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Taiko 公链交互完全教程[明牌空投]</title><link>https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/</link><pubDate>Tue, 12 Sep 2023 06:40:57 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/</guid><description>Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞品，经过了前两个阶段的测试，目前来到了Al</description><content type="html"><![CDATA[<p>Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞品，经过了前两个阶段的测试，目前来到了Alpha3阶段，确认将来会发布代币，可以说是明牌空投了，所以在早期参与的用户回报应该会不错，这里就给大家整理一下具体的交互步骤，包括常规交互、部署合约和搭建节点，通过这一个教程，以后做这类空投应该也会触类旁通。</p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Welcome to the World of Web3</title><link>https://www.bitbitking.com/zh-cn/posts/</link><description>Recent content in Posts on Welcome to the World of Web3</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 20 Dec 2023 21:57:19 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/zh-cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>本地搭建谷歌Google Gemini人工智能聊天机器人，GPT4完美替代品</title><link>https://www.bitbitking.com/zh-cn/posts/gpt-4-gemini-pro/</link><pubDate>Wed, 20 Dec 2023 21:57:19 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/gpt-4-gemini-pro/</guid><description>前言 今天和大家说一下本地就能轻松搭建得谷歌Google Gemini Pro人工智能聊天机器人，可以作为GPT4完美替代品。 前些天，Google也终于开放</description><content type="html"><![CDATA[<h2 id="前言">前言</h2>
+<p>今天和大家说一下本地就能轻松搭建得谷歌Google Gemini Pro人工智能聊天机器人，可以作为GPT4完美替代品。</p>
+<p>前些天，Google也终于开放了Gemini Pro 的接口免费申请，现在Chatgpt4已经停止注册，所以之前没有注册的目前还无法体验最强大的人工智能工具，而且本身GPT4成本就比较高，所以大多数人还是用的GPT3.5，虽然本身非常棒，但有一个问题就是资料库并不是最新的，所以今天咱们一起研究一下如何搭建同样非常强大的，谷歌公司推出的Gemini Pro，最主要的是可以本地或者是云搭建，完全属于自己的AI玩具！</p>
+<h2 id="步骤">步骤</h2>
+<ol>
+<li>Google 官方网站申请API KEY： <a href="https://makersuite.google.com/app/apikey">https://makersuite.google.com/app/apikey</a></li>
+</ol>
+<p><img src="https://file.notion.so/f/f/c9767076-7f45-4cf5-a594-98c1b7a14a93/49ad58de-e52f-4c04-99ff-013570fb5861/Untitled.png?id=d168efc0-91ee-4984-a78f-50492528b2dd&amp;table=block&amp;spaceId=c9767076-7f45-4cf5-a594-98c1b7a14a93&amp;expirationTimestamp=1703174400000&amp;signature=yN_Z2qnCQIuMoqAVst7R4_Syb0swNZIMjUxpBwDjpEY&amp;downloadName=Untitled.png" alt=""></p>
+<ol start="2">
+<li>下载开源项目搭建Geimini Pro Chat：<a href="https://github.com/babaohuang/GeminiProChat">https://github.com/babaohuang/GeminiProChat</a></li>
+<li>部署，可以选择容器平台部署或自己购买服务器部署，也可以Docker部署</li>
+<li>远程连接，登录使用</li>
+</ol>
+<h2 id="总结">总结</h2>
+<p>人工智能时代，大家确实应该多多学习各种AI工具的使用，能极大的提高我们工作和生活中的效率。</p>
+]]></content></item><item><title>Taiko 公链交互完全教程[明牌空投]</title><link>https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/</link><pubDate>Tue, 12 Sep 2023 06:40:57 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/</guid><description>Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞品，经过了前两个阶段的测试，目前来到了Al</description><content type="html"><![CDATA[<p>Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞品，经过了前两个阶段的测试，目前来到了Alpha3阶段，确认将来会发布代币，可以说是明牌空投了，所以在早期参与的用户回报应该会不错，这里就给大家整理一下具体的交互步骤，包括常规交互、部署合约和搭建节点，通过这一个教程，以后做这类空投应该也会触类旁通。</p>
 <h1 id="taiko-tko空投具体步骤">Taiko ($TKO)空投具体步骤：</h1>
 <p>先从最基础的开始</p>
 <h3 id="设置钱包">设置钱包</h3>
