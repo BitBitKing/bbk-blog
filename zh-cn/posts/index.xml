@@ -8,7 +8,7 @@
 <p><img src="https://file.notion.so/f/f/c9767076-7f45-4cf5-a594-98c1b7a14a93/49ad58de-e52f-4c04-99ff-013570fb5861/Untitled.png?id=d168efc0-91ee-4984-a78f-50492528b2dd&amp;table=block&amp;spaceId=c9767076-7f45-4cf5-a594-98c1b7a14a93&amp;expirationTimestamp=1703174400000&amp;signature=yN_Z2qnCQIuMoqAVst7R4_Syb0swNZIMjUxpBwDjpEY&amp;downloadName=Untitled.png" alt=""></p>
 <ol start="2">
 <li>下载开源项目搭建Geimini Pro Chat：<a href="https://github.com/babaohuang/GeminiProChat">GITHUB源码</a></li>
-<li>部署，可以选择<a href="https://vercel.com/">容器平台</a>部署或自己<a href="">购买服务器</a>部署，也可以Docker部署</li>
+<li>部署，可以选择<a href="https://vercel.com/">容器平台</a>部署或自己<a href="http://bit.ly/vps-100">购买服务器</a>部署，也可以Docker部署</li>
 </ol>
 <p>docker-compose.yml 写入以下内容：</p>
 <pre tabindex="0"><code>version: &#39;3&#39;
