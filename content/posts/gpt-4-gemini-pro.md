@@ -22,7 +22,7 @@ tags:
 ![](https://file.notion.so/f/f/c9767076-7f45-4cf5-a594-98c1b7a14a93/49ad58de-e52f-4c04-99ff-013570fb5861/Untitled.png?id=d168efc0-91ee-4984-a78f-50492528b2dd&table=block&spaceId=c9767076-7f45-4cf5-a594-98c1b7a14a93&expirationTimestamp=1703174400000&signature=yN_Z2qnCQIuMoqAVst7R4_Syb0swNZIMjUxpBwDjpEY&downloadName=Untitled.png)
 
 2. 下载开源项目搭建Geimini Pro Chat：[GITHUB源码](https://github.com/babaohuang/GeminiProChat)
-3. 部署，可以选择[容器平台](https://vercel.com/)部署或自己[购买服务器]()部署，也可以Docker部署
+3. 部署，可以选择[容器平台](https://vercel.com/)部署或自己[购买服务器](http://bit.ly/vps-100)部署，也可以Docker部署
 
 docker-compose.yml 写入以下内容：
 ```
