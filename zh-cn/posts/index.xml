@@ -5,7 +5,7 @@
 <ol>
 <li>Google 官方网站<a href="https://makersuite.google.com/app/apikey">申请API KEY</a></li>
 </ol>
-<p><img src="https://file.notion.so/f/f/c9767076-7f45-4cf5-a594-98c1b7a14a93/49ad58de-e52f-4c04-99ff-013570fb5861/Untitled.png?id=d168efc0-91ee-4984-a78f-50492528b2dd&amp;table=block&amp;spaceId=c9767076-7f45-4cf5-a594-98c1b7a14a93&amp;expirationTimestamp=1703174400000&amp;signature=yN_Z2qnCQIuMoqAVst7R4_Syb0swNZIMjUxpBwDjpEY&amp;downloadName=Untitled.png" alt=""></p>
+<p><img src="https://file.notion.so/f/f/c9767076-7f45-4cf5-a594-98c1b7a14a93/49ad58de-e52f-4c04-99ff-013570fb5861/Untitled.png?id=d168efc0-91ee-4984-a78f-50492528b2dd&table=block&spaceId=c9767076-7f45-4cf5-a594-98c1b7a14a93&expirationTimestamp=1703174400000&signature=yN_Z2qnCQIuMoqAVst7R4_Syb0swNZIMjUxpBwDjpEY&downloadName=Untitled.png"></p>
 <ol start="2">
 <li>下载开源项目搭建Geimini Pro Chat：<a href="https://github.com/babaohuang/GeminiProChat">GITHUB源码</a></li>
 <li>部署，可以选择<a href="https://vercel.com/">容器平台</a>部署或自己<a href="http://bit.ly/vps-100">购买服务器</a>部署，也可以Docker部署</li>
@@ -27,6 +27,11 @@ services:
 </ol>
 <h2 id="总结">总结</h2>
 <p>人工智能时代，大家确实应该多多学习各种AI工具的使用，能极大的提高我们工作和生活中的效率。</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/KqlMtucKdYI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 ]]></content></item><item><title>Taiko 公链交互完全教程[明牌空投]</title><link>https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/</link><pubDate>Tue, 12 Sep 2023 06:40:57 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/</guid><description>Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞品，经过了前两个阶段的测试，目前来到了Al</description><content type="html"><![CDATA[<p>Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞品，经过了前两个阶段的测试，目前来到了Alpha3阶段，确认将来会发布代币，可以说是明牌空投了，所以在早期参与的用户回报应该会不错，这里就给大家整理一下具体的交互步骤，包括常规交互、部署合约和搭建节点，通过这一个教程，以后做这类空投应该也会触类旁通。</p>
 <h1 id="taiko-tko空投具体步骤">Taiko ($TKO)空投具体步骤：</h1>
 <p>先从最基础的开始</p>
@@ -105,6 +110,11 @@ services:
 <li>最新空投列表 <a href="https://bit.ly/BBK-AirDrop">https://bit.ly/BBK-AirDrop</a></li>
 <li>币圈工具集 <a href="https://bit.ly/BitBitKing">https://bit.ly/BitBitKing</a></li>
 </ul>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/fM9Q7yAkcT0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 ]]></content></item><item><title>为何以及如何做全球资产配置</title><link>https://www.bitbitking.com/zh-cn/posts/asset-allocation/</link><pubDate>Fri, 18 Aug 2023 21:57:22 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/asset-allocation/</guid><description>今天和朋友聚了一下，有感而发，聊一下全球资产配置这个话题，因为之前只是简单给朋友规划了一下，也就一年多的时间，什么也没干，资产就增值了50%</description><content type="html"><![CDATA[<p>今天和朋友聚了一下，有感而发，聊一下全球资产配置这个话题，因为之前只是简单给朋友规划了一下，也就一年多的时间，什么也没干，资产就增值了50%左右，再这样的一个整体经济形势下，应该算是个不错的成绩。</p>
 <p>在经济环境不断变化的今天，为什么我们要进行全球资产配置？以及如何合理地进行资产配置，实现增值和保值？</p>
 <p><strong>为什么要进行全球资产配置？</strong></p>
@@ -153,7 +163,11 @@ services:
 <p>步骤10：您的N26账户已准备就绪
 恭喜！您现在已经成功注册了N26账户。您可以在应用中查看您的账户余额、进行转账、支付和管理您的财务。</p>
 <p>总的来说，注册N26账户是一个简单而迅速的过程。通过手机应用，您可以在短时间内拥有一个现代化的在线银行账户，享受更加便捷的银行服务，整个过程可能会有些复杂，可以看我频道里的视频有详细的逐步实操注册流程，看完应该就会很清晰了。</p>
-<p><a href="https://www.youtube.com/watch?v=hUvVhQsbmeg" title=""><img src="https://i.ytimg.com/vi/hUvVhQsbmeg/maxresdefault.jpg" alt=""></a></p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/hUvVhQsbmeg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
 ]]></content></item><item><title>探索Web3时代的全民基本收入（UBI）</title><link>https://www.bitbitking.com/zh-cn/posts/what-is-ubi/</link><pubDate>Mon, 14 Aug 2023 17:12:46 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/what-is-ubi/</guid><description>在不断发展的技术进步推动下，全民基本收入（UBI）的概念已经成为解决经济差距、赋予个人权力的潜在解决方案。随着Web3和区块链技术的出现，实</description><content type="html"><![CDATA[<p>在不断发展的技术进步推动下，全民基本收入（UBI）的概念已经成为解决经济差距、赋予个人权力的潜在解决方案。随着Web3和区块链技术的出现，实施更高效和包容性的UBI的可能性日益凸显。让我们踏上一段旅程，了解什么是UBI，其潜在的好处，以及它如何与Web3领域相交融。</p>
 <h3 id="什么是ubi">什么是UBI？</h3>
 <p>从根本上讲，全民基本收入是一个革命性的想法，建议一个国家的每个公民都应该从政府获得定期和无条件的支付，无论他们的收入、就业状况或其他因素如何。想象一个世界，个人拥有一个安全网，一个确保满足其基本需求的财务垫子，使他们可以追求他们的热情、教育和创业努力，而不必担心贫困。</p>
@@ -181,30 +195,30 @@ services:
 <p>最上方点击Web3钱包，没有的可以创建一个无私钥钱包，然后下面点击「发现」 到推荐频道，可以看到Cryptopedia里面第一个就是Lifeform的空投，不是的往后面划一下。</p>
 </li>
 </ul>
-<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FVTzr5OO3hbUS-WavWoAtH.jpg&amp;w=3840&amp;q=75" alt=""></p>
+<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FVTzr5OO3hbUS-WavWoAtH.jpg&w=3840&q=75"></p>
 <p>用交易所往钱包转一些钱，不知道多少可以看完交互自己算一下</p>
 <ol>
 <li>第一个交互，点击去完成，进入网站答题就可以了，完成后领取NFT，错了要等一会儿才行，题目不难，之后所有项目都一样，完成后点击验证</li>
 </ol>
-<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F4ltIuEPRwHOhTVIbT05Nm.jpg&amp;w=3840&amp;q=75" alt=""></p>
+<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F4ltIuEPRwHOhTVIbT05Nm.jpg&w=3840&q=75"></p>
 <ol start="2">
 <li>点击去完成，选择便宜的链比如BNB按价格最低到最高，买一个最便宜的NFT，回来点验证</li>
 </ol>
-<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FOnjWzUcGi5j2g2J9wyDkL.jpg&amp;w=3840&amp;q=75" alt=""></p>
+<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FOnjWzUcGi5j2g2J9wyDkL.jpg&w=3840&q=75"></p>
 <ol start="3">
 <li>点击去完成，在上面写的任意链完成交互，推荐除了ETH的都可以，然后点击验证</li>
 </ol>
-<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FPy1B_5YuHbumcc2gNwkF7.jpg&amp;w=3840&amp;q=75" alt=""></p>
+<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FPy1B_5YuHbumcc2gNwkF7.jpg&w=3840&q=75"></p>
 <ol start="4">
 <li>在OKX DEX完成一笔 10U的交易，同样为了少点手续费，除了ETH都行</li>
 </ol>
-<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FwYYp0-VySNGPXUQbXqdML.jpg&amp;w=3840&amp;q=75" alt=""></p>
+<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FwYYp0-VySNGPXUQbXqdML.jpg&w=3840&q=75"></p>
 <ol start="5">
 <li>在OKX Web3 DeFi完成一笔10U以上的交易，然后点击验证</li>
 </ol>
-<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FASr1VcbzsfukQ4lW3yacI.jpg&amp;w=3840&amp;q=75" alt=""></p>
+<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FASr1VcbzsfukQ4lW3yacI.jpg&w=3840&q=75"></p>
 <p>注意完成后所有的NFT盒子不要卖，快照是根据盒子数量算的，等着官方通知，看自己的钱包地址就行了，如果想看非OKX的交互也可以看频道视频 ↓</p>
-<p><a href="https://youtu.be/xD2CuHcj1VM?si=4DZa_MksS8tVSA-7" title="Lifeform 空投"><img src="https://i.ytimg.com/vi/xD2CuHcj1VM/maxresdefault.jpg" alt="Lifeform 空投"></a></p>
+<p><a href="https://youtu.be/xD2CuHcj1VM?si=4DZa_MksS8tVSA-7" title="Lifeform 空投"><img alt="Lifeform 空投" src="https://i.ytimg.com/vi/xD2CuHcj1VM/maxresdefault.jpg"></a></p>
 ]]></content></item><item><title>Google为什么禁用我的帐户</title><link>https://www.bitbitking.com/zh-cn/posts/google-account-has-been-disabled/</link><pubDate>Thu, 27 Jul 2023 02:46:55 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/google-account-has-been-disabled/</guid><description>由于咱们撸毛撸空投的小伙伴肯定各种账号都要养一大堆，肯定遇到过各种封禁的事件，在防项目方女巫的同时，也要防被社交平台等封账号的情况，比如Go</description><content type="html"><![CDATA[<p>由于咱们撸毛撸空投的小伙伴肯定各种账号都要养一大堆，肯定遇到过各种封禁的事件，在防项目方女巫的同时，也要防被社交平台等封账号的情况，比如Google就是这里面比较重要的一个环节，肯定会有人遇到 your account has been disabled 这个提示，虽然它让你联系官方，但还是算了吧，遇到这样只能换一个账号，可能综合成本还低些，前提是很多重要的内容或平台不要绑定就好了，首先要避免这种情况就要知道为什么Google禁用我的帐户?</p>
 <h2 id="google为什么禁用我的帐户">Google为什么禁用我的帐户?</h2>
 <p>Google这样做的原因有很多,我尽量列一些主要的原因：</p>
@@ -238,15 +252,16 @@ services:
 <p>之前说服务器问题不能注册的可以重新试下现在可以了</p>
 <p>大陆可以正常申请及使用的虚拟信用卡，支持支付宝微信支付等，小额免手续费。</p>
 <p>首先用google登录</p>
-<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FSebOnLqL_vKLfBKG_0s-o.png&amp;w=3840&amp;q=75" alt="">
-<img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2Ft9EPmkGSEXZLmapf6haSA.png&amp;w=3840&amp;q=75" alt="">
-<img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FpfHY_1s5IXaGUy_dy8EAl.png&amp;w=3840&amp;q=75" alt=""></p>
+<p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FSebOnLqL_vKLfBKG_0s-o.png&w=3840&q=75">
+<img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2Ft9EPmkGSEXZLmapf6haSA.png&w=3840&q=75">
+<img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FpfHY_1s5IXaGUy_dy8EAl.png&w=3840&q=75"></p>
 <p>填写信息，出现二维码，用微信扫描，录制几秒视频，进行KYC</p>
 <p>然后稍等几分钟就完成了。</p>
 <p>3AC16B</p>
 <p>目前仅限邀请注册： <a href="http://bit.ly/bbkonekey">http://bit.ly/bbkonekey</a></p>
 <p>详细的介绍及使用：<a href="https://youtu.be/-4qxLaCEQF0">https://youtu.be/-4qxLaCEQF0</a></p>
 <p>详细注册教程：<a href="http://bit.ly/bbk-tools-Featured">http://bit.ly/bbk-tools-Featured</a></p>
+<p>已不允许内地KYC，建议注册最新的虚拟信用卡：<a href="https://bit.ly/dupay">https://bit.ly/dupay</a></p>
 ]]></content></item><item><title>如何选购优质nft项目</title><link>https://www.bitbitking.com/zh-cn/posts/nfthow/</link><pubDate>Sun, 09 Apr 2023 02:18:47 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/nfthow/</guid><description>前些天，知名NFT平台opensea也推出了pro版本，现在NFT市场也比较火爆，相对之前表现的也成熟了一些，咱们今天就一起聊一下，如何选购</description><content type="html"><![CDATA[<p>前些天，知名NFT平台opensea也推出了pro版本，现在NFT市场也比较火爆，相对之前表现的也成熟了一些，咱们今天就一起聊一下，如何选购优质的NFT项目</p>
 <p>NFT（Non-Fungible Token，非同质化代币）市场是一个快速发展的领域，这里有很多不同类型的项目。现在的发展，NFT已经不是随便发一个图片就可以的了，所以为了选购优质NFT项目，以下是目前总结的十点建议，我认为都吧比较重要，能帮助大家更好的选择NFT项目：</p>
 <ol>
@@ -648,15 +663,15 @@ Binance 上列出的每个项目都需要经过彻底的审核，然后才能被
 <p>首先打开 Phatom Wallet 下载页面，选择适合您浏览器的版本。</p>
 <p>浏览器的应用商店将打开。点击“添加到 Chrome”。安装完成后，会打开钱包启动页面。点击“创建新钱包”。</p>
 <p>请为您的钱包创建一个强密码。接受服务条款，然后单击“继续”。</p>
-<p><img src="https://images.mirror-media.xyz/publication-images/Lg9ISRcnut29uQCYi8F7w.png?height=518&amp;width=569" alt="phantom"></p>
+<p><img alt="phantom" src="https://images.mirror-media.xyz/publication-images/Lg9ISRcnut29uQCYi8F7w.png?height=518&width=569"></p>
 <p>单击带有备用短语的区域以显示它，然后将其写在纸上。您需要将助记词存储在安全的地方，因为没有它您将无法恢复钱包。请勿与任何人分享您的助记词。</p>
-<p><img src="https://images.mirror-media.xyz/publication-images/okRVmiaJ0igsDRQLpQ8RR.png?height=528&amp;width=448" alt="wallet"></p>
+<p><img alt="wallet" src="https://images.mirror-media.xyz/publication-images/okRVmiaJ0igsDRQLpQ8RR.png?height=528&width=448"></p>
 <p>勾选“我保存了我的秘密恢复短语”旁边的框，然后单击“继续”。</p>
 <p>单击“完成”。然后你的钱包就可以使用了。</p>
 <p><strong>第 2 步：为 Phantom 钱包提供资金</strong></p>
 <p>输入密码，然后单击“解锁”以打开您的钱包。</p>
 <p>点击“存款”。</p>
-<p><img src="https://images.mirror-media.xyz/publication-images/5FLm5o59ZLWM7TLg5GubZ.png?height=530&amp;width=350" alt="phantom wallet"></p>
+<p><img alt="phantom wallet" src="https://images.mirror-media.xyz/publication-images/5FLm5o59ZLWM7TLg5GubZ.png?height=530&width=350"></p>
 <p>选择“solana”。</p>
 <p>扫描二维码或复制钱包地址，然后发送SOL代币给它。</p>
 <p><strong>第 3 步：质押您的 Solana</strong></p>
