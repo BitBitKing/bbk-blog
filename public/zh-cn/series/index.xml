@@ -5,6 +5,7 @@
     <link>https://www.bitbitking.com/zh-cn/series/</link>
     <description>Recent content in Series on Welcome to the World of Web3</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language><atom:link href="https://www.bitbitking.com/zh-cn/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <atom:link href="https://www.bitbitking.com/zh-cn/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

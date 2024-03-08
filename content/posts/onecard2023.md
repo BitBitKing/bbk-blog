@@ -4,7 +4,7 @@ date: 2023-04-22T05:00:00+08:00
 draft: false
 toc: false
 images:
-tags: ['onecard','onekey','出金','虚拟信用卡','otc','dupay','depay']
+tags: ['onecard','onekey','出金','虚拟信用卡','otc','dupay']
 ---
 
 出金不用担心冻卡啦~ 趁着目前容易可以撸一张
