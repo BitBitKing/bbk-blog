@@ -80,3 +80,5 @@ Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞�
 以上就是全部交互流程，可以根据自己实际情况选择，是只完成基础部分，还是全部都做，肯定是做的越多到时候空投的比例会越高。
 - 最新空投列表 https://bit.ly/BBK-AirDrop
 - 币圈工具集 https://bit.ly/BitBitKing
+
+{{< youtube fM9Q7yAkcT0 >}}

@@ -4,7 +4,7 @@ date: 2023-04-22T05:00:00+08:00
 draft: false
 toc: false
 images:
-tags: ['onecard','onekey','出金','虚拟信用卡','otc']
+tags: ['onecard','onekey','出金','虚拟信用卡','otc','dupay','depay']
 ---
 
 出金不用担心冻卡啦~ 趁着目前容易可以撸一张
@@ -31,3 +31,5 @@ tags: ['onecard','onekey','出金','虚拟信用卡','otc']
 详细的介绍及使用：[https://youtu.be/-4qxLaCEQF0](https://youtu.be/-4qxLaCEQF0)
 
 详细注册教程：[http://bit.ly/bbk-tools-Featured](http://bit.ly/bbk-tools-Featured)
+
+已不允许内地KYC，建议注册最新的虚拟信用卡：[https://bit.ly/dupay](https://bit.ly/dupay)
