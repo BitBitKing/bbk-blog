@@ -1,12 +1,64 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Welcome to the World of Web3</title><link>https://www.bitbitking.com/zh-cn/posts/</link><description>Recent content in Posts on Welcome to the World of Web3</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 20 Dec 2023 21:57:19 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/zh-cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>本地搭建谷歌Google Gemini人工智能聊天机器人，GPT4完美替代品</title><link>https://www.bitbitking.com/zh-cn/posts/gpt-4-gemini-pro/</link><pubDate>Wed, 20 Dec 2023 21:57:19 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/gpt-4-gemini-pro/</guid><description>前言 今天和大家说一下本地就能轻松搭建的谷歌Google Gemini Pro人工智能聊天机器人，可以作为GPT4完美替代品。 前些天，Google也终于开放</description><content type="html"><![CDATA[<h2 id="前言">前言</h2>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Welcome to the World of Web3</title><link>https://www.bitbitking.com/zh-cn/posts/</link><description>Recent content in Posts on Welcome to the World of Web3</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 09 Mar 2024 19:26:48 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/zh-cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>IO.NET GPU算力挖矿教程</title><link>https://www.bitbitking.com/zh-cn/posts/io-net/</link><pubDate>Sat, 09 Mar 2024 19:26:48 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/io-net/</guid><description>IO.NET最近显卡资源出租挖矿模式比较火，后续也有空投可能，代币即将上线，今天说一下如何挖矿，首先支持Ubuntu Linux，MacOS和</description><content type="html"><![CDATA[<p>IO.NET最近显卡资源出租挖矿模式比较火，后续也有空投可能，代币即将上线，今天说一下如何挖矿，首先支持Ubuntu Linux，MacOS和Windows操作系统，就以Windows为例讲解具体过程</p>
+<p><img alt="https://images.mirror-media.xyz/publication-images/L8Zy2W7YT2lQ8Q0Y5DoCZ.gif" src="https://images.mirror-media.xyz/publication-images/L8Zy2W7YT2lQ8Q0Y5DoCZ.gif"></p>
+<h3 id="首先到官方网站注册并登录-cloudionet">首先到官方网站注册并登录 cloud.io.net</h3>
+<ul>
+<li>下拉找到Worker</li>
+<li>点击 Conenct New Device 连接新的设备</li>
+<li>Select Supplier 部分根据需求选择 io.net 或者Render</li>
+<li>填写设备命名</li>
+<li>选择操作系统，我们这里选择Windows</li>
+<li>设备类型选择 GPU Worker</li>
+<li>Docker 和 Nvidia 驱动安装，按照文档中有关Docker,Cuda和Nvidia驱动程序安装的步骤进行操作</li>
+<li>在终端中运行命令，确保docker在后台运行</li>
+</ul>
+<p>等待连接，如果没有连接就点击 Refresh 刷新</p>
+<h2 id="开启虚拟化">开启虚拟化</h2>
+<ul>
+<li>首先确认启用虚拟化BIOS，任务管理器 - 性能 查看，如果没有启用</li>
+</ul>
+<p><img alt="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F28Osj3nzS1nQCIyn5Uigq.jpg&amp;w=1920&amp;q=75" src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2F28Osj3nzS1nQCIyn5Uigq.jpg&w=1920&q=75"></p>
+<ol>
+<li>查询自己主板型号在BIOS或UEFI中启用虚拟化技术</li>
+<li>管理员权限运行终端,输入命令
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart</li>
+<li>dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart</li>
+<li>wsl &ndash;set-default-version 2</li>
+<li>重启计算机</li>
+</ol>
+<h2 id="安装-docker">安装 Docker</h2>
+<ul>
+<li>
+<p><a href="https://www.docker.com/products/docker-desktop">www.docker.com/products/docker-desktop</a> 下载相应版本</p>
+</li>
+<li>
+<p>安装 Docker</p>
+</li>
+<li>
+<p>打开 Docker 客户端 Resources - WSL integration，Enable integration witrh my default WSL distro，然后点击 Refresh 刷新</p>
+</li>
+<li>
+<p>可以在终端CMD中输入</p>
+</li>
+</ul>
+<p>docker &ndash;version 看到版本信息表示成功</p>
+<h2 id="确认显卡信息">确认显卡信息</h2>
+<ul>
+<li>
+<p>终端输入 nvidia-smi，如果报错就去官网下载并更新相应版本显卡驱动</p>
+</li>
+<li>
+<p>下载安装CUDA工具包 developer.nvidia.com/cuda-downloads</p>
+</li>
+<li>
+<p>CMD 中 nvcc &ndash;version 验证</p>
+</li>
+</ul>
+]]></content></item><item><title>本地搭建谷歌Google Gemini人工智能聊天机器人，GPT4完美替代品</title><link>https://www.bitbitking.com/zh-cn/posts/gpt-4-gemini-pro/</link><pubDate>Wed, 20 Dec 2023 21:57:19 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/gpt-4-gemini-pro/</guid><description>前言 今天和大家说一下本地就能轻松搭建的谷歌Google Gemini Pro人工智能聊天机器人，可以作为GPT4完美替代品。 前些天，Google也终于开放</description><content type="html"><![CDATA[<h2 id="前言">前言</h2>
 <p>今天和大家说一下本地就能轻松搭建的谷歌Google Gemini Pro人工智能聊天机器人，可以作为GPT4完美替代品。</p>
 <p>前些天，Google也终于开放了Gemini Pro 的接口免费申请，现在Chatgpt4已经停止注册，所以之前没有注册的目前还无法体验最强大的人工智能工具，而且本身GPT4成本就比较高，所以大多数人还是用的GPT3.5，虽然本身非常棒，但有一个问题就是资料库并不是最新的，所以今天咱们一起研究一下如何搭建同样非常强大的，谷歌公司推出的Gemini Pro，最主要的是可以本地或者是云搭建，完全属于自己的AI玩具！</p>
 <h2 id="步骤">步骤</h2>
 <ol>
 <li>Google 官方网站<a href="https://makersuite.google.com/app/apikey">申请API KEY</a></li>
-</ol>
-<p><img src="https://file.notion.so/f/f/c9767076-7f45-4cf5-a594-98c1b7a14a93/49ad58de-e52f-4c04-99ff-013570fb5861/Untitled.png?id=d168efc0-91ee-4984-a78f-50492528b2dd&table=block&spaceId=c9767076-7f45-4cf5-a594-98c1b7a14a93&expirationTimestamp=1703174400000&signature=yN_Z2qnCQIuMoqAVst7R4_Syb0swNZIMjUxpBwDjpEY&downloadName=Untitled.png"></p>
-<ol start="2">
 <li>下载开源项目搭建Geimini Pro Chat：<a href="https://github.com/babaohuang/GeminiProChat">GITHUB源码</a></li>
 <li>部署，可以选择<a href="https://vercel.com/">容器平台</a>部署或自己<a href="http://bit.ly/vps-100">购买服务器</a>部署，也可以Docker部署</li>
 </ol>
