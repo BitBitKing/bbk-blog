@@ -1,5 +1,5 @@
 ---
-title: "IO.NET GPU算力挖矿教程"
+title: "IO.NET GPU 显卡算力挖矿教程"
 date: 2024-03-09T19:26:48+08:00
 draft: false
 tags:
