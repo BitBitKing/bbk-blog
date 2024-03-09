@@ -33,9 +33,9 @@ IO.NET最近显卡资源出租挖矿模式比较火，后续也有空投可能�
 
 1. 查询自己主板型号在BIOS或UEFI中启用虚拟化技术
 2. 管理员权限运行终端,输入命令
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-3. dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-4. wsl --set-default-version 2
+`dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
+3. `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+4. `wsl --set-default-version 2`
 5. 重启计算机
 
 
@@ -48,9 +48,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 
 - 打开 Docker 客户端 Resources - WSL integration，Enable integration witrh my default WSL distro，然后点击 Refresh 刷新
 
-- 可以在终端CMD中输入
-
-docker --version 看到版本信息表示成功
+- 可以在终端CMD中输入 `docker --version` 看到版本信息表示成功
 
 ## 确认显卡信息
 
@@ -58,4 +56,4 @@ docker --version 看到版本信息表示成功
 
 - 下载安装CUDA工具包 developer.nvidia.com/cuda-downloads
 
-- CMD 中 nvcc --version 验证
+- CMD 中 `nvcc --version` 验证
