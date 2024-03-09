@@ -5,7 +5,8 @@ draft: false
 tags:
   - Web3
   - Crypto
-
+  - 显卡
+  - 挖矿
 ---
 IO.NET最近显卡资源出租挖矿模式比较火，后续也有空投可能，代币即将上线，今天说一下如何挖矿，首先支持Ubuntu Linux，MacOS和Windows操作系统，就以Windows为例讲解具体过程
 
