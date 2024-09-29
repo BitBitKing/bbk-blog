@@ -1,4 +1,28 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Welcome to the World of Web3</title><link>https://www.bitbitking.com/zh-cn/posts/</link><description>Recent content in Posts on Welcome to the World of Web3</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 09 Mar 2024 19:26:48 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/zh-cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>IO.NET GPU 显卡算力挖矿教程</title><link>https://www.bitbitking.com/zh-cn/posts/io-net/</link><pubDate>Sat, 09 Mar 2024 19:26:48 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/io-net/</guid><description>IO.NET最近显卡资源出租挖矿模式比较火，后续也有空投可能，代币即将上线，今天说一下如何挖矿，首先支持Ubuntu Linux，MacOS和</description><content type="html"><![CDATA[<p>IO.NET最近显卡资源出租挖矿模式比较火，后续也有空投可能，代币即将上线，今天说一下如何挖矿，首先支持Ubuntu Linux，MacOS和Windows操作系统，就以Windows为例讲解具体过程</p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Welcome to the World of Web3</title><link>https://www.bitbitking.com/zh-cn/posts/</link><description>Recent content in Posts on Welcome to the World of Web3</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 29 Sep 2024 21:00:49 +0800</lastBuildDate><atom:link href="https://www.bitbitking.com/zh-cn/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Aleo 零知识证明网络服务器节点搭建教程</title><link>https://www.bitbitking.com/zh-cn/posts/aleo/</link><pubDate>Sun, 29 Sep 2024 21:00:49 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/aleo/</guid><description>&lt;h1 id="aleo简介">Aleo简介&lt;/h1>
+&lt;p>Aleo 致力于通过其创新平台为用户和应用程序开发人员提供前所未有的隐私保护。利用去中心化系统和零知识加密技术，Aleo 实现了网络上用户数据的绝对保密性。&lt;/p></description><content type="html"><![CDATA[<h1 id="aleo简介">Aleo简介</h1>
+<p>Aleo 致力于通过其创新平台为用户和应用程序开发人员提供前所未有的隐私保护。利用去中心化系统和零知识加密技术，Aleo 实现了网络上用户数据的绝对保密性。</p>
+<p>Aleo 的核心是提供无限计算，同时保证用户的隐私。通过利用区块链技术，Aleo 消除了对可信赖的第三方或中心化服务器的需求，从而确保了数据的安全和完整性。</p>
+<p>就在前些天，也是刚刚完成了主网上线，之前也是完成了由Andreessen Horowitz 领投，总额两亿美元的B轮融资。</p>
+<h2 id="服务器准备">服务器准备</h2>
+<ul>
+<li>CPU</li>
+</ul>
+<h2 id="安装部署">安装部署</h2>
+<ol>
+<li>安装rust <code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code>，选择默认1</li>
+<li>`source &ldquo;$HOME/.cargo/env&rdquo;</li>
+<li><code>apt update</code></li>
+<li>apt install git -y</li>
+<li>安装官方源码 <code>git clone https://github.com/AleoHQ/snarkOS.git --depth 1</code></li>
+<li><code>cd snarkOS</code></li>
+<li><code>./build_ubuntu.sh</code></li>
+<li>创建账户 <code>snarkos account new</code> 注意保存好地址和私钥。</li>
+<li><code>./run-prover.sh</code> 并输入private key，运行节点。
+但关闭窗口后节点停止运行，想要后台运行有几种办法，比如写个脚本，用<code>nohup ./run-prover.sh &amp;</code>后台运行，也可以用screen创建虚拟终端</li>
+</ol>
+<h1 id="总结">总结</h1>
+<p>技术相关项目涉及到的技术栈会比较多，也很难全面细致的介绍，想要从事这方面项目的要有自学钻研的能力，多学习一些技术栈没坏处。</p>
+]]></content></item><item><title>IO.NET GPU 显卡算力挖矿教程</title><link>https://www.bitbitking.com/zh-cn/posts/io-net/</link><pubDate>Sat, 09 Mar 2024 19:26:48 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/io-net/</guid><description>&lt;p>IO.NET最近显卡资源出租挖矿模式比较火，后续也有空投可能，代币即将上线，今天说一下如何挖矿，首先支持Ubuntu Linux，MacOS和Windows操作系统，就以Windows为例讲解具体过程&lt;/p></description><content type="html"><![CDATA[<p>IO.NET最近显卡资源出租挖矿模式比较火，后续也有空投可能，代币即将上线，今天说一下如何挖矿，首先支持Ubuntu Linux，MacOS和Windows操作系统，就以Windows为例讲解具体过程</p>
 <p><img alt="https://images.mirror-media.xyz/publication-images/L8Zy2W7YT2lQ8Q0Y5DoCZ.gif" src="https://images.mirror-media.xyz/publication-images/L8Zy2W7YT2lQ8Q0Y5DoCZ.gif"></p>
 <h3 id="首先到官方网站注册并登录-cloudionet">首先到官方网站注册并登录 cloud.io.net</h3>
 <ul>
@@ -52,7 +76,9 @@
 <p>CMD 中 <code>nvcc --version</code> 验证</p>
 </li>
 </ul>
-]]></content></item><item><title>本地搭建谷歌Google Gemini人工智能聊天机器人，GPT4完美替代品</title><link>https://www.bitbitking.com/zh-cn/posts/gpt-4-gemini-pro/</link><pubDate>Wed, 20 Dec 2023 21:57:19 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/gpt-4-gemini-pro/</guid><description>前言 今天和大家说一下本地就能轻松搭建的谷歌Google Gemini Pro人工智能聊天机器人，可以作为GPT4完美替代品。 前些天，Google也终于开放</description><content type="html"><![CDATA[<h2 id="前言">前言</h2>
+]]></content></item><item><title>本地搭建谷歌Google Gemini人工智能聊天机器人，GPT4完美替代品</title><link>https://www.bitbitking.com/zh-cn/posts/gpt-4-gemini-pro/</link><pubDate>Wed, 20 Dec 2023 21:57:19 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/gpt-4-gemini-pro/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
+&lt;p>今天和大家说一下本地就能轻松搭建的谷歌Google Gemini Pro人工智能聊天机器人，可以作为GPT4完美替代品。&lt;/p>
+&lt;p>前些天，Google也终于开放了Gemini Pro 的接口免费申请，现在Chatgpt4已经停止注册，所以之前没有注册的目前还无法体验最强大的人工智能工具，而且本身GPT4成本就比较高，所以大多数人还是用的GPT3.5，虽然本身非常棒，但有一个问题就是资料库并不是最新的，所以今天咱们一起研究一下如何搭建同样非常强大的，谷歌公司推出的Gemini Pro，最主要的是可以本地或者是云搭建，完全属于自己的AI玩具！&lt;/p></description><content type="html"><![CDATA[<h2 id="前言">前言</h2>
 <p>今天和大家说一下本地就能轻松搭建的谷歌Google Gemini Pro人工智能聊天机器人，可以作为GPT4完美替代品。</p>
 <p>前些天，Google也终于开放了Gemini Pro 的接口免费申请，现在Chatgpt4已经停止注册，所以之前没有注册的目前还无法体验最强大的人工智能工具，而且本身GPT4成本就比较高，所以大多数人还是用的GPT3.5，虽然本身非常棒，但有一个问题就是资料库并不是最新的，所以今天咱们一起研究一下如何搭建同样非常强大的，谷歌公司推出的Gemini Pro，最主要的是可以本地或者是云搭建，完全属于自己的AI玩具！</p>
 <h2 id="步骤">步骤</h2>
@@ -79,11 +105,14 @@ services:
 <h2 id="总结">总结</h2>
 <p>人工智能时代，大家确实应该多多学习各种AI工具的使用，能极大的提高我们工作和生活中的效率。</p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/KqlMtucKdYI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
 
-]]></content></item><item><title>Taiko 公链交互完全教程[明牌空投]</title><link>https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/</link><pubDate>Tue, 12 Sep 2023 06:40:57 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/</guid><description>Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞品，经过了前两个阶段的测试，目前来到了Al</description><content type="html"><![CDATA[<p>Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞品，经过了前两个阶段的测试，目前来到了Alpha3阶段，确认将来会发布代币，可以说是明牌空投了，所以在早期参与的用户回报应该会不错，这里就给大家整理一下具体的交互步骤，包括常规交互、部署合约和搭建节点，通过这一个教程，以后做这类空投应该也会触类旁通。</p>
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KqlMtucKdYI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content></item><item><title>Taiko 公链交互完全教程[明牌空投]</title><link>https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/</link><pubDate>Tue, 12 Sep 2023 06:40:57 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/taiko-airdrop/</guid><description>&lt;p>Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞品，经过了前两个阶段的测试，目前来到了Alpha3阶段，确认将来会发布代币，可以说是明牌空投了，所以在早期参与的用户回报应该会不错，这里就给大家整理一下具体的交互步骤，包括常规交互、部署合约和搭建节点，通过这一个教程，以后做这类空投应该也会触类旁通。&lt;/p></description><content type="html"><![CDATA[<p>Taiko是基于以太坊的ZK-Rollup (类型1 ZK-EVM)Layer2。算是ZKSync的竞品，经过了前两个阶段的测试，目前来到了Alpha3阶段，确认将来会发布代币，可以说是明牌空投了，所以在早期参与的用户回报应该会不错，这里就给大家整理一下具体的交互步骤，包括常规交互、部署合约和搭建节点，通过这一个教程，以后做这类空投应该也会触类旁通。</p>
 <h1 id="taiko-tko空投具体步骤">Taiko ($TKO)空投具体步骤：</h1>
 <p>先从最基础的开始</p>
 <h3 id="设置钱包">设置钱包</h3>
@@ -162,11 +191,14 @@ services:
 <li>币圈工具集 <a href="https://bit.ly/BitBitKing">https://bit.ly/BitBitKing</a></li>
 </ul>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/fM9Q7yAkcT0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
 
-]]></content></item><item><title>为何以及如何做全球资产配置</title><link>https://www.bitbitking.com/zh-cn/posts/asset-allocation/</link><pubDate>Fri, 18 Aug 2023 21:57:22 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/asset-allocation/</guid><description>今天和朋友聚了一下，有感而发，聊一下全球资产配置这个话题，因为之前只是简单给朋友规划了一下，也就一年多的时间，什么也没干，资产就增值了50%</description><content type="html"><![CDATA[<p>今天和朋友聚了一下，有感而发，聊一下全球资产配置这个话题，因为之前只是简单给朋友规划了一下，也就一年多的时间，什么也没干，资产就增值了50%左右，再这样的一个整体经济形势下，应该算是个不错的成绩。</p>
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/fM9Q7yAkcT0?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content></item><item><title>为何以及如何做全球资产配置</title><link>https://www.bitbitking.com/zh-cn/posts/asset-allocation/</link><pubDate>Fri, 18 Aug 2023 21:57:22 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/asset-allocation/</guid><description>&lt;p>今天和朋友聚了一下，有感而发，聊一下全球资产配置这个话题，因为之前只是简单给朋友规划了一下，也就一年多的时间，什么也没干，资产就增值了50%左右，再这样的一个整体经济形势下，应该算是个不错的成绩。&lt;/p></description><content type="html"><![CDATA[<p>今天和朋友聚了一下，有感而发，聊一下全球资产配置这个话题，因为之前只是简单给朋友规划了一下，也就一年多的时间，什么也没干，资产就增值了50%左右，再这样的一个整体经济形势下，应该算是个不错的成绩。</p>
 <p>在经济环境不断变化的今天，为什么我们要进行全球资产配置？以及如何合理地进行资产配置，实现增值和保值？</p>
 <p><strong>为什么要进行全球资产配置？</strong></p>
 <p><strong>1. 经济多元化：</strong>
@@ -189,7 +221,9 @@ services:
 <p><strong>5. 持续监控和调整：</strong>
 投资是一个持续的过程，不断分析市场变化，根据需要进行资产配置的调整，以适应不同的经济环境，避免货币贬值带来的资产缩水。</p>
 <p>全球资产配置是实现经济多元化、风险分散和资产增值的关键策略。通过科学合理的配置，就可以在不同市场和地区获得更好的投资机会，实现财务目标。</p>
-]]></content></item><item><title>如何注册德国虚拟银行 N26</title><link>https://www.bitbitking.com/zh-cn/posts/n26/</link><pubDate>Thu, 17 Aug 2023 00:21:38 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/n26/</guid><description>如何注册德国虚拟银行 N26 众所周知，在币圈，出入金是一件特别重要的事，而且还挺复杂的，所以呢接下来我会出一系列教程，去帮助大家解决这个问题 今天首</description><content type="html"><![CDATA[<p>如何注册德国虚拟银行 N26</p>
+]]></content></item><item><title>如何注册德国虚拟银行 N26</title><link>https://www.bitbitking.com/zh-cn/posts/n26/</link><pubDate>Thu, 17 Aug 2023 00:21:38 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/n26/</guid><description>&lt;p>如何注册德国虚拟银行 N26&lt;/p>
+&lt;p>众所周知，在币圈，出入金是一件特别重要的事，而且还挺复杂的，所以呢接下来我会出一系列教程，去帮助大家解决这个问题&lt;/p>
+&lt;p>今天首先来看一下这个N26银行，它其实是一个虚拟银行，我们一起看一下N26的注册及KYC流程&lt;/p></description><content type="html"><![CDATA[<p>如何注册德国虚拟银行 N26</p>
 <p>众所周知，在币圈，出入金是一件特别重要的事，而且还挺复杂的，所以呢接下来我会出一系列教程，去帮助大家解决这个问题</p>
 <p>今天首先来看一下这个N26银行，它其实是一个虚拟银行，我们一起看一下N26的注册及KYC流程</p>
 <p>步骤1：注册并下载N26应用</p>
@@ -215,11 +249,14 @@ services:
 恭喜！您现在已经成功注册了N26账户。您可以在应用中查看您的账户余额、进行转账、支付和管理您的财务。</p>
 <p>总的来说，注册N26账户是一个简单而迅速的过程。通过手机应用，您可以在短时间内拥有一个现代化的在线银行账户，享受更加便捷的银行服务，整个过程可能会有些复杂，可以看我频道里的视频有详细的逐步实操注册流程，看完应该就会很清晰了。</p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/hUvVhQsbmeg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
 
-]]></content></item><item><title>探索Web3时代的全民基本收入（UBI）</title><link>https://www.bitbitking.com/zh-cn/posts/what-is-ubi/</link><pubDate>Mon, 14 Aug 2023 17:12:46 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/what-is-ubi/</guid><description>在不断发展的技术进步推动下，全民基本收入（UBI）的概念已经成为解决经济差距、赋予个人权力的潜在解决方案。随着Web3和区块链技术的出现，实</description><content type="html"><![CDATA[<p>在不断发展的技术进步推动下，全民基本收入（UBI）的概念已经成为解决经济差距、赋予个人权力的潜在解决方案。随着Web3和区块链技术的出现，实施更高效和包容性的UBI的可能性日益凸显。让我们踏上一段旅程，了解什么是UBI，其潜在的好处，以及它如何与Web3领域相交融。</p>
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/hUvVhQsbmeg?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content></item><item><title>探索Web3时代的全民基本收入（UBI）</title><link>https://www.bitbitking.com/zh-cn/posts/what-is-ubi/</link><pubDate>Mon, 14 Aug 2023 17:12:46 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/what-is-ubi/</guid><description>&lt;p>在不断发展的技术进步推动下，全民基本收入（UBI）的概念已经成为解决经济差距、赋予个人权力的潜在解决方案。随着Web3和区块链技术的出现，实施更高效和包容性的UBI的可能性日益凸显。让我们踏上一段旅程，了解什么是UBI，其潜在的好处，以及它如何与Web3领域相交融。&lt;/p></description><content type="html"><![CDATA[<p>在不断发展的技术进步推动下，全民基本收入（UBI）的概念已经成为解决经济差距、赋予个人权力的潜在解决方案。随着Web3和区块链技术的出现，实施更高效和包容性的UBI的可能性日益凸显。让我们踏上一段旅程，了解什么是UBI，其潜在的好处，以及它如何与Web3领域相交融。</p>
 <h3 id="什么是ubi">什么是UBI？</h3>
 <p>从根本上讲，全民基本收入是一个革命性的想法，建议一个国家的每个公民都应该从政府获得定期和无条件的支付，无论他们的收入、就业状况或其他因素如何。想象一个世界，个人拥有一个安全网，一个确保满足其基本需求的财务垫子，使他们可以追求他们的热情、教育和创业努力，而不必担心贫困。</p>
 <h3 id="web3革命">Web3革命</h3>
@@ -236,7 +273,14 @@ services:
 <p>在Web3时代，全民基本收入以一种新的形式出现，利用区块链的能力创造一个更加公平和透明的社会。它设想了一个未来，经济赋能被民主化，个人可以在没有财务不安全感的限制下探索他们的热情、教育和创业追求。在我们探索UBI与Web3的交汇点时，有一点变得很清楚：积极变革的潜力是无限的。</p>
 <h3 id="结论">结论</h3>
 <p>UBI和Web3代表了两个能够改变我们世界的革命性理念。通过利用区块链和分散式技术的力量，UBI可能成为一种能够赋予个人权力、减少不平等、培养更强社区意识的现实。在我们前进的过程中，拥抱可能性并解决挑战是至关重要的，为一个经济福祉对所有人都可达到的未来铺平道路。</p>
-]]></content></item><item><title>OKX lifeform 空投教程</title><link>https://www.bitbitking.com/zh-cn/posts/okx-lifeform/</link><pubDate>Mon, 07 Aug 2023 09:48:27 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/okx-lifeform/</guid><description>Lifeform空投和OKX欧易合作了，直接上干货： 没OKX交易所的下载，还可以领盲盒，有的把APP更新到最新版本： https://tinyurl.com/Okx2022 最上方点击Web3钱包</description><content type="html"><![CDATA[<p>Lifeform空投和OKX欧易合作了，直接上干货：</p>
+]]></content></item><item><title>OKX lifeform 空投教程</title><link>https://www.bitbitking.com/zh-cn/posts/okx-lifeform/</link><pubDate>Mon, 07 Aug 2023 09:48:27 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/okx-lifeform/</guid><description>&lt;p>Lifeform空投和OKX欧易合作了，直接上干货：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>没OKX交易所的下载，还可以领盲盒，有的把APP更新到最新版本：
+&lt;a href="https://tinyurl.com/Okx2022">https://tinyurl.com/Okx2022&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>最上方点击Web3钱包，没有的可以创建一个无私钥钱包，然后下面点击「发现」 到推荐频道，可以看到Cryptopedia里面第一个就是Lifeform的空投，不是的往后面划一下。&lt;/p></description><content type="html"><![CDATA[<p>Lifeform空投和OKX欧易合作了，直接上干货：</p>
 <ul>
 <li>
 <p>没OKX交易所的下载，还可以领盲盒，有的把APP更新到最新版本：
@@ -270,7 +314,7 @@ services:
 <p><img src="https://mirror.xyz/_next/image?url=https%3A%2F%2Fimages.mirror-media.xyz%2Fpublication-images%2FASr1VcbzsfukQ4lW3yacI.jpg&w=3840&q=75"></p>
 <p>注意完成后所有的NFT盒子不要卖，快照是根据盒子数量算的，等着官方通知，看自己的钱包地址就行了，如果想看非OKX的交互也可以看频道视频 ↓</p>
 <p><a href="https://youtu.be/xD2CuHcj1VM?si=4DZa_MksS8tVSA-7" title="Lifeform 空投"><img alt="Lifeform 空投" src="https://i.ytimg.com/vi/xD2CuHcj1VM/maxresdefault.jpg"></a></p>
-]]></content></item><item><title>Google为什么禁用我的帐户</title><link>https://www.bitbitking.com/zh-cn/posts/google-account-has-been-disabled/</link><pubDate>Thu, 27 Jul 2023 02:46:55 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/google-account-has-been-disabled/</guid><description>由于咱们撸毛撸空投的小伙伴肯定各种账号都要养一大堆，肯定遇到过各种封禁的事件，在防项目方女巫的同时，也要防被社交平台等封账号的情况，比如Go</description><content type="html"><![CDATA[<p>由于咱们撸毛撸空投的小伙伴肯定各种账号都要养一大堆，肯定遇到过各种封禁的事件，在防项目方女巫的同时，也要防被社交平台等封账号的情况，比如Google就是这里面比较重要的一个环节，肯定会有人遇到 your account has been disabled 这个提示，虽然它让你联系官方，但还是算了吧，遇到这样只能换一个账号，可能综合成本还低些，前提是很多重要的内容或平台不要绑定就好了，首先要避免这种情况就要知道为什么Google禁用我的帐户?</p>
+]]></content></item><item><title>Google为什么禁用我的帐户</title><link>https://www.bitbitking.com/zh-cn/posts/google-account-has-been-disabled/</link><pubDate>Thu, 27 Jul 2023 02:46:55 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/google-account-has-been-disabled/</guid><description>&lt;p>由于咱们撸毛撸空投的小伙伴肯定各种账号都要养一大堆，肯定遇到过各种封禁的事件，在防项目方女巫的同时，也要防被社交平台等封账号的情况，比如Google就是这里面比较重要的一个环节，肯定会有人遇到 your account has been disabled 这个提示，虽然它让你联系官方，但还是算了吧，遇到这样只能换一个账号，可能综合成本还低些，前提是很多重要的内容或平台不要绑定就好了，首先要避免这种情况就要知道为什么Google禁用我的帐户?&lt;/p></description><content type="html"><![CDATA[<p>由于咱们撸毛撸空投的小伙伴肯定各种账号都要养一大堆，肯定遇到过各种封禁的事件，在防项目方女巫的同时，也要防被社交平台等封账号的情况，比如Google就是这里面比较重要的一个环节，肯定会有人遇到 your account has been disabled 这个提示，虽然它让你联系官方，但还是算了吧，遇到这样只能换一个账号，可能综合成本还低些，前提是很多重要的内容或平台不要绑定就好了，首先要避免这种情况就要知道为什么Google禁用我的帐户?</p>
 <h2 id="google为什么禁用我的帐户">Google为什么禁用我的帐户?</h2>
 <p>Google这样做的原因有很多,我尽量列一些主要的原因：</p>
 <ol>
@@ -294,12 +338,14 @@ services:
 <p>上面提到的工具，都整理在一起了：</p>
 <p>币圈工具集大全：<a href="https://bit.ly/Crypto-Tools">https://bit.ly/Crypto-Tools</a></p>
 <p>币圈必备工具精选：<a href="http://bit.ly/bbk-tools-Featured">http://bit.ly/bbk-tools-Featured</a></p>
-]]></content></item><item><title>什么是XRP的tag/memo标签</title><link>https://www.bitbitking.com/zh-cn/posts/xrp-tag/</link><pubDate>Mon, 24 Jul 2023 23:04:02 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/xrp-tag/</guid><description>相信大家都知道 XRP 的tag/memo是什么，标签是在转账时用于识别中心化交易所背后具体的接收人是谁的，所以在由自己的钱包转到交易所时必须要填写</description><content type="html"><![CDATA[<p>相信大家都知道 XRP 的tag/memo是什么，标签是在转账时用于识别中心化交易所背后具体的接收人是谁的，所以在由自己的钱包转到交易所时必须要填写这个 tag/memo，否则虽然资产转过去了，但不会入账自己的交易所账户。</p>
+]]></content></item><item><title>什么是XRP的tag/memo标签</title><link>https://www.bitbitking.com/zh-cn/posts/xrp-tag/</link><pubDate>Mon, 24 Jul 2023 23:04:02 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/xrp-tag/</guid><description>&lt;p>相信大家都知道 XRP 的tag/memo是什么，标签是在转账时用于识别中心化交易所背后具体的接收人是谁的，所以在由自己的钱包转到交易所时必须要填写这个 tag/memo，否则虽然资产转过去了，但不会入账自己的交易所账户。&lt;/p></description><content type="html"><![CDATA[<p>相信大家都知道 XRP 的tag/memo是什么，标签是在转账时用于识别中心化交易所背后具体的接收人是谁的，所以在由自己的钱包转到交易所时必须要填写这个 tag/memo，否则虽然资产转过去了，但不会入账自己的交易所账户。</p>
 <p>如果不小心填错或忘记填写也不用慌，联系交易所客服索要申请地址，填写相应信息，就能够找回。</p>
 <p>但还有另一个冷知识今天要分享下，钱包到交易所需要tag/memo，但是交易所到自己的硬件钱包或小狐狸等是不需要这个 tag/memo 的，之前交易所都没问题，但最近用okx（欧易交易所）发现，他这个设计有点反人性，没有任何有用提示，就只显示提现地址无效。
 尝试着加地址白名单也不行，其实在产品设计允许为空就好了，但他既然没有这么设计，就只能自己想办法了，随便填了个数字1居然真的就过了。
 经过网上查找解决方案，其实只需要在 tag/memo标签随意填写一个 0 到 4294967295 数字就可以了，就是这么简单！</p>
-]]></content></item><item><title>如何出金避免冻卡，避免OTC风险必备神器</title><link>https://www.bitbitking.com/zh-cn/posts/onecard2023/</link><pubDate>Sat, 22 Apr 2023 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/onecard2023/</guid><description>出金不用担心冻卡啦~ 趁着目前容易可以撸一张 之前说服务器问题不能注册的可以重新试下现在可以了 大陆可以正常申请及使用的虚拟信用卡，支持支付宝微信</description><content type="html"><![CDATA[<p>出金不用担心冻卡啦~ 趁着目前容易可以撸一张</p>
+]]></content></item><item><title>如何出金避免冻卡，避免OTC风险必备神器</title><link>https://www.bitbitking.com/zh-cn/posts/onecard2023/</link><pubDate>Sat, 22 Apr 2023 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/onecard2023/</guid><description>&lt;p>出金不用担心冻卡啦~ 趁着目前容易可以撸一张&lt;/p>
+&lt;p>之前说服务器问题不能注册的可以重新试下现在可以了&lt;/p>
+&lt;p>大陆可以正常申请及使用的虚拟信用卡，支持支付宝微信支付等，小额免手续费。&lt;/p></description><content type="html"><![CDATA[<p>出金不用担心冻卡啦~ 趁着目前容易可以撸一张</p>
 <p>之前说服务器问题不能注册的可以重新试下现在可以了</p>
 <p>大陆可以正常申请及使用的虚拟信用卡，支持支付宝微信支付等，小额免手续费。</p>
 <p>首先用google登录</p>
@@ -313,7 +359,7 @@ services:
 <p>详细的介绍及使用：<a href="https://youtu.be/-4qxLaCEQF0">https://youtu.be/-4qxLaCEQF0</a></p>
 <p>详细注册教程：<a href="http://bit.ly/bbk-tools-Featured">http://bit.ly/bbk-tools-Featured</a></p>
 <p>已不允许内地KYC，建议注册最新的虚拟信用卡：<a href="https://bit.ly/dupay">https://bit.ly/dupay</a></p>
-]]></content></item><item><title>如何选购优质nft项目</title><link>https://www.bitbitking.com/zh-cn/posts/nfthow/</link><pubDate>Sun, 09 Apr 2023 02:18:47 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/nfthow/</guid><description>前些天，知名NFT平台opensea也推出了pro版本，现在NFT市场也比较火爆，相对之前表现的也成熟了一些，咱们今天就一起聊一下，如何选购</description><content type="html"><![CDATA[<p>前些天，知名NFT平台opensea也推出了pro版本，现在NFT市场也比较火爆，相对之前表现的也成熟了一些，咱们今天就一起聊一下，如何选购优质的NFT项目</p>
+]]></content></item><item><title>如何选购优质nft项目</title><link>https://www.bitbitking.com/zh-cn/posts/nfthow/</link><pubDate>Sun, 09 Apr 2023 02:18:47 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/nfthow/</guid><description>&lt;p>前些天，知名NFT平台opensea也推出了pro版本，现在NFT市场也比较火爆，相对之前表现的也成熟了一些，咱们今天就一起聊一下，如何选购优质的NFT项目&lt;/p></description><content type="html"><![CDATA[<p>前些天，知名NFT平台opensea也推出了pro版本，现在NFT市场也比较火爆，相对之前表现的也成熟了一些，咱们今天就一起聊一下，如何选购优质的NFT项目</p>
 <p>NFT（Non-Fungible Token，非同质化代币）市场是一个快速发展的领域，这里有很多不同类型的项目。现在的发展，NFT已经不是随便发一个图片就可以的了，所以为了选购优质NFT项目，以下是目前总结的十点建议，我认为都吧比较重要，能帮助大家更好的选择NFT项目：</p>
 <ol>
 <li>研究团队和背景：优秀的NFT项目通常由一支富有经验和技能的团队创立，而这些团队通常拥有很强的背景和声誉。要花时间研究团队成员的经验和历史记录，了解他们在过去的项目中的表现如何。</li>
@@ -328,13 +374,14 @@ services:
 <li>工欲善其事，必先利其器，我们一定要善用工具，我也会把发现的比较好用的工具，及时整理给大家。比如说，之前说的opeanseapro就是gem的升级版。还有这里的一些常用nft工具，使用也比较简单，放在这里大家使用就可以，如果想了解详细如何使用也可以评论告诉我，再单独出视频给大家讲解。</li>
 </ol>
 <p>总之，选购优质NFT项目需要全面考虑各种因素，并且需要持续跟踪项目的发展。要仔细研究项目的团队、目标、实用性、社区、市场趋势、技术方案、合作伙伴、收益机制和风险等等。只有这样，才能找到真正优质的NFT项目，并且获得良好的投资回报。</p>
-]]></content></item><item><title>什么是 MEV</title><link>https://www.bitbitking.com/zh-cn/posts/whatismev/</link><pubDate>Wed, 05 Apr 2023 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatismev/</guid><description>今天我们来聊一下什么是MEV，全称：Maximal Extractable Value，也就是最大化以太坊价值的收益。 随着加密货币的流行，以太坊成为了最流行的区块链</description><content type="html"><![CDATA[<p>今天我们来聊一下什么是MEV，全称：Maximal Extractable Value，也就是最大化以太坊价值的收益。</p>
+]]></content></item><item><title>什么是 MEV</title><link>https://www.bitbitking.com/zh-cn/posts/whatismev/</link><pubDate>Wed, 05 Apr 2023 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatismev/</guid><description>&lt;p>今天我们来聊一下什么是MEV，全称：Maximal Extractable Value，也就是最大化以太坊价值的收益。&lt;/p>
+&lt;p>随着加密货币的流行，以太坊成为了最流行的区块链之一。而MEV是指在以太坊网络上通过交易获得的最大价值。这个价值的来源来自于闪电贷、套利、操纵价格等操作。&lt;/p></description><content type="html"><![CDATA[<p>今天我们来聊一下什么是MEV，全称：Maximal Extractable Value，也就是最大化以太坊价值的收益。</p>
 <p>随着加密货币的流行，以太坊成为了最流行的区块链之一。而MEV是指在以太坊网络上通过交易获得的最大价值。这个价值的来源来自于闪电贷、套利、操纵价格等操作。</p>
 <p>在以太坊交易中，交易矿工可以通过重新排序、包装交易来获得MEV收益。比如，在交易前先买入相关的代币，然后在交易后再卖出这些代币，就可以通过价格差赚取收益。</p>
 <p>另外，闪电贷也是MEV的一种形式。闪电贷是指通过借贷和交易，在几秒钟内完成交易，从而在市场上获得巨额收益。这种操作需要快速完成，并且需要在交易被确认之前进行。因此，矿工可以通过快速打包闪电贷交易来获得MEV收益。</p>
 <p>除此之外，还有一种叫做“操纵”操作的方式。这种操作是指在交易中买入一种代币，然后在同一交易中将该代币卖出。这样可以让其他交易者认为代币价格下跌，从而通过大量卖出来实现操纵价格的目的。然后矿工可以通过收取这些交易的费用来获得MEV收益。</p>
 <p>总之，MEV是以太坊网络上的一种新型收益方式，它需要交易矿工通过一些特殊的操作来获取。希望这个视频能够帮助大家更好地理解MEV的概念。</p>
-]]></content></item><item><title>2023年如何投资加密货币 | 完整初学者指南</title><link>https://www.bitbitking.com/zh-cn/posts/crypto-tutorial-2023/</link><pubDate>Thu, 02 Mar 2023 01:37:33 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/crypto-tutorial-2023/</guid><description>在web3.0时代，加密货币越来越受到人们的关注，因为它们提供了一种去中心化的、安全的、透明的支付方式。如果您是一个初学者并想了解如何在20</description><content type="html"><![CDATA[<p>在web3.0时代，加密货币越来越受到人们的关注，因为它们提供了一种去中心化的、安全的、透明的支付方式。如果您是一个初学者并想了解如何在2023年投资加密货币，这期视频就是一个非常适合你，简单明了的指南：</p>
+]]></content></item><item><title>2023年如何投资加密货币 | 完整初学者指南</title><link>https://www.bitbitking.com/zh-cn/posts/crypto-tutorial-2023/</link><pubDate>Thu, 02 Mar 2023 01:37:33 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/crypto-tutorial-2023/</guid><description>&lt;p>在web3.0时代，加密货币越来越受到人们的关注，因为它们提供了一种去中心化的、安全的、透明的支付方式。如果您是一个初学者并想了解如何在2023年投资加密货币，这期视频就是一个非常适合你，简单明了的指南：&lt;/p></description><content type="html"><![CDATA[<p>在web3.0时代，加密货币越来越受到人们的关注，因为它们提供了一种去中心化的、安全的、透明的支付方式。如果您是一个初学者并想了解如何在2023年投资加密货币，这期视频就是一个非常适合你，简单明了的指南：</p>
 <h2 id="步骤-1了解加密货币">步骤 1：了解加密货币</h2>
 <p>在投资加密货币之前，首先需要了解什么是加密货币。它们是一种数字资产，使用区块链，加密技术进行安全交易。比特币是最著名的加密货币之一，但现在有很多其他选择，如以太坊等。在这里我整理了一些有潜力的币种。</p>
 <h2 id="步骤-2选择加密货币交易所">步骤 2：选择加密货币交易所</h2>
@@ -349,11 +396,14 @@ services:
 <p>最后再说一下币圈真理，DYOR，只有Do your own research，做你自己的研究，才能更好的在币圈生存，穿越牛熊。</p>
 <p>今天的内容就到这里，我会持续分享币圈及web3相关的知识，感谢大家支持!</p>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/Wr2ae7ZrpJI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
-</div>
 
-]]></content></item><item><title>币圈新人如何撸毛，2023撸空投指南</title><link>https://www.bitbitking.com/zh-cn/posts/airdrop-tutorial-2023/</link><pubDate>Wed, 02 Nov 2022 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/airdrop-tutorial-2023/</guid><description>币圈每年都有很多项目，让身边人实现暴富神话，是的，不是传说，在几乎没有投入的情况下，简直就是天上撒币一般的幸运，相比交易这种体力活，撸毛似乎</description><content type="html"><![CDATA[<p>币圈每年都有很多项目，让身边人实现暴富神话，是的，不是传说，在几乎没有投入的情况下，简直就是天上撒币一般的幸运，相比交易这种体力活，撸毛似乎是个风险更低，回报有可能更多的行为，具体是什么行为呢？一般来说就是参与项目或社区的早期建设，然后以无成本或低成本获得项目方奖励，当然需要先了解一些基本的知识并准备一些基本工具。</p>
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Wr2ae7ZrpJI?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+]]></content></item><item><title>币圈新人如何撸毛，2023撸空投指南</title><link>https://www.bitbitking.com/zh-cn/posts/airdrop-tutorial-2023/</link><pubDate>Wed, 02 Nov 2022 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/airdrop-tutorial-2023/</guid><description>&lt;p>币圈每年都有很多项目，让身边人实现暴富神话，是的，不是传说，在几乎没有投入的情况下，简直就是天上撒币一般的幸运，相比交易这种体力活，撸毛似乎是个风险更低，回报有可能更多的行为，具体是什么行为呢？一般来说就是参与项目或社区的早期建设，然后以无成本或低成本获得项目方奖励，当然需要先了解一些基本的知识并准备一些基本工具。&lt;/p></description><content type="html"><![CDATA[<p>币圈每年都有很多项目，让身边人实现暴富神话，是的，不是传说，在几乎没有投入的情况下，简直就是天上撒币一般的幸运，相比交易这种体力活，撸毛似乎是个风险更低，回报有可能更多的行为，具体是什么行为呢？一般来说就是参与项目或社区的早期建设，然后以无成本或低成本获得项目方奖励，当然需要先了解一些基本的知识并准备一些基本工具。</p>
 <h2 id="一工具">一.工具</h2>
 <ol>
 <li>首先需要相信科学，你懂的，如果不懂科学，你就只能当一只井底之蛙。</li>
@@ -390,7 +440,8 @@ services:
 <li>Github：https://github.com/BitBitKing</li>
 <li>BBK：http://www.bitbitking.com</li>
 </ul>
-]]></content></item><item><title>什么是多重签名钱包</title><link>https://www.bitbitking.com/zh-cn/posts/multisig-wallet/</link><pubDate>Mon, 24 Oct 2022 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/multisig-wallet/</guid><description>什么是多重签名钱包（Multisig Wallet）？ Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两</description><content type="html"><![CDATA[<h2 id="什么是多重签名钱包multisig-wallet">什么是多重签名钱包（Multisig Wallet）？</h2>
+]]></content></item><item><title>什么是多重签名钱包</title><link>https://www.bitbitking.com/zh-cn/posts/multisig-wallet/</link><pubDate>Mon, 24 Oct 2022 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/multisig-wallet/</guid><description>&lt;h2 id="什么是多重签名钱包multisig-wallet">什么是多重签名钱包（Multisig Wallet）？&lt;/h2>
+&lt;p>Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两个以上用户作为一组来签署文档。因此，多重签名则通过多个单一签名的组合来产生。现在多重签名技术已经应用于加密货币世界，而其实这一原理其实早在比特币诞生之前就存在了。&lt;/p></description><content type="html"><![CDATA[<h2 id="什么是多重签名钱包multisig-wallet">什么是多重签名钱包（Multisig Wallet）？</h2>
 <p>Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两个以上用户作为一组来签署文档。因此，多重签名则通过多个单一签名的组合来产生。现在多重签名技术已经应用于加密货币世界，而其实这一原理其实早在比特币诞生之前就存在了。</p>
 <p>加密货币背景下的多重签名技术，在2012年第一次被用于比特币地址，而一年之后此次应用则催生出了多重签名钱包。多重签名地址可以在不同环境中使用，但大多情况都是用于与安全问题有关的领域。而本文我们将讨论该技术在加密货币钱包中的使用。</p>
 <h2 id="如何运行">如何运行？</h2>
@@ -421,7 +472,10 @@ services:
 <p>此外，由于区块链和多重签名地址都是相对较新的技术，所以如果出现问题可能很难找到适用的法律来解决。在共享钱包中（具有多个密钥持有）存入的资金很难找到合法托管人。</p>
 <h2 id="总结">总结</h2>
 <p>尽管多重签名其拿包含些许不足之处，但其还是有众多令人满意的实际应用，它使得比特币和其他加密货币在商业中更具实用性。其由于要求多个签名来完成资金转移，使得多重签名钱包提供了更高的安全性，并允许了互不信任方的第三方托管交易，诸如此类的优势或将使得该技术在未来得到更广泛的应用。</p>
-]]></content></item><item><title>致Web3创始人-想要取得成功，这28条原则应谨记</title><link>https://www.bitbitking.com/zh-cn/posts/web328/</link><pubDate>Sun, 23 Oct 2022 03:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/web328/</guid><description>这是我在过去4年中，通过100多次对话和加密货币投资中提炼出的见解，关于 Web3 创始人的28条原则： 项目在精不在多，专注于一个项目并努力使它能够创</description><content type="html"><![CDATA[<p>这是我在过去4年中，通过100多次对话和加密货币投资中提炼出的见解，关于 Web3 创始人的28条原则：</p>
+]]></content></item><item><title>致Web3创始人-想要取得成功，这28条原则应谨记</title><link>https://www.bitbitking.com/zh-cn/posts/web328/</link><pubDate>Sun, 23 Oct 2022 03:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/web328/</guid><description>&lt;p>这是我在过去4年中，通过100多次对话和加密货币投资中提炼出的见解，关于 Web3 创始人的28条原则：&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>项目在精不在多，专注于一个项目并努力使它能够创造出10倍或更大的价值。&lt;/p></description><content type="html"><![CDATA[<p>这是我在过去4年中，通过100多次对话和加密货币投资中提炼出的见解，关于 Web3 创始人的28条原则：</p>
 <ol>
 <li>
 <p>项目在精不在多，专注于一个项目并努力使它能够创造出10倍或更大的价值。</p>
@@ -508,7 +562,7 @@ services:
 <p>早期投资者和用户是社区的基础，调整你的行动以吸引你想要的用户类型。</p>
 </li>
 </ol>
-]]></content></item><item><title>什么是PoP</title><link>https://www.bitbitking.com/zh-cn/posts/whatispop/</link><pubDate>Tue, 11 Oct 2022 03:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatispop/</guid><description>参与证明（PoP）是一种相当未知的共识算法。尽管如此，已经有几个区块链使用了这种算法。要了解此类区块链的工作原理，首先要了解区块链共识算法的</description><content type="html"><![CDATA[<p>参与证明（PoP）是一种相当未知的共识算法。尽管如此，已经有几个区块链使用了这种算法。要了解此类区块链的工作原理，首先要了解区块链共识算法的工作原理。我们将向您解释什么是参与证明以及这种共识算法是如何工作的。</p>
+]]></content></item><item><title>什么是PoP</title><link>https://www.bitbitking.com/zh-cn/posts/whatispop/</link><pubDate>Tue, 11 Oct 2022 03:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatispop/</guid><description>&lt;p>参与证明（PoP）是一种相当未知的共识算法。尽管如此，已经有几个区块链使用了这种算法。要了解此类区块链的工作原理，首先要了解区块链共识算法的工作原理。我们将向您解释什么是参与证明以及这种共识算法是如何工作的。&lt;/p></description><content type="html"><![CDATA[<p>参与证明（PoP）是一种相当未知的共识算法。尽管如此，已经有几个区块链使用了这种算法。要了解此类区块链的工作原理，首先要了解区块链共识算法的工作原理。我们将向您解释什么是参与证明以及这种共识算法是如何工作的。</p>
 <p>开发参与证明的原因
 大多数区块链使用工作证明（PoW）共识算法。该算法允许网络中的所有参与者一起工作以使区块链运行。PoW 算法涉及矿工以最快的速度验证所有交易，以便他可以将新块添加到区块链。为此，矿工获得奖励。</p>
 <p>另一种著名的算法是权益证明 (PoS)，其中选择了一个验证者来验证交易并将区块添加到区块链中。选择是根据他投入的金额来完成的。这称为赌注，类似于存款。赌注越高，验证者被选中的机会就越大。</p>
@@ -539,22 +593,25 @@ Proof of Participation 的最大优势是任何人都可以参与验证交易，
 <p>在股权证明中，参与者将根据他们投入的股权进行选择。参与证明网络中的参与者也会受到评判，而不是根据他们下注的金额。相反，他们是根据他们提供的工作质量来评判的。</p>
 <p>另一个区别是权益证明网络中的参与者在工作不佳时会赔钱。起初，他们会被罚款，但如果重复某些错误，网络可能会选择拿走所有的钱并将其从网络中删除。</p>
 <p>参与证明网络不会对错误处以罚款，但会降低参与者的分数。当分数达到一定水平时，参与者将被从网络中移除。这最终不会花费任何金钱。但是，参与者在未来将永远无法参与区块链网络。</p>
-]]></content></item><item><title>Web 3.0 和区块链开发者路线图 — 循序渐进</title><link>https://www.bitbitking.com/zh-cn/posts/web3development/</link><pubDate>Mon, 10 Oct 2022 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/web3development/</guid><description>币圈最近重大事件比较多，沉寂多年的门头沟终于有下文了。可能会对比特币价格产生重大影响。 最新的消息，Mt. Gox 的还款日期再次推迟到 9 月中旬；之前</description><content type="html"><![CDATA[<p>币圈最近重大事件比较多，沉寂多年的门头沟终于有下文了。可能会对比特币价格产生重大影响。 最新的消息，Mt. Gox 的还款日期再次推迟到 9 月中旬；之前定的是8 月下旬，门头沟要向交易平台被黑的客户支付超过 137,000 比特币 ( BTC )。</p>
+]]></content></item><item><title>Web 3.0 和区块链开发者路线图 — 循序渐进</title><link>https://www.bitbitking.com/zh-cn/posts/web3development/</link><pubDate>Mon, 10 Oct 2022 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/web3development/</guid><description>&lt;p>币圈最近重大事件比较多，沉寂多年的门头沟终于有下文了。可能会对比特币价格产生重大影响。 最新的消息，Mt. Gox 的还款日期再次推迟到 9 月中旬；之前定的是8 月下旬，门头沟要向交易平台被黑的客户支付超过 137,000 比特币 ( BTC )。&lt;/p></description><content type="html"><![CDATA[<p>币圈最近重大事件比较多，沉寂多年的门头沟终于有下文了。可能会对比特币价格产生重大影响。 最新的消息，Mt. Gox 的还款日期再次推迟到 9 月中旬；之前定的是8 月下旬，门头沟要向交易平台被黑的客户支付超过 137,000 比特币 ( BTC )。</p>
 <p>8月31日在平台网站上发布的最新公开文件显示，“转让等限制参考期”已被法院受理，从9月15日开始，到一个未定义的期限结束。15号这个日子非常有意思，之后这是币圈史上最重要的日子之一，他赶上了和ETH2.0合并升级是同一天，所有事都赶一起了，看看是BTC被砸盘，还是ETH被拉升呢。</p>
 <p>值得注意的是，这并不意味着支付将从 2022 年 9 月 15 日（日本时间）开始。 这一还款过程据说可能“持续数月甚至数年”。 大家也担心门头沟支付对加密货币市场的影。由于比特币现在正在经历动荡的活动，人们担心 Mt. Gox 的客户会出售他们回收的 BTC，从而导致更多的市场大幅下跌。</p>
 <p>但也有很多变数 他们提交注册请求时，债权人可以选择以部分一次性付款的形式提早收到他们的比特币，或者等到民事修复程序结束，此时将有更多资金用于分配。看他们怎么去选择，我相信每个人的选择都会不一样。并不会一次突然的砸盘，可能会持续几年，在整个市场大范围稀释下，行情不会很夸张，除非有人借机搞事情。</p>
 <p>所以说，大家也不用过于恐慌，已经是熊市了，还能熊哪去，就按照我之前说的定投策略，咱们在他逢低就定投就ok了，越跌不就越是进场好时机么，而且现在BTC价格这么低，我相信拿到手的也会持续持仓，肯定希望在一个好的价格点在变现。</p>
-]]></content></item><item><title>什么是去中心化身份 DID(Decentralized ID)</title><link>https://www.bitbitking.com/zh-cn/posts/whatisdid/</link><pubDate>Mon, 10 Oct 2022 03:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatisdid/</guid><description>什么是去中心化身份(DID,Decentralized ID)？ 现在， 想象一下在不同的应用程序和平台之间移动时不必每次都登录。想象一下，不检查</description><content type="html"><![CDATA[<p>什么是去中心化身份(DID,Decentralized ID)？</p>
+]]></content></item><item><title>什么是去中心化身份 DID(Decentralized ID)</title><link>https://www.bitbitking.com/zh-cn/posts/whatisdid/</link><pubDate>Mon, 10 Oct 2022 03:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatisdid/</guid><description>&lt;p>什么是去中心化身份(DID,Decentralized ID)？&lt;/p>
+&lt;p>现在， 想象一下在不同的应用程序和平台之间移动时不必每次都登录。想象一下，不检查您的手机进行双重身份验证。想象一下，不必担心数据泄露的不可避免性。随着我们从 Web2 迁移到 Web3，去中心化身份解决方案提供了一个无缝体验的网关，用户可以轻松安全地在不同平台之间穿梭。&lt;/p></description><content type="html"><![CDATA[<p>什么是去中心化身份(DID,Decentralized ID)？</p>
 <p>现在， 想象一下在不同的应用程序和平台之间移动时不必每次都登录。想象一下，不检查您的手机进行双重身份验证。想象一下，不必担心数据泄露的不可避免性。随着我们从 Web2 迁移到 Web3，去中心化身份解决方案提供了一个无缝体验的网关，用户可以轻松安全地在不同平台之间穿梭。</p>
 <p>去中心化的概念是 Web3 技术的核心原则。去中心化为用户提供了对自己数据的所有权、访问权和控制权，而无需依赖大型科技中介。</p>
 <p>这种去中心化的概念也可以应用于身份的存储和验证方式。用户无需依赖第三方服务器，而是可以完全控制仅存储在钱包中的个人信息。</p>
 <p>建立在区块链技术上的数字钱包提供了一种安全的方式，可以在您的设备上上传由受信任机构确认的验证信息，而无需依赖第三方。</p>
 <p>除了在区块链上安全加密之外，当证明某事是真的时，关于用户的其他信息不会转发给其他人——这个概念被称为零知识证明 (ZKP)。有了这样的技术和安全性，用户将能够通过点击以前需要大量文书工作的按钮来访问商品和服务。</p>
 <p>通过无缝验证您的信用记录和存储在您的数字钱包中的就业证明，确定您是否有资格获得贷款或抵押贷款将变得更加容易。通过数字收据和医疗记录，保险公司的报销将变得简单。将您的教育历史和课外成就存储在您的数字钱包中，可以更快地申请大学。这些是有形的、真实的用例，将提供更高效和有效的流程。</p>
-]]></content></item><item><title>币安链BSC被攻击，损失达数亿美元</title><link>https://www.bitbitking.com/zh-cn/posts/binance-bsc-attack/</link><pubDate>Fri, 07 Oct 2022 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/binance-bsc-attack/</guid><description>《华尔街日报》10月7日消息，加密货币交易所币安当地时间周四晚些时候表示，币安智能链（Binance Smart Chain）区块链网络遭黑客攻击，可能</description><content type="html"><![CDATA[<p>《华尔街日报》10月7日消息，加密货币交易所币安当地时间周四晚些时候表示，币安智能链（Binance Smart Chain）区块链网络遭黑客攻击，可能导致1亿美元被盗。</p>
+]]></content></item><item><title>币安链BSC被攻击，损失达数亿美元</title><link>https://www.bitbitking.com/zh-cn/posts/binance-bsc-attack/</link><pubDate>Fri, 07 Oct 2022 05:00:00 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/binance-bsc-attack/</guid><description>&lt;p>《华尔街日报》10月7日消息，加密货币交易所币安当地时间周四晚些时候表示，币安智能链（Binance Smart Chain）区块链网络遭黑客攻击，可能导致1亿美元被盗。&lt;/p></description><content type="html"><![CDATA[<p>《华尔街日报》10月7日消息，加密货币交易所币安当地时间周四晚些时候表示，币安智能链（Binance Smart Chain）区块链网络遭黑客攻击，可能导致1亿美元被盗。</p>
 <p>在检测到其所说的两个区块链之间桥梁上的漏洞后，币安智能链已暂停交易和资金转移。币安CEO赵长鹏在推特上发文说，这个问题涉及跨链桥BSC Token Hub。跨链桥能够将数字资产和信息从一个独立的区块链转移到另一个区块链。</p>
 <p>赵长鹏表示：“这个问题现在得到了控制，客户的资金是安全的。”他对造成的不便表示歉意。币安一位发言人说，初步估计从币安智能链上取走的资金在1亿至1.1亿美元之间。根据CoinDesk的数据，币安币跌幅一度高达3.6%，至285.93美元。</p>
-]]></content></item><item><title>币安 Binance Launchpad 与 Binance Launchpool 主要区别</title><link>https://www.bitbitking.com/zh-cn/posts/binance-launchpad-launchpool/</link><pubDate>Sun, 02 Oct 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/binance-launchpad-launchpool/</guid><description>加密货币投资者可能一次又一次地听说过诸如启动板和启动池之类的术语。但是，币安 Launchpad 和 Launchpool 有什么区别？ 要了解关键差异，首先需要一点背景知识。 自四年前</description><content type="html"><![CDATA[<p>加密货币投资者可能一次又一次地听说过诸如启动板和启动池之类的术语。但是，币安 Launchpad 和 Launchpool 有什么区别？</p>
+]]></content></item><item><title>币安 Binance Launchpad 与 Binance Launchpool 主要区别</title><link>https://www.bitbitking.com/zh-cn/posts/binance-launchpad-launchpool/</link><pubDate>Sun, 02 Oct 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/binance-launchpad-launchpool/</guid><description>&lt;p>加密货币投资者可能一次又一次地听说过诸如启动板和启动池之类的术语。但是，币安 Launchpad 和 Launchpool 有什么区别？&lt;/p>
+&lt;p>要了解关键差异，首先需要一点背景知识。&lt;/p>
+&lt;p>自四年前推出以来，币安已发展成为主要的加密货币交易所之一。从一开始，该公司就积累了广泛的用户群，就交易量而言成为全球最受欢迎的加密货币交易所。&lt;/p></description><content type="html"><![CDATA[<p>加密货币投资者可能一次又一次地听说过诸如启动板和启动池之类的术语。但是，币安 Launchpad 和 Launchpool 有什么区别？</p>
 <p>要了解关键差异，首先需要一点背景知识。</p>
 <p>自四年前推出以来，币安已发展成为主要的加密货币交易所之一。从一开始，该公司就积累了广泛的用户群，就交易量而言成为全球最受欢迎的加密货币交易所。</p>
 <p>但是，Binance 只是一个加密货币交易所吗？</p>
@@ -624,7 +681,11 @@ Binance 上列出的每个项目都需要经过彻底的审核，然后才能被
 <p>数十万人也参与了 Binance Launchpool。这两个平台都没有隐藏费用，因此在启动板上托管的 IEO 与在启动池中的质押一样透明。</p>
 <p>更精明的投资者将有很多机会在这些平台中的任何一个上获得更大的回报。许多用户会想知道，“我如何进入启动池？”</p>
 <p>要开始使用启动池或启动板，首次使用的用户需要在 Binance 注册并创建一个客户帐户。用户可能还需要完成了解您的客户 (KYC) 验证才能加入。从那里，只需点击几下即可登录平台并检查任何正在进行的促销活动。</p>
-]]></content></item><item><title>N26，Wise注册认证有哪些坑，后续补充整个注册、认证流程</title><link>https://www.bitbitking.com/zh-cn/posts/n26-wise/</link><pubDate>Tue, 27 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/n26-wise/</guid><description>每一条都很重要，大家一定要认真听啊，吸取经验教训，不然会耽误很长时间，并且会额外付出金钱成本。 先说N26，比较简单，就是视频认证那里，我简单</description><content type="html"><![CDATA[<p>每一条都很重要，大家一定要认真听啊，吸取经验教训，不然会耽误很长时间，并且会额外付出金钱成本。</p>
+]]></content></item><item><title>N26，Wise注册认证有哪些坑，后续补充整个注册、认证流程</title><link>https://www.bitbitking.com/zh-cn/posts/n26-wise/</link><pubDate>Tue, 27 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/n26-wise/</guid><description>&lt;p>每一条都很重要，大家一定要认真听啊，吸取经验教训，不然会耽误很长时间，并且会额外付出金钱成本。&lt;/p>
+&lt;ol>
+&lt;li>先说N26，比较简单，就是视频认证那里，我简单说一下视频认证的经验。&lt;/li>
+&lt;/ol>
+&lt;p>包括我也卡住了。登了很多很多天，才成功，别人都是直接成功了。&lt;/p></description><content type="html"><![CDATA[<p>每一条都很重要，大家一定要认真听啊，吸取经验教训，不然会耽误很长时间，并且会额外付出金钱成本。</p>
 <ol>
 <li>先说N26，比较简单，就是视频认证那里，我简单说一下视频认证的经验。</li>
 </ol>
@@ -645,7 +706,7 @@ Binance 上列出的每个项目都需要经过彻底的审核，然后才能被
 </ol>
 <p>而且最近美元对人民币一直在升高，已经七点多了，我都后悔没早多换一些U，其实我在6.2，6.3的时候就换了不少了，现在眼看着已经7.2了。哪怕有点换汇损失，这一来回，不说16个点，十多个点是有了，所以，加紧布局自己的全球资产，好吧，关键时刻很有用。</p>
 <p>新来的朋友，如果对赚钱感兴趣的，可以关注本频道，我会一直致力于这方面的内容。今天就到这里，拜拜拜拜</p>
-]]></content></item><item><title>以太坊合并在即薅羊毛方式，如何利用 ETH2.0 合并及硬分叉盈利</title><link>https://www.bitbitking.com/zh-cn/posts/ethmerge2/</link><pubDate>Fri, 09 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/ethmerge2/</guid><description>这篇文章将告诉你，你这几天如何通过ETH合并去盈利，而且不止针对本次ETH合并行情，只要掌握了这些思路，币圈任何事件，都可以用类似这些思维去</description><content type="html"><![CDATA[<p>这篇文章将告诉你，你这几天如何通过ETH合并去盈利，而且不止针对本次ETH合并行情，只要掌握了这些思路，币圈任何事件，都可以用类似这些思维去盈利，如果没太明白的地方建议反复观看。</p>
+]]></content></item><item><title>以太坊合并在即薅羊毛方式，如何利用 ETH2.0 合并及硬分叉盈利</title><link>https://www.bitbitking.com/zh-cn/posts/ethmerge2/</link><pubDate>Fri, 09 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/ethmerge2/</guid><description>&lt;p>这篇文章将告诉你，你这几天如何通过ETH合并去盈利，而且不止针对本次ETH合并行情，只要掌握了这些思路，币圈任何事件，都可以用类似这些思维去盈利，如果没太明白的地方建议反复观看。&lt;/p></description><content type="html"><![CDATA[<p>这篇文章将告诉你，你这几天如何通过ETH合并去盈利，而且不止针对本次ETH合并行情，只要掌握了这些思路，币圈任何事件，都可以用类似这些思维去盈利，如果没太明白的地方建议反复观看。</p>
 <p>首先离ETH以太坊合并的日子越来越近了，原本说9月15号，这绝对算币圈特别重大的一个事件，首先，大家知道，这次事件呢，有好多不同的派别对吧，看你是站v神，还是站其它的，因为很有可能出现硬分叉，情况众说纷纭，毕竟从pow转成pos，看起来对大家都好，但唯独对矿工不友好，今天咱们先不分析他对eth、etc的价格影响，就说一下，在这期间我们怎么薅羊毛，怎么盈利，好吧，方法非常多，咱们一个一个说，而且其实不只限于本次事件，理解了这个思路，任何事情我们都可以按照这种策略去发展很多盈利手段，这是币圈有意思的事情。我也希望在我的系列视频里，不止授人以鱼，更要授人以渔。</p>
 <ol start="0">
 <li>先说第0个，我个人不看好的，硬分叉，如果你们看好硬分叉的，可以去研究在硬分叉方面的盈利手段，站队他们就可以了，找到支持硬分叉的交易所，但这条路我个人认为风险较大，营销和噱头，甚至盘子的可能性都比较些大，所以我就不细说了，但确实这一点上手段也比较多，因为分叉之后，所有的代币都会多出一条链。如果踩对了，好像也蛮赚的。但是这里再提醒一次，你可能只想赚点stake，别把本金也让别人薅了，好吧。</li>
@@ -657,7 +718,9 @@ Binance 上列出的每个项目都需要经过彻底的审核，然后才能被
 <li>购买质押协议token，这个不说了，风险大一些，能研究到这个手段的，相信有自己的方法论，注意风险就好。</li>
 </ol>
 <p>补充重要一点，刚才说薅分叉币空投啊，注意提前注册好支持分叉币的交易所，因为主流的大交易所没有明确表态，应该是不可以的，好不容易薅到的，别卖晚了跌回去，好吧。没有的，可以提前注册布局一下。 通过我视频下方简介的链接注册，交易所都有手续费奖励和入金奖励之类的，就不一一介绍了，但是注意，你们找的交易所，一定要靠谱，还是那句，别你为了蝇头小利，本金被人薅没了，最近交易所跑路的不少，大家注意甄别。 获利方式就讲这些，主要给大家提供个思路。</p>
-]]></content></item><item><title>什么是Web3.0？是骗局还是机会？和中国有关系吗？</title><link>https://www.bitbitking.com/zh-cn/posts/whatisweb3/</link><pubDate>Tue, 06 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatisweb3/</guid><description>今天聊一个有意思的话题，web3.0是什么？ 我会用最简单易懂的话去介绍web3.0，保证每个人都能听懂。 首先我就结合我个人的从业经历，聊一下</description><content type="html"><![CDATA[<p>今天聊一个有意思的话题，web3.0是什么？
+]]></content></item><item><title>什么是Web3.0？是骗局还是机会？和中国有关系吗？</title><link>https://www.bitbitking.com/zh-cn/posts/whatisweb3/</link><pubDate>Tue, 06 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatisweb3/</guid><description>&lt;p>今天聊一个有意思的话题，web3.0是什么？
+我会用最简单易懂的话去介绍web3.0，保证每个人都能听懂。
+首先我就结合我个人的从业经历，聊一下web1.0-3.0进化路径&lt;/p></description><content type="html"><![CDATA[<p>今天聊一个有意思的话题，web3.0是什么？
 我会用最简单易懂的话去介绍web3.0，保证每个人都能听懂。
 首先我就结合我个人的从业经历，聊一下web1.0-3.0进化路径</p>
 <p>web1.0很简单，world wide web，万维网的诞生，我个人从web1.0时代就从事互联网行业了，当时的概念不太多，我们是作为叫做站长的团体，包括早期，其实就已经有网赚的概念了。当时好多人就在薅羊毛，九十年代也没什么seo概念，最早就是堆砌关键词，然后就天天研究排名算法和收录，提交目录之类的，然后每天都要更新内容，自己写是相当的累，但是当有人跟你说我看到一个网站不错，内容都很有价值，把网站链接发过来的时候，告诉他，这是我做的网站，这还是蛮有成就感的，后来更新速度跟不上，就想办法写规则，采集别的网站内容，当时这个互联网避风港原则还是蛮好用的，基本不会有人过来让你删内容，后来又出现了所谓的伪原创，这是我不喜欢的一个方式，把文章拆的七零八碎，导致我看文章还要在脑海中自动替换关键词，因为他机器替换的很傻，一眼就能看出来，不懂的人看到这样的文章就完全不知所云。我个人特别怀念那个时代的互联网，那个时代的互联网，所有的用户是有精神内核存在的，还秉承着开放、共享的精神。这就是web1.0时代，门户网站是典型代表。</p>
@@ -667,7 +730,8 @@ Binance 上列出的每个项目都需要经过彻底的审核，然后才能被
 <p>刚才说的web1.0 2.0 3.0是服务端去区分的，总结一下，其实从用户端就更好区分，用计算机权限作比喻，web1.0是属于只读，web2.0是可读可写，web3.0不止读写，拥有所有权限，你就是所有者，所以你可以参与利益分配，他理应如此。Web3.0将为用户提供更高的数据安全性、可扩展性和隐私性，并对抗大型科技公司的影响。这一点是非常重要的，我始终认为，这个行业是现在年轻人实现阶级跃迁，重新分配资源的唯一途径，别无他法，因为所有的上升通道都被关闭了。细品一下。
 所以对web3.0我个人是比较憧憬的，希望他能发展的越来越好，虽然好像和 我们 没什么关系。</p>
 <p>可以评论告诉我，你对web3.0看好吗？你最希望看到什么样的web3.0项目？有什么问题也可以提问，这样我下次也会出一期视频深度解答。</p>
-]]></content></item><item><title>以太坊合并将会有哪些影响</title><link>https://www.bitbitking.com/zh-cn/posts/ethmerge/</link><pubDate>Mon, 05 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/ethmerge/</guid><description>以太坊合并将会有哪些影响？ Gas更低、速度更快？ 今天咱们聊一下ETH2.0升级带来哪些影响，条条干货，相信都是你没听过的论调。 作为币圈二当家</description><content type="html"><![CDATA[<p>以太坊合并将会有哪些影响？ Gas更低、速度更快？</p>
+]]></content></item><item><title>以太坊合并将会有哪些影响</title><link>https://www.bitbitking.com/zh-cn/posts/ethmerge/</link><pubDate>Mon, 05 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/ethmerge/</guid><description>&lt;p>以太坊合并将会有哪些影响？ Gas更低、速度更快？&lt;/p>
+&lt;p>今天咱们聊一下ETH2.0升级带来哪些影响，条条干货，相信都是你没听过的论调。 作为币圈二当家，eth升级是一个特别重大的事件，但是现在也有一点担心，大家对它的期望过高，到时候会形成市场的反噬效应，让这个熊市啊，持续的更久，更猛烈，那就麻烦了。 而且我发现很多博主，说的内容和判断，我认为存在很大的问题，或者不够深入。会形成误导。 所以，今天咱们就聊一聊，eth合并会带来哪些影响，我分6个点去聊，相信都是大家最关心的问题。那我们直接进入主题。&lt;/p></description><content type="html"><![CDATA[<p>以太坊合并将会有哪些影响？ Gas更低、速度更快？</p>
 <p>今天咱们聊一下ETH2.0升级带来哪些影响，条条干货，相信都是你没听过的论调。 作为币圈二当家，eth升级是一个特别重大的事件，但是现在也有一点担心，大家对它的期望过高，到时候会形成市场的反噬效应，让这个熊市啊，持续的更久，更猛烈，那就麻烦了。 而且我发现很多博主，说的内容和判断，我认为存在很大的问题，或者不够深入。会形成误导。 所以，今天咱们就聊一聊，eth合并会带来哪些影响，我分6个点去聊，相信都是大家最关心的问题。那我们直接进入主题。</p>
 <ol>
 <li>
@@ -691,7 +755,8 @@ Binance 上列出的每个项目都需要经过彻底的审核，然后才能被
 </ol>
 <p>今天就分享到这里，更多区块链及币圈信息和工具（持续更新），请访问：</p>
 <p><a href="https://bit.ly/BitBitKing">https://bit.ly/BitBitKing</a></p>
-]]></content></item><item><title>什么是区块链浏览器有什么作用</title><link>https://www.bitbitking.com/zh-cn/posts/whatisblockchainexplorer/</link><pubDate>Sun, 04 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatisblockchainexplorer/</guid><description>区块链浏览器有什么作用 What is a blockchain Explorer used for? 区块链浏览器主要是用来查看地址、交易状态、交易哈希、交易费 Gas 、区块哈希、区块高度、Token合约地址、名</description><content type="html"><![CDATA[<p>区块链浏览器有什么作用 What is a blockchain Explorer used for?</p>
+]]></content></item><item><title>什么是区块链浏览器有什么作用</title><link>https://www.bitbitking.com/zh-cn/posts/whatisblockchainexplorer/</link><pubDate>Sun, 04 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatisblockchainexplorer/</guid><description>&lt;p>区块链浏览器有什么作用 What is a blockchain Explorer used for?&lt;/p>
+&lt;p>区块链浏览器主要是用来查看地址、交易状态、交易哈希、交易费 Gas 、区块哈希、区块高度、Token合约地址、名称、发行量等相关信息。&lt;/p></description><content type="html"><![CDATA[<p>区块链浏览器有什么作用 What is a blockchain Explorer used for?</p>
 <p>区块链浏览器主要是用来查看地址、交易状态、交易哈希、交易费 Gas 、区块哈希、区块高度、Token合约地址、名称、发行量等相关信息。</p>
 <p>什么时候会用到区块链浏览器？</p>
 <ol>
@@ -707,7 +772,8 @@ Binance 上列出的每个项目都需要经过彻底的审核，然后才能被
 </ol>
 <p>区块链浏览器大全：</p>
 <p><a href="https://bit.ly/BitBitKing">https://bit.ly/BitBitKing</a></p>
-]]></content></item><item><title>通过 Phantom 钱包进行 Solana 质押指南</title><link>https://www.bitbitking.com/zh-cn/posts/phantomwallet/</link><pubDate>Sun, 04 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/phantomwallet/</guid><description>Solana 是一个去中心化的区块链，旨在为全世界提供可扩展、用户友好的应用程序。Solana 由总部位于瑞士日内瓦的 Solana 基金会于 2020 年 3 月正式启动。 用户可以</description><content type="html"><![CDATA[<p>Solana 是一个去中心化的区块链，旨在为全世界提供可扩展、用户友好的应用程序。Solana 由总部位于瑞士日内瓦的 Solana 基金会于 2020 年 3 月正式启动。</p>
+]]></content></item><item><title>通过 Phantom 钱包进行 Solana 质押指南</title><link>https://www.bitbitking.com/zh-cn/posts/phantomwallet/</link><pubDate>Sun, 04 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/phantomwallet/</guid><description>&lt;p>Solana 是一个去中心化的区块链，旨在为全世界提供可扩展、用户友好的应用程序。Solana 由总部位于瑞士日内瓦的 Solana 基金会于 2020 年 3 月正式启动。&lt;/p>
+&lt;p>用户可以参与他们的 SOL 代币的委托，在为 Solana Network 的安全做出贡献的同时获得 Staking 奖励。&lt;/p></description><content type="html"><![CDATA[<p>Solana 是一个去中心化的区块链，旨在为全世界提供可扩展、用户友好的应用程序。Solana 由总部位于瑞士日内瓦的 Solana 基金会于 2020 年 3 月正式启动。</p>
 <p>用户可以参与他们的 SOL 代币的委托，在为 Solana Network 的安全做出贡献的同时获得 Staking 奖励。</p>
 <p>以下是如何通过 Phatom 钱包质押 SOL 的指南：</p>
 <p><strong>Step1：创建Phatom钱包账户</strong></p>
@@ -732,7 +798,8 @@ Binance 上列出的每个项目都需要经过彻底的审核，然后才能被
 <p>返回钱包主页并单击“Solana”。</p>
 <p>您的质押处于“激活”状态，您将在当前纪元结束后立即开始获得奖励。一个epoch持续2~3天。</p>
 <p>点击其中一个质押，可以追踪质押奖励详情。如果您不想质押，只需单击“取消质押”。</p>
-]]></content></item><item><title>什么是 Layer 2</title><link>https://www.bitbitking.com/zh-cn/posts/whatislayer2/</link><pubDate>Sat, 03 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatislayer2/</guid><description>什么是 Layer 2？/ what is Layer 2 crypto? Layer2(L2) 是描述一组特定以太坊扩展解决方案的统称。 Layer 2 是扩展以太坊并继承以太坊安全保证的独立区块链。 现在让我们深入研究一下，</description><content type="html"><![CDATA[<h2 id="什么是-layer-2-what-is-layer-2-crypto">什么是 Layer 2？/ what is Layer 2 crypto?</h2>
+]]></content></item><item><title>什么是 Layer 2</title><link>https://www.bitbitking.com/zh-cn/posts/whatislayer2/</link><pubDate>Sat, 03 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatislayer2/</guid><description>&lt;h2 id="什么是-layer-2-what-is-layer-2-crypto">什么是 Layer 2？/ what is Layer 2 crypto?&lt;/h2>
+&lt;p>Layer2(L2) 是描述一组特定以太坊扩展解决方案的统称。 Layer 2 是扩展以太坊并继承以太坊安全保证的独立区块链。 现在让我们深入研究一下，为此我们需要解释 Layer 1 （L1）。&lt;/p></description><content type="html"><![CDATA[<h2 id="什么是-layer-2-what-is-layer-2-crypto">什么是 Layer 2？/ what is Layer 2 crypto?</h2>
 <p>Layer2(L2) 是描述一组特定以太坊扩展解决方案的统称。 Layer 2 是扩展以太坊并继承以太坊安全保证的独立区块链。 现在让我们深入研究一下，为此我们需要解释 Layer 1 （L1）。</p>
 <h2 id="什么是-layer-1">什么是 Layer 1？</h2>
 <p>Layer 1 是基础区块链。以太坊和比特币都是 Layer 1 区块链，因为它们是各种 Layer 2 网络建立在其之上的底层基础。 Layer 2 项目的示例包括以太坊上的“汇总(rollups)”和比特币之上的闪电网络(Lightning Network)。这些 Layer 2 项目上的所有用户交易活动最终都可以回到 Layer 1 区块链。</p>
@@ -764,22 +831,24 @@ Binance 上列出的每个项目都需要经过彻底的审核，然后才能被
 <p>由于 Layer 2 链继承了以太坊的安全性，因此在理想世界中，它们与 L1 以太坊一样安全。然而，许多项目还很年轻，还有些实验性。所以需要 <a href="/zh-cn/posts/whatisdyor/">DYOR</a> （做好你自己的研究），以确定风险性。</p>
 <h2 id="总结">总结</h2>
 <p>以上就是关于什么是Layer2 的问题的具体解答。有其它任何币圈或区块链行业的问题也欢迎评论交流。</p>
-]]></content></item><item><title>门头沟事件最新进展，大砸盘要来了</title><link>https://www.bitbitking.com/zh-cn/posts/mtgox2023/</link><pubDate>Fri, 02 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/mtgox2023/</guid><description>币圈最近重大事件比较多，沉寂多年的门头沟终于有下文了。可能会对比特币价格产生重大影响。 最新的消息，Mt. Gox 的还款日期再次推迟到 9 月中旬；之前</description><content type="html"><![CDATA[<p>币圈最近重大事件比较多，沉寂多年的门头沟终于有下文了。可能会对比特币价格产生重大影响。 最新的消息，Mt. Gox 的还款日期再次推迟到 9 月中旬；之前定的是8 月下旬，门头沟要向交易平台被黑的客户支付超过 137,000 比特币 ( BTC )。</p>
+]]></content></item><item><title>门头沟事件最新进展，大砸盘要来了</title><link>https://www.bitbitking.com/zh-cn/posts/mtgox2023/</link><pubDate>Fri, 02 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/mtgox2023/</guid><description>&lt;p>币圈最近重大事件比较多，沉寂多年的门头沟终于有下文了。可能会对比特币价格产生重大影响。 最新的消息，Mt. Gox 的还款日期再次推迟到 9 月中旬；之前定的是8 月下旬，门头沟要向交易平台被黑的客户支付超过 137,000 比特币 ( BTC )。&lt;/p></description><content type="html"><![CDATA[<p>币圈最近重大事件比较多，沉寂多年的门头沟终于有下文了。可能会对比特币价格产生重大影响。 最新的消息，Mt. Gox 的还款日期再次推迟到 9 月中旬；之前定的是8 月下旬，门头沟要向交易平台被黑的客户支付超过 137,000 比特币 ( BTC )。</p>
 <p>8月31日在平台网站上发布的最新公开文件显示，“转让等限制参考期”已被法院受理，从9月15日开始，到一个未定义的期限结束。15号这个日子非常有意思，之后这是币圈史上最重要的日子之一，他赶上了和ETH2.0合并升级是同一天，所有事都赶一起了，看看是BTC被砸盘，还是ETH被拉升呢。</p>
 <p>值得注意的是，这并不意味着支付将从 2022 年 9 月 15 日（日本时间）开始。 这一还款过程据说可能“持续数月甚至数年”。 大家也担心门头沟支付对加密货币市场的影。由于比特币现在正在经历动荡的活动，人们担心 Mt. Gox 的客户会出售他们回收的 BTC，从而导致更多的市场大幅下跌。</p>
 <p>但也有很多变数 他们提交注册请求时，债权人可以选择以部分一次性付款的形式提早收到他们的比特币，或者等到民事修复程序结束，此时将有更多资金用于分配。看他们怎么去选择，我相信每个人的选择都会不一样。并不会一次突然的砸盘，可能会持续几年，在整个市场大范围稀释下，行情不会很夸张，除非有人借机搞事情。</p>
 <p>所以说，大家也不用过于恐慌，已经是熊市了，还能熊哪去，就按照我之前说的定投策略，咱们在他逢低就定投就ok了，越跌不就越是进场好时机么，而且现在BTC价格这么低，我相信拿到手的也会持续持仓，肯定希望在一个好的价格点在变现。</p>
-]]></content></item><item><title>什么是DYOR</title><link>https://www.bitbitking.com/zh-cn/posts/whatisdyor/</link><pubDate>Fri, 02 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatisdyor/</guid><description>DYOR 是Do Your Own Research 的缩写，也就是做你自己的研究，这是币圈基本生存法则。 我们鼓励所有新进入币圈的朋友，在投资之前研究和了解加密货币，以便能够准确地</description><content type="html"><![CDATA[<p>DYOR 是Do Your Own Research 的缩写，也就是做你自己的研究，这是币圈基本生存法则。</p>
+]]></content></item><item><title>什么是DYOR</title><link>https://www.bitbitking.com/zh-cn/posts/whatisdyor/</link><pubDate>Fri, 02 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/whatisdyor/</guid><description>&lt;p>DYOR 是Do Your Own Research 的缩写，也就是做你自己的研究，这是币圈基本生存法则。&lt;/p>
+&lt;p>我们鼓励所有新进入币圈的朋友，在投资之前研究和了解加密货币，以便能够准确地回答购买该货币并支持该项目的原因。&lt;/p></description><content type="html"><![CDATA[<p>DYOR 是Do Your Own Research 的缩写，也就是做你自己的研究，这是币圈基本生存法则。</p>
 <p>我们鼓励所有新进入币圈的朋友，在投资之前研究和了解加密货币，以便能够准确地回答购买该货币并支持该项目的原因。</p>
 <p>为什么DYOR很重要？</p>
 <p>币圈是一个新兴领域，很多人对它没有足够的了解和认识，并且在任何金融市场中，人们都会宣传他们拥有的资产，希望对价格产生积极影响，在币圈，就是 Token。所以，购买任何加密货币时，建议您在投资前自行做出决定，而不仅仅是因为别人说它值得。因此保持怀疑并进行自己的研究就非常重要了。</p>
 <p>以上就是关于什么是 DYOR 的解答，有其它任何币圈或区块链行业的问题也欢迎评论交流。</p>
-]]></content></item><item><title>小火箭节点2023最新使用教程</title><link>https://www.bitbitking.com/zh-cn/posts/shadowsocks2023/</link><pubDate>Thu, 01 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/shadowsocks2023/</guid><description>小火箭节点2023最新使用教程 | 小火箭节点二维码 | 小火箭节点订阅 | 小火箭节点购买 | 小火箭节点分享 | 小火箭节点配置 小火箭指的是iOS系统上的代</description><content type="html"><![CDATA[<p>小火箭节点2023最新使用教程 | 小火箭节点二维码 | 小火箭节点订阅 | 小火箭节点购买 | 小火箭节点分享 | 小火箭节点配置</p>
+]]></content></item><item><title>小火箭节点2023最新使用教程</title><link>https://www.bitbitking.com/zh-cn/posts/shadowsocks2023/</link><pubDate>Thu, 01 Sep 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/shadowsocks2023/</guid><description>&lt;p>小火箭节点2023最新使用教程 | 小火箭节点二维码 | 小火箭节点订阅 | 小火箭节点购买 | 小火箭节点分享 | 小火箭节点配置&lt;/p>
+&lt;p>小火箭指的是iOS系统上的代理软件ShadowRocket，需要用美区appleid购买下载，但是本身只是一个工具，并无内置节点，所以需要导入节点才可以正常使用。&lt;/p></description><content type="html"><![CDATA[<p>小火箭节点2023最新使用教程 | 小火箭节点二维码 | 小火箭节点订阅 | 小火箭节点购买 | 小火箭节点分享 | 小火箭节点配置</p>
 <p>小火箭指的是iOS系统上的代理软件ShadowRocket，需要用美区appleid购买下载，但是本身只是一个工具，并无内置节点，所以需要导入节点才可以正常使用。</p>
 <p>别担心，今天墙裂推荐一个稳定高速的节点，可通过网站一件导入，之后有更稳定的节点也会持续分享。</p>
 <p><a href="https://tinyurl.com/wgetcloud">https://tinyurl.com/wgetcloud</a></p>
 <p><a href="https://bit.ly/bbk-lightning-vpn">https://bit.ly/bbk-lightning-vpn</a></p>
-]]></content></item><item><title>2023币安支持的国家</title><link>https://www.bitbitking.com/zh-cn/posts/binance2023/</link><pubDate>Fri, 19 Aug 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/binance2023/</guid><description>币安（Binance）是一家全球性的加密货币交易所，为超过100种加密货币提供交易平台。2018年初以来，币安在交易量方面被认为是全世界上最</description><content type="html"><![CDATA[<p>币安（Binance）是一家全球性的加密货币交易所，为超过100种加密货币提供交易平台。2018年初以来，币安在交易量方面被认为是全世界上最大的加密货币交易所。</p>
+]]></content></item><item><title>2023币安支持的国家</title><link>https://www.bitbitking.com/zh-cn/posts/binance2023/</link><pubDate>Fri, 19 Aug 2022 03:15:03 +0800</pubDate><guid>https://www.bitbitking.com/zh-cn/posts/binance2023/</guid><description>&lt;p>币安（Binance）是一家全球性的加密货币交易所，为超过100种加密货币提供交易平台。2018年初以来，币安在交易量方面被认为是全世界上最大的加密货币交易所。&lt;/p></description><content type="html"><![CDATA[<p>币安（Binance）是一家全球性的加密货币交易所，为超过100种加密货币提供交易平台。2018年初以来，币安在交易量方面被认为是全世界上最大的加密货币交易所。</p>
 <p>币安的货币交易服务开始于2017年，每秒可以处理约140万个订单，提供150多种加密货币的交易，包括受欢迎的加密货币如比特币，以太坊，莱特币以及它自己的BNB代币。</p>
 <p>币安注册地址：https://tinyurl.com/Binance2022</p>
 <p>其它主流交易所注册地址，均可节省交易手续费甚至是抽取虚拟货币盲盒等。</p>
