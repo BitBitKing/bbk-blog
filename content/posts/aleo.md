@@ -48,7 +48,7 @@ Aleo 的核心是提供无限计算，同时保证用户的隐私。通过利用
 2. `source "$HOME/.cargo/env"`
 3. `apt update`
 4. apt install git -y
-5. 安装官方源码 `git clone https://github.com/AleoHQ/snarkOS.git --depth 1`
+5. 安装官方源码 `git clone --branch mainnet --single-branch https://github.com/AleoNet/snarkOS.git`
 6. `cd snarkOS`
 7. `./build_ubuntu.sh`
 8. 创建账户 `snarkos account new` 注意保存好地址和私钥。
