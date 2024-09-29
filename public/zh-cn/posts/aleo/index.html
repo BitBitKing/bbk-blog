@@ -42,7 +42,7 @@
   <meta itemprop="description" content="Aleo简介 Aleo 致力于通过其创新平台为用户和应用程序开发人员提供前所未有的隐私保护。利用去中心化系统和零知识加密技术，Aleo 实现了网络上用户数据的绝对保密性。">
   <meta itemprop="datePublished" content="2024-09-29T21:00:49+08:00">
   <meta itemprop="dateModified" content="2024-09-29T21:00:49+08:00">
-  <meta itemprop="wordCount" content="423">
+  <meta itemprop="wordCount" content="840">
   <meta itemprop="image" content="https://www.bitbitking.com/">
   <meta itemprop="keywords" content="Web3,Crypto,Aleo,Node">
 
@@ -165,7 +165,7 @@
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
-        1分钟
+        2分钟
 
         
       </p>
@@ -188,13 +188,58 @@
 <p>Aleo 的核心是提供无限计算，同时保证用户的隐私。通过利用区块链技术，Aleo 消除了对可信赖的第三方或中心化服务器的需求，从而确保了数据的安全和完整性。</p>
 <p>就在前些天，也是刚刚完成了主网上线，之前也是完成了由Andreessen Horowitz 领投，总额两亿美元的B轮融资。</p>
 <h2 id="服务器准备">服务器准备</h2>
+<ol>
+<li>操作系统：仅支持64位系统，以下版本更新到最新</li>
+</ol>
 <ul>
-<li>CPU</li>
+<li>Clients：Ubuntu 22.04 (LTS), macOS Sonoma，Windows 11</li>
+<li>Provers：Ubuntu 22.04 (LTS), macOS Sonoma</li>
+<li>Validators：Ubuntu 22.04 (LTS)</li>
+</ul>
+<ol start="2">
+<li>CPU：仅支持64位架构</li>
+</ol>
+<ul>
+<li>Clients：32核</li>
+<li>Provers：32核（推荐64核）</li>
+<li>Validators：32核（推荐64核）</li>
+</ul>
+<ol start="3">
+<li>内存：DDR4或更高</li>
+</ol>
+<ul>
+<li>Clients：32G</li>
+<li>Provers：32G（推荐64G）</li>
+<li>Validators：64G（最好128G）</li>
+</ul>
+<ol start="4">
+<li>存储：PCIe Gen 3 x4, PCIe Gen 4 x2 NVME SSD 或更好</li>
+</ol>
+<ul>
+<li>Clients：300G 磁盘空间</li>
+<li>Provers：32G 磁盘空间</li>
+<li>Validators：2TB磁盘空间（推荐4TB）</li>
+</ul>
+<ol start="5">
+<li>网络：</li>
+</ol>
+<ul>
+<li>Clients：100Mbps 上传下载带宽</li>
+<li>Provers：500Mbps 上传下载带宽</li>
+<li>Validators：1000Mbps 上传下载带宽</li>
+</ul>
+<ol start="6">
+<li>GPU：</li>
+</ol>
+<ul>
+<li>Clients：目前不需要</li>
+<li>Provers：CUDA-enabled GPU（）</li>
+<li>Validators：目前不需要</li>
 </ul>
 <h2 id="安装部署">安装部署</h2>
 <ol>
 <li>安装rust <code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code>，选择默认1</li>
-<li>`source &ldquo;$HOME/.cargo/env&rdquo;</li>
+<li><code>source &quot;$HOME/.cargo/env&quot;</code></li>
 <li><code>apt update</code></li>
 <li>apt install git -y</li>
 <li>安装官方源码 <code>git clone https://github.com/AleoHQ/snarkOS.git --depth 1</code></li>
@@ -234,7 +279,7 @@
           <line x1="16" y1="17" x2="8" y2="17"></line>
           <polyline points="10 9 9 9 8 9"></polyline>
         </svg>
-        423字
+        840字
       </p>
 
       <p>

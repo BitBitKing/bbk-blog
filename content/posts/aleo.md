@@ -18,11 +18,34 @@ Aleo 的核心是提供无限计算，同时保证用户的隐私。通过利用
 就在前些天，也是刚刚完成了主网上线，之前也是完成了由Andreessen Horowitz 领投，总额两亿美元的B轮融资。
 
 ## 服务器准备
-- CPU
+1. 操作系统：仅支持64位系统，以下版本更新到最新
+- Clients：Ubuntu 22.04 (LTS), macOS Sonoma，Windows 11
+- Provers：Ubuntu 22.04 (LTS), macOS Sonoma
+- Validators：Ubuntu 22.04 (LTS)
+2. CPU：仅支持64位架构
+- Clients：32核
+- Provers：32核（推荐64核）
+- Validators：32核（推荐64核）
+3. 内存：DDR4或更高
+- Clients：32G
+- Provers：32G（推荐64G）
+- Validators：64G（最好128G）
+4. 存储：PCIe Gen 3 x4, PCIe Gen 4 x2 NVME SSD 或更好
+- Clients：300G 磁盘空间
+- Provers：32G 磁盘空间
+- Validators：2TB磁盘空间（推荐4TB）
+5. 网络：
+- Clients：100Mbps 上传下载带宽
+- Provers：500Mbps 上传下载带宽
+- Validators：1000Mbps 上传下载带宽
+6. GPU：
+- Clients：目前不需要
+- Provers：CUDA-enabled GPU（）
+- Validators：目前不需要
 
 ## 安装部署
 1. 安装rust `curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`，选择默认1
-2. `source "$HOME/.cargo/env"
+2. `source "$HOME/.cargo/env"`
 3. `apt update`
 4. apt install git -y
 5. 安装官方源码 `git clone https://github.com/AleoHQ/snarkOS.git --depth 1`
