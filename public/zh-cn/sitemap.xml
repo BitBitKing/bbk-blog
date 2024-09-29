@@ -2,8 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.bitbitking.com/zh-cn/tags/aleo/</loc>
+    <lastmod>2024-09-29T21:00:49+08:00</lastmod>
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/posts/aleo/</loc>
+    <lastmod>2024-09-29T21:00:49+08:00</lastmod>
+  </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/crypto/</loc>
-    <lastmod>2024-03-09T19:26:48+08:00</lastmod>
+    <lastmod>2024-09-29T21:00:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,11 +21,11 @@
                 href="https://www.bitbitking.com/zh-cn/tags/crypto/"
                 />
   </url><url>
-    <loc>https://www.bitbitking.com/zh-cn/posts/io-net/</loc>
-    <lastmod>2024-03-09T19:26:48+08:00</lastmod>
+    <loc>https://www.bitbitking.com/zh-cn/tags/node/</loc>
+    <lastmod>2024-09-29T21:00:49+08:00</lastmod>
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/posts/</loc>
-    <lastmod>2024-03-09T19:26:48+08:00</lastmod>
+    <lastmod>2024-09-29T21:00:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -32,7 +38,7 @@
                 />
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/</loc>
-    <lastmod>2024-03-09T19:26:48+08:00</lastmod>
+    <lastmod>2024-09-29T21:00:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -45,7 +51,7 @@
                 />
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/web3/</loc>
-    <lastmod>2024-03-09T19:26:48+08:00</lastmod>
+    <lastmod>2024-09-29T21:00:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -58,7 +64,7 @@
                 />
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/</loc>
-    <lastmod>2024-03-09T19:26:48+08:00</lastmod>
+    <lastmod>2024-09-29T21:00:49+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -69,6 +75,9 @@
                 hreflang="zh-cn"
                 href="https://www.bitbitking.com/zh-cn/"
                 />
+  </url><url>
+    <loc>https://www.bitbitking.com/zh-cn/posts/io-net/</loc>
+    <lastmod>2024-03-09T19:26:48+08:00</lastmod>
   </url><url>
     <loc>https://www.bitbitking.com/zh-cn/tags/%E6%8C%96%E7%9F%BF/</loc>
     <lastmod>2024-03-09T19:26:48+08:00</lastmod>

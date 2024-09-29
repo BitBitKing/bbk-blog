@@ -5,8 +5,41 @@
         <description>Recent content in Posts on Welcome to the World of Web3</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sat, 09 Mar 2024 19:26:48 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 29 Sep 2024 21:00:49 +0800</lastBuildDate>
         <atom:link href="https://www.bitbitking.com/zh-cn/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Aleo 零知识证明网络服务器节点搭建教程</title>
+            <link>https://www.bitbitking.com/zh-cn/posts/aleo/</link>
+            <pubDate>Sun, 29 Sep 2024 21:00:49 +0800</pubDate>
+            
+            <guid>https://www.bitbitking.com/zh-cn/posts/aleo/</guid>
+            <description>Aleo简介 Aleo 致力于通过其创新平台为用户和应用程序开发人员提供前所未有的隐私保护。利用去中心化系统和零知识加密技术，Aleo 实现了网络上用户</description>
+            <content type="html"><![CDATA[<h1 id="aleo简介">Aleo简介</h1>
+<p>Aleo 致力于通过其创新平台为用户和应用程序开发人员提供前所未有的隐私保护。利用去中心化系统和零知识加密技术，Aleo 实现了网络上用户数据的绝对保密性。</p>
+<p>Aleo 的核心是提供无限计算，同时保证用户的隐私。通过利用区块链技术，Aleo 消除了对可信赖的第三方或中心化服务器的需求，从而确保了数据的安全和完整性。</p>
+<p>就在前些天，也是刚刚完成了主网上线，之前也是完成了由Andreessen Horowitz 领投，总额两亿美元的B轮融资。</p>
+<h2 id="服务器准备">服务器准备</h2>
+<ul>
+<li>CPU</li>
+</ul>
+<h2 id="安装部署">安装部署</h2>
+<ol>
+<li>安装rust <code>curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh</code>，选择默认1</li>
+<li>`source &ldquo;$HOME/.cargo/env&rdquo;</li>
+<li><code>apt update</code></li>
+<li>apt install git -y</li>
+<li>安装官方源码 <code>git clone https://github.com/AleoHQ/snarkOS.git --depth 1</code></li>
+<li><code>cd snarkOS</code></li>
+<li><code>./build_ubuntu.sh</code></li>
+<li>创建账户 <code>snarkos account new</code> 注意保存好地址和私钥。</li>
+<li><code>./run-prover.sh</code> 并输入private key，运行节点。
+但关闭窗口后节点停止运行，想要后台运行有几种办法，比如写个脚本，用<code>nohup ./run-prover.sh &amp;</code>后台运行，也可以用screen创建虚拟终端</li>
+</ol>
+<h1 id="总结">总结</h1>
+<p>技术相关项目涉及到的技术栈会比较多，也很难全面细致的介绍，想要从事这方面项目的要有自学钻研的能力，多学习一些技术栈没坏处。</p>
+]]></content>
+        </item>
         
         <item>
             <title>IO.NET GPU 显卡算力挖矿教程</title>

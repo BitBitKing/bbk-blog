@@ -6,19 +6,33 @@
     <description>Recent content in Tags on Welcome to the World of Web3</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 09 Mar 2024 19:26:48 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2024 21:00:49 +0800</lastBuildDate>
     <atom:link href="https://www.bitbitking.com/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aleo</title>
+      <link>https://www.bitbitking.com/zh-cn/tags/aleo/</link>
+      <pubDate>Sun, 29 Sep 2024 21:00:49 +0800</pubDate>
+      <guid>https://www.bitbitking.com/zh-cn/tags/aleo/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Crypto</title>
       <link>https://www.bitbitking.com/zh-cn/tags/crypto/</link>
-      <pubDate>Sat, 09 Mar 2024 19:26:48 +0800</pubDate>
+      <pubDate>Sun, 29 Sep 2024 21:00:49 +0800</pubDate>
       <guid>https://www.bitbitking.com/zh-cn/tags/crypto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node</title>
+      <link>https://www.bitbitking.com/zh-cn/tags/node/</link>
+      <pubDate>Sun, 29 Sep 2024 21:00:49 +0800</pubDate>
+      <guid>https://www.bitbitking.com/zh-cn/tags/node/</guid>
       <description></description>
     </item>
     <item>
       <title>Web3</title>
       <link>https://www.bitbitking.com/zh-cn/tags/web3/</link>
-      <pubDate>Sat, 09 Mar 2024 19:26:48 +0800</pubDate>
+      <pubDate>Sun, 29 Sep 2024 21:00:49 +0800</pubDate>
       <guid>https://www.bitbitking.com/zh-cn/tags/web3/</guid>
       <description></description>
     </item>
