@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mev on Welcome to the World of Web3</title>
-    <link>http://localhost:1313/zh-cn/tags/mev/</link>
+    <link>https://www.bitbitking.com/zh-cn/tags/mev/</link>
     <description>Recent content in Mev on Welcome to the World of Web3</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 05 Apr 2023 05:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh-cn/tags/mev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.bitbitking.com/zh-cn/tags/mev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>什么是 MEV</title>
-      <link>http://localhost:1313/zh-cn/posts/whatismev/</link>
+      <link>https://www.bitbitking.com/zh-cn/posts/whatismev/</link>
       <pubDate>Wed, 05 Apr 2023 05:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/zh-cn/posts/whatismev/</guid>
+      <guid>https://www.bitbitking.com/zh-cn/posts/whatismev/</guid>
       <description>&lt;p&gt;今天我们来聊一下什么是MEV，全称：Maximal Extractable Value，也就是最大化以太坊价值的收益。&lt;/p&gt;&#xA;&lt;p&gt;随着加密货币的流行，以太坊成为了最流行的区块链之一。而MEV是指在以太坊网络上通过交易获得的最大价值。这个价值的来源来自于闪电贷、套利、操纵价格等操作。&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is MEV</title>
-      <link>http://localhost:1313/zh-cn/en/posts/whatismev/</link>
+      <link>https://www.bitbitking.com/zh-cn/en/posts/whatismev/</link>
       <pubDate>Fri, 05 Aug 2022 03:15:03 +0800</pubDate>
-      <guid>http://localhost:1313/zh-cn/en/posts/whatismev/</guid>
+      <guid>https://www.bitbitking.com/zh-cn/en/posts/whatismev/</guid>
       <description>&lt;p&gt;Today we will talk about what is MEV, which stands for Maximal Extractable Value, also known as maximizing profits on the Ethereum blockchain.&lt;/p&gt;&#xA;&lt;p&gt;With the popularity of cryptocurrencies, Ethereum has become one of the most popular blockchains. MEV refers to the maximum value obtained through transactions on the Ethereum network. This value comes from operations such as flash loans, arbitrage, and price manipulation.&lt;/p&gt;&#xA;&lt;p&gt;In Ethereum transactions, miners can obtain MEV profits by reordering and packaging transactions. For example, they can buy relevant tokens before the transaction and sell them after the transaction, profiting from the price difference.&lt;/p&gt;</description>
     </item>
   </channel>
