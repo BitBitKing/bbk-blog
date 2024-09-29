@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BTC on Welcome to the World of Web3</title>
-    <link>https://www.bitbitking.com/zh-cn/tags/btc/</link>
+    <link>http://localhost:1313/zh-cn/tags/btc/</link>
     <description>Recent content in BTC on Welcome to the World of Web3</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 18 Aug 2023 22:05:10 +0800</lastBuildDate>
-    <atom:link href="https://www.bitbitking.com/zh-cn/tags/btc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh-cn/tags/btc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why and How to Diversify Global Asset Allocation</title>
-      <link>https://www.bitbitking.com/zh-cn/en/posts/asset-allocation/</link>
+      <link>http://localhost:1313/zh-cn/en/posts/asset-allocation/</link>
       <pubDate>Fri, 18 Aug 2023 22:05:10 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/en/posts/asset-allocation/</guid>
+      <guid>http://localhost:1313/zh-cn/en/posts/asset-allocation/</guid>
       <description>&lt;p&gt;Today, I got together with friends and had some insights to share, so let&amp;rsquo;s talk about the topic of global asset allocation. In the past, I simply outlined the concept to my friends, and within a little over a year, without really doing much, our assets appreciated by around 50%. Considering the current overall economic situation, that&amp;rsquo;s quite a decent achievement.&lt;/p&gt;&#xA;&lt;p&gt;In today&amp;rsquo;s ever-changing economic landscape, why do we need to engage in global asset allocation? And how can we effectively allocate our assets to achieve appreciation and preservation in value?&lt;/p&gt;</description>
     </item>
     <item>
       <title>为何以及如何做全球资产配置</title>
-      <link>https://www.bitbitking.com/zh-cn/posts/asset-allocation/</link>
+      <link>http://localhost:1313/zh-cn/posts/asset-allocation/</link>
       <pubDate>Fri, 18 Aug 2023 21:57:22 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/posts/asset-allocation/</guid>
+      <guid>http://localhost:1313/zh-cn/posts/asset-allocation/</guid>
       <description>&lt;p&gt;今天和朋友聚了一下，有感而发，聊一下全球资产配置这个话题，因为之前只是简单给朋友规划了一下，也就一年多的时间，什么也没干，资产就增值了50%左右，再这样的一个整体经济形势下，应该算是个不错的成绩。&lt;/p&gt;</description>
     </item>
     <item>
       <title>门头沟事件最新进展，大砸盘要来了</title>
-      <link>https://www.bitbitking.com/zh-cn/posts/mtgox2023/</link>
+      <link>http://localhost:1313/zh-cn/posts/mtgox2023/</link>
       <pubDate>Fri, 02 Sep 2022 03:15:03 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/posts/mtgox2023/</guid>
+      <guid>http://localhost:1313/zh-cn/posts/mtgox2023/</guid>
       <description>&lt;p&gt;币圈最近重大事件比较多，沉寂多年的门头沟终于有下文了。可能会对比特币价格产生重大影响。 最新的消息，Mt. Gox 的还款日期再次推迟到 9 月中旬；之前定的是8 月下旬，门头沟要向交易平台被黑的客户支付超过 137,000 比特币 ( BTC )。&lt;/p&gt;</description>
     </item>
   </channel>

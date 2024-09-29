@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wallet on Welcome to the World of Web3</title>
-    <link>https://www.bitbitking.com/zh-cn/tags/wallet/</link>
+    <link>http://localhost:1313/zh-cn/tags/wallet/</link>
     <description>Recent content in Wallet on Welcome to the World of Web3</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 24 Oct 2022 05:00:00 +0800</lastBuildDate>
-    <atom:link href="https://www.bitbitking.com/zh-cn/tags/wallet/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh-cn/tags/wallet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>什么是多重签名钱包</title>
-      <link>https://www.bitbitking.com/zh-cn/posts/multisig-wallet/</link>
+      <link>http://localhost:1313/zh-cn/posts/multisig-wallet/</link>
       <pubDate>Mon, 24 Oct 2022 05:00:00 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/posts/multisig-wallet/</guid>
+      <guid>http://localhost:1313/zh-cn/posts/multisig-wallet/</guid>
       <description>&lt;h2 id=&#34;什么是多重签名钱包multisig-wallet&#34;&gt;什么是多重签名钱包（Multisig Wallet）？&lt;/h2&gt;&#xA;&lt;p&gt;Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两个以上用户作为一组来签署文档。因此，多重签名则通过多个单一签名的组合来产生。现在多重签名技术已经应用于加密货币世界，而其实这一原理其实早在比特币诞生之前就存在了。&lt;/p&gt;</description>
     </item>
     <item>
       <title>通过 Phantom 钱包进行 Solana 质押指南</title>
-      <link>https://www.bitbitking.com/zh-cn/posts/phantomwallet/</link>
+      <link>http://localhost:1313/zh-cn/posts/phantomwallet/</link>
       <pubDate>Sun, 04 Sep 2022 03:15:03 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/posts/phantomwallet/</guid>
+      <guid>http://localhost:1313/zh-cn/posts/phantomwallet/</guid>
       <description>&lt;p&gt;Solana 是一个去中心化的区块链，旨在为全世界提供可扩展、用户友好的应用程序。Solana 由总部位于瑞士日内瓦的 Solana 基金会于 2020 年 3 月正式启动。&lt;/p&gt;&#xA;&lt;p&gt;用户可以参与他们的 SOL 代币的委托，在为 Solana Network 的安全做出贡献的同时获得 Staking 奖励。&lt;/p&gt;</description>
     </item>
   </channel>

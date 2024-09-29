@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Okx on Welcome to the World of Web3</title>
-    <link>https://www.bitbitking.com/zh-cn/tags/okx/</link>
+    <link>http://localhost:1313/zh-cn/tags/okx/</link>
     <description>Recent content in Okx on Welcome to the World of Web3</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 07 Aug 2023 09:48:27 +0800</lastBuildDate>
-    <atom:link href="https://www.bitbitking.com/zh-cn/tags/okx/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh-cn/tags/okx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OKX lifeform 空投教程</title>
-      <link>https://www.bitbitking.com/zh-cn/posts/okx-lifeform/</link>
+      <link>http://localhost:1313/zh-cn/posts/okx-lifeform/</link>
       <pubDate>Mon, 07 Aug 2023 09:48:27 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/posts/okx-lifeform/</guid>
+      <guid>http://localhost:1313/zh-cn/posts/okx-lifeform/</guid>
       <description>&lt;p&gt;Lifeform空投和OKX欧易合作了，直接上干货：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;没OKX交易所的下载，还可以领盲盒，有的把APP更新到最新版本：&#xA;&lt;a href=&#34;https://tinyurl.com/Okx2022&#34;&gt;https://tinyurl.com/Okx2022&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;最上方点击Web3钱包，没有的可以创建一个无私钥钱包，然后下面点击「发现」 到推荐频道，可以看到Cryptopedia里面第一个就是Lifeform的空投，不是的往后面划一下。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Google为什么禁用我的帐户</title>
-      <link>https://www.bitbitking.com/zh-cn/posts/google-account-has-been-disabled/</link>
+      <link>http://localhost:1313/zh-cn/posts/google-account-has-been-disabled/</link>
       <pubDate>Thu, 27 Jul 2023 02:46:55 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/posts/google-account-has-been-disabled/</guid>
+      <guid>http://localhost:1313/zh-cn/posts/google-account-has-been-disabled/</guid>
       <description>&lt;p&gt;由于咱们撸毛撸空投的小伙伴肯定各种账号都要养一大堆，肯定遇到过各种封禁的事件，在防项目方女巫的同时，也要防被社交平台等封账号的情况，比如Google就是这里面比较重要的一个环节，肯定会有人遇到 your account has been disabled 这个提示，虽然它让你联系官方，但还是算了吧，遇到这样只能换一个账号，可能综合成本还低些，前提是很多重要的内容或平台不要绑定就好了，首先要避免这种情况就要知道为什么Google禁用我的帐户?&lt;/p&gt;</description>
     </item>
     <item>
       <title>什么是XRP的tag/memo标签</title>
-      <link>https://www.bitbitking.com/zh-cn/posts/xrp-tag/</link>
+      <link>http://localhost:1313/zh-cn/posts/xrp-tag/</link>
       <pubDate>Mon, 24 Jul 2023 23:04:02 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/posts/xrp-tag/</guid>
+      <guid>http://localhost:1313/zh-cn/posts/xrp-tag/</guid>
       <description>&lt;p&gt;相信大家都知道 XRP 的tag/memo是什么，标签是在转账时用于识别中心化交易所背后具体的接收人是谁的，所以在由自己的钱包转到交易所时必须要填写这个 tag/memo，否则虽然资产转过去了，但不会入账自己的交易所账户。&lt;/p&gt;</description>
     </item>
   </channel>

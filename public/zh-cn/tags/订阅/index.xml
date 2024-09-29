@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>订阅 on Welcome to the World of Web3</title>
-    <link>https://www.bitbitking.com/zh-cn/tags/%E8%AE%A2%E9%98%85/</link>
+    <link>http://localhost:1313/zh-cn/tags/%E8%AE%A2%E9%98%85/</link>
     <description>Recent content in 订阅 on Welcome to the World of Web3</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 01 Sep 2022 03:15:03 +0800</lastBuildDate>
-    <atom:link href="https://www.bitbitking.com/zh-cn/tags/%E8%AE%A2%E9%98%85/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh-cn/tags/%E8%AE%A2%E9%98%85/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>小火箭节点2023最新使用教程</title>
-      <link>https://www.bitbitking.com/zh-cn/posts/shadowsocks2023/</link>
+      <link>http://localhost:1313/zh-cn/posts/shadowsocks2023/</link>
       <pubDate>Thu, 01 Sep 2022 03:15:03 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/posts/shadowsocks2023/</guid>
+      <guid>http://localhost:1313/zh-cn/posts/shadowsocks2023/</guid>
       <description>&lt;p&gt;小火箭节点2023最新使用教程 | 小火箭节点二维码 | 小火箭节点订阅 | 小火箭节点购买 | 小火箭节点分享 | 小火箭节点配置&lt;/p&gt;&#xA;&lt;p&gt;小火箭指的是iOS系统上的代理软件ShadowRocket，需要用美区appleid购买下载，但是本身只是一个工具，并无内置节点，所以需要导入节点才可以正常使用。&lt;/p&gt;</description>
     </item>
   </channel>

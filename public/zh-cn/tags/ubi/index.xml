@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UBI on Welcome to the World of Web3</title>
-    <link>https://www.bitbitking.com/zh-cn/tags/ubi/</link>
+    <link>http://localhost:1313/zh-cn/tags/ubi/</link>
     <description>Recent content in UBI on Welcome to the World of Web3</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 14 Aug 2023 17:19:15 +0800</lastBuildDate>
-    <atom:link href="https://www.bitbitking.com/zh-cn/tags/ubi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh-cn/tags/ubi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exploring Universal Basic Income (UBI) in the Web3 Era</title>
-      <link>https://www.bitbitking.com/zh-cn/en/posts/what-is-ubi/</link>
+      <link>http://localhost:1313/zh-cn/en/posts/what-is-ubi/</link>
       <pubDate>Mon, 14 Aug 2023 17:19:15 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/en/posts/what-is-ubi/</guid>
+      <guid>http://localhost:1313/zh-cn/en/posts/what-is-ubi/</guid>
       <description>&lt;p&gt;In an ever-evolving world fueled by technological advancements, the concept of Universal Basic Income (UBI) has gained prominence as a potential solution to address economic disparities and empower individuals. With the emergence of Web3 and blockchain technology, the possibilities for implementing UBI in a more efficient and inclusive manner have taken center stage. Let&amp;rsquo;s embark on a journey to understand what UBI is, its potential benefits, and how it intersects with the Web3 landscape.&lt;/p&gt;</description>
     </item>
     <item>
       <title>探索Web3时代的全民基本收入（UBI）</title>
-      <link>https://www.bitbitking.com/zh-cn/posts/what-is-ubi/</link>
+      <link>http://localhost:1313/zh-cn/posts/what-is-ubi/</link>
       <pubDate>Mon, 14 Aug 2023 17:12:46 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/posts/what-is-ubi/</guid>
+      <guid>http://localhost:1313/zh-cn/posts/what-is-ubi/</guid>
       <description>&lt;p&gt;在不断发展的技术进步推动下，全民基本收入（UBI）的概念已经成为解决经济差距、赋予个人权力的潜在解决方案。随着Web3和区块链技术的出现，实施更高效和包容性的UBI的可能性日益凸显。让我们踏上一段旅程，了解什么是UBI，其潜在的好处，以及它如何与Web3领域相交融。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>显卡 on Welcome to the World of Web3</title>
-    <link>https://www.bitbitking.com/zh-cn/tags/%E6%98%BE%E5%8D%A1/</link>
+    <link>http://localhost:1313/zh-cn/tags/%E6%98%BE%E5%8D%A1/</link>
     <description>Recent content in 显卡 on Welcome to the World of Web3</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 09 Mar 2024 19:26:48 +0800</lastBuildDate>
-    <atom:link href="https://www.bitbitking.com/zh-cn/tags/%E6%98%BE%E5%8D%A1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh-cn/tags/%E6%98%BE%E5%8D%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IO.NET GPU 显卡算力挖矿教程</title>
-      <link>https://www.bitbitking.com/zh-cn/posts/io-net/</link>
+      <link>http://localhost:1313/zh-cn/posts/io-net/</link>
       <pubDate>Sat, 09 Mar 2024 19:26:48 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/posts/io-net/</guid>
+      <guid>http://localhost:1313/zh-cn/posts/io-net/</guid>
       <description>&lt;p&gt;IO.NET最近显卡资源出租挖矿模式比较火，后续也有空投可能，代币即将上线，今天说一下如何挖矿，首先支持Ubuntu Linux，MacOS和Windows操作系统，就以Windows为例讲解具体过程&lt;/p&gt;</description>
     </item>
   </channel>

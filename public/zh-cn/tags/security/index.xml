@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on Welcome to the World of Web3</title>
-    <link>https://www.bitbitking.com/zh-cn/tags/security/</link>
+    <link>http://localhost:1313/zh-cn/tags/security/</link>
     <description>Recent content in Security on Welcome to the World of Web3</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 25 Feb 2023 05:00:00 +0800</lastBuildDate>
-    <atom:link href="https://www.bitbitking.com/zh-cn/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh-cn/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Use Web3 for Security</title>
-      <link>https://www.bitbitking.com/zh-cn/en/posts/web3-security/</link>
+      <link>http://localhost:1313/zh-cn/en/posts/web3-security/</link>
       <pubDate>Sat, 25 Feb 2023 05:00:00 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/en/posts/web3-security/</guid>
+      <guid>http://localhost:1313/zh-cn/en/posts/web3-security/</guid>
       <description>&lt;p&gt;Web3, also known as Web 3.0 or the decentralized web, refers to the next evolution of the internet that is built on decentralized technologies such as blockchain. Web3 is designed to enhance security and privacy by giving users more control over their data and reducing their dependence on centralized intermediaries.&lt;/p&gt;&#xA;&lt;p&gt;Here are some ways you can use Web3 for security:&lt;/p&gt;&#xA;&lt;p&gt;Use decentralized applications (dApps): Decentralized applications run on the blockchain and are designed to be more secure than traditional web applications. When you use a dApp, you have control over your data, and it cannot be accessed by a centralized authority. Some popular dApps include MetaMask, MyEtherWallet, and Uniswap.&lt;/p&gt;</description>
     </item>
   </channel>

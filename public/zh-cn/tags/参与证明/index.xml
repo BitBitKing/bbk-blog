@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>参与证明 on Welcome to the World of Web3</title>
-    <link>https://www.bitbitking.com/zh-cn/tags/%E5%8F%82%E4%B8%8E%E8%AF%81%E6%98%8E/</link>
+    <link>http://localhost:1313/zh-cn/tags/%E5%8F%82%E4%B8%8E%E8%AF%81%E6%98%8E/</link>
     <description>Recent content in 参与证明 on Welcome to the World of Web3</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 11 Oct 2022 03:00:00 +0800</lastBuildDate>
-    <atom:link href="https://www.bitbitking.com/zh-cn/tags/%E5%8F%82%E4%B8%8E%E8%AF%81%E6%98%8E/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh-cn/tags/%E5%8F%82%E4%B8%8E%E8%AF%81%E6%98%8E/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>什么是PoP</title>
-      <link>https://www.bitbitking.com/zh-cn/posts/whatispop/</link>
+      <link>http://localhost:1313/zh-cn/posts/whatispop/</link>
       <pubDate>Tue, 11 Oct 2022 03:00:00 +0800</pubDate>
-      <guid>https://www.bitbitking.com/zh-cn/posts/whatispop/</guid>
+      <guid>http://localhost:1313/zh-cn/posts/whatispop/</guid>
       <description>&lt;p&gt;参与证明（PoP）是一种相当未知的共识算法。尽管如此，已经有几个区块链使用了这种算法。要了解此类区块链的工作原理，首先要了解区块链共识算法的工作原理。我们将向您解释什么是参与证明以及这种共识算法是如何工作的。&lt;/p&gt;</description>
     </item>
   </channel>
