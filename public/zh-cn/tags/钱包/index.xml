@@ -4,7 +4,7 @@
     <title>钱包 on Welcome to the World of Web3</title>
     <link>https://www.bitbitking.com/zh-cn/tags/%E9%92%B1%E5%8C%85/</link>
     <description>Recent content in 钱包 on Welcome to the World of Web3</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Mon, 24 Oct 2022 05:00:00 +0800</lastBuildDate>
     <atom:link href="https://www.bitbitking.com/zh-cn/tags/%E9%92%B1%E5%8C%85/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://www.bitbitking.com/zh-cn/posts/multisig-wallet/</link>
       <pubDate>Mon, 24 Oct 2022 05:00:00 +0800</pubDate>
       <guid>https://www.bitbitking.com/zh-cn/posts/multisig-wallet/</guid>
-      <description>什么是多重签名钱包（Multisig Wallet）？ Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两</description>
+      <description>&lt;h2 id=&#34;什么是多重签名钱包multisig-wallet&#34;&gt;什么是多重签名钱包（Multisig Wallet）？&lt;/h2&gt;&#xA;&lt;p&gt;Multisig表示多重签名，而多重签名是一种特定类型的数字签名，而此类型的签名将允许两个以上用户作为一组来签署文档。因此，多重签名则通过多个单一签名的组合来产生。现在多重签名技术已经应用于加密货币世界，而其实这一原理其实早在比特币诞生之前就存在了。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
